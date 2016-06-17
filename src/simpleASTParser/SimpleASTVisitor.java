@@ -1,4 +1,4 @@
-package sampleASTParser;
+package simpleASTParser;
 
 import java.util.List;
 import org.eclipse.jdt.core.dom.AST;
@@ -43,10 +43,18 @@ public class SimpleASTVisitor extends ASTVisitor{
 	
 	public boolean visit(MethodInvocation  node) {
 		
-		System.out.println(this.filename + " , " + 
+		if(node.getExpression()!=null) {
+			System.out.println(this.filename + " , " + 
 					cu.getLineNumber(node.getStartPosition()) + 
 					", MethodInvocation , " + node.getExpression() + 
-					" , " + node.getName());
+					"." + node.getName());
+		}
+		else {
+			System.out.println(this.filename + " , " + 
+					cu.getLineNumber(node.getStartPosition()) + 
+					", MethodInvocation , " + node.getName());
+			
+		}
 		//List<Expression> args = node.arguments();
 		/*for(Expression l: args){
 			System.out.println(l.toString());
