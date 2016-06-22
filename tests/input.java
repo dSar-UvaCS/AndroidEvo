@@ -1,4 +1,5 @@
-public class HelloWorld { 
+public class HelloWorld {
+
    public static void main(String[] args) { 
       System.out.println("Hello, World" + "test");
       foo(a,b);
@@ -6,5 +7,8 @@ public class HelloWorld {
       int j; 
       ArrayList<Integer> al = new ArrayList<Integer>();
       j=1000; 
+   }
+
+   private void foo(int a, int b) {
    }
 }

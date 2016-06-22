@@ -35,10 +35,15 @@ public class Test {
 
 	   char[] charArray = fileString.toCharArray();
 	   
-	   //System.out.println(charArray);
+	   //parseMethodInvoc(charArray,infile);
 	   parse(charArray,infile);
 	     
 	 }
+	
+	private static void parseMethodInvoc(char[] arr, String infile_name){
+		MethodInvocationASTVisitor astv = new MethodInvocationASTVisitor(arr, infile_name);
+		astv.parse();
+	}
 	
 	private static void parse(char[] arr, String infile_name){
 		SimpleASTVisitor astv = new SimpleASTVisitor(arr, infile_name);
