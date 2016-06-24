@@ -1,20 +1,12 @@
 package simpleASTParser;
 
-import java.util.List;
-
 import org.eclipse.jdt.core.dom.AST;
-import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
 import org.eclipse.jdt.core.dom.ASTVisitor;
-import org.eclipse.jdt.core.dom.AnonymousClassDeclaration;
-import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 import org.eclipse.jdt.core.dom.CompilationUnit;
-import org.eclipse.jdt.core.dom.Expression;
-import org.eclipse.jdt.core.dom.IMethodBinding;
-import org.eclipse.jdt.core.dom.ITypeBinding;
+import org.eclipse.jdt.core.dom.ImportDeclaration;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
-import org.eclipse.jdt.core.dom.MethodInvocation;
-import org.eclipse.jdt.core.dom.SimpleName;
+import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 public class SimpleASTVisitor extends ASTVisitor{
 	
@@ -27,12 +19,12 @@ public class SimpleASTVisitor extends ASTVisitor{
 		ASTParser parser = ASTParser.newParser(AST.JLS3);
 		parser.setKind(ASTParser.K_COMPILATION_UNIT);
 		parser.setSource(arr);
-		parser.setKind(ASTParser.K_COMPILATION_UNIT);
 		parser.setResolveBindings(true);
 		cu = (CompilationUnit) parser.createAST(null);
 		
 	}
 	
+	/*
 	public boolean visit(SimpleName node) {
 		//if (this.names.contains(node.getIdentifier())) {
 		
@@ -41,27 +33,35 @@ public class SimpleASTVisitor extends ASTVisitor{
 		//}
 		return true;
 	}
+	*/
 	
-	/*
+	public boolean visit(TypeDeclaration  node) {
+		
+		System.out.println(this.filename + " , " + 
+				cu.getLineNumber(node.getStartPosition()) + 
+				", TypeDeclaration , " + node.getName() );
+		return true;
+	
+	}
+	
+	public boolean visit(ImportDeclaration  node) {
+		
+		System.out.println(this.filename + " , " + 
+				cu.getLineNumber(node.getStartPosition()) + 
+				", ImportDeclaration , " + node.getName() );
+		return true;
+	
+	}
+	
 	
 	public boolean visit(MethodDeclaration  node) {
-		
-		
-		IMethodBinding binding = node.resolveBinding();
-		System.out.println(binding);
-		 if (binding != null) {
-	            ITypeBinding type = binding.getDeclaringClass();
-	            if (type != null) {
-	                System.out.println("Decl: " + type.getName());
-	            }
-	        }
 		
 		System.out.println(this.filename + " , " + 
 					cu.getLineNumber(node.getStartPosition()) + 
 					", MethodDeclaration , " + node.getName() );
 		return true;
 	}
-	*/
+	
 
 	/*
 	public boolean visit( ClassInstanceCreation  node) {
