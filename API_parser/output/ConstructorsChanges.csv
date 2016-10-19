@@ -1,0 +1,174 @@
+API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
+24,Constructor,EventListenerProxy (T),Changes
+24,Constructor,Notification.BigPictureStyle (Builder),Changes
+24,Constructor,Notification.BigTextStyle (Builder),Changes
+24,Constructor,Notification.InboxStyle (Builder),Changes
+24,Constructor,Notification.MediaStyle (Builder),Changes
+24,Constructor,SpellCheckerSubtype (int  String  String),Changes
+24,Constructor,AbsSavedState (Parcel  ClassLoader),Additions
+24,Constructor,AutoCompleteTextView (Context  AttributeSet  int  int  Theme),Additions
+24,Constructor,CertPathValidatorException (String  Throwable  CertPath  int  Reason),Additions
+24,Constructor,DatePickerDialog (Context),Additions
+24,Constructor,DatePickerDialog (Context  int),Additions
+24,Constructor,Error (String  Throwable  boolean  boolean),Additions
+24,Constructor,Exception (String  Throwable  boolean  boolean),Additions
+24,Constructor,ExifInterface (FileDescriptor),Additions
+24,Constructor,ExifInterface (InputStream),Additions
+24,Constructor,InternalError (String  Throwable),Additions
+24,Constructor,InternalError (Throwable),Additions
+24,Constructor,LocaleSpan (LocaleList),Additions
+24,Constructor,NotificationManager.Policy (int  int  int  int),Additions
+24,Constructor,PriorityQueue (Comparator<? super E>),Additions
+24,Constructor,Resources.NotFoundException (String  Exception),Additions
+24,Constructor,RuntimeException (String  Throwable  boolean  boolean),Additions
+24,Constructor,View.BaseSavedState (Parcel  ClassLoader),Additions
+24,Constructor,VirtualMachineError (String  Throwable),Additions
+24,Constructor,VirtualMachineError (Throwable),Additions
+24,Constructor,ZipFile (File  int  Charset),Additions
+24,Constructor,ZipFile (File  Charset),Additions
+24,Constructor,ZipFile (String  Charset),Additions
+24,Constructor,ZipInputStream (InputStream  Charset),Additions
+24,Constructor,ZipOutputStream (OutputStream  Charset),Additions
+23,Constructor,Notification.Action (int  CharSequence  PendingIntent),Changes
+23,Constructor,Notification.Action.Builder (int  CharSequence  PendingIntent),Changes
+23,Constructor,ArrayMap (ArrayMap<K  V>),Additions
+23,Constructor,ContextThemeWrapper (Context  Theme),Additions
+23,Constructor,DeadObjectException (String),Additions
+23,Constructor,Notification.Action.Builder (Icon  CharSequence  PendingIntent),Additions
+23,Constructor,Spinner (Context  AttributeSet  int  int  int  Theme),Additions
+23,Constructor,TransactionTooLargeException (String),Additions
+23,Constructor,ArrayMap (ArrayMap),Removals
+23,Constructor,BatteryManager (),Removals
+23,Constructor,RecoverySystem (),Removals
+22,Constructor,CookieManager (),Additions
+22,Constructor,PopupMenu (Context  View  int  int  int),Additions
+22,Constructor,WebBackForwardList (),Additions
+22,Constructor,WebHistoryItem (),Additions
+22,Constructor,WebIconDatabase (),Additions
+22,Constructor,WebSettings (),Additions
+22,Constructor,WebViewDatabase (),Additions
+21,Constructor,EGLObjectHandle (int),Changes
+21,Constructor,Scene (ViewGroup  ViewGroup),Changes
+21,Constructor,SoundPool (int  int  int),Changes
+21,Constructor,AbsListView (Context  AttributeSet  int  int),Additions
+21,Constructor,AbsoluteLayout (Context  AttributeSet  int  int),Additions
+21,Constructor,AbsSeekBar (Context  AttributeSet  int  int),Additions
+21,Constructor,AbsSpinner (Context  AttributeSet  int  int),Additions
+21,Constructor,AdapterView (Context  AttributeSet  int  int),Additions
+21,Constructor,AdapterViewAnimator (Context  AttributeSet  int  int),Additions
+21,Constructor,AdapterViewFlipper (Context  AttributeSet  int),Additions
+21,Constructor,AdapterViewFlipper (Context  AttributeSet  int  int),Additions
+21,Constructor,AnalogClock (Context  AttributeSet  int  int),Additions
+21,Constructor,AudioTrack (AudioAttributes  AudioFormat  int  int  int),Additions
+21,Constructor,AutoCompleteTextView (Context  AttributeSet  int  int),Additions
+21,Constructor,AutoTransition (Context  AttributeSet),Additions
+21,Constructor,Bundle (PersistableBundle),Additions
+21,Constructor,Button (Context  AttributeSet  int  int),Additions
+21,Constructor,CalendarView (Context  AttributeSet  int  int),Additions
+21,Constructor,ChangeBounds (Context  AttributeSet),Additions
+21,Constructor,CheckBox (Context  AttributeSet  int  int),Additions
+21,Constructor,CheckBoxPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,CheckedTextView (Context  AttributeSet  int  int),Additions
+21,Constructor,Chronometer (Context  AttributeSet  int  int),Additions
+21,Constructor,CompoundButton (Context  AttributeSet  int  int),Additions
+21,Constructor,DatePicker (Context  AttributeSet  int  int),Additions
+21,Constructor,DialogPreference (Context),Additions
+21,Constructor,DialogPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,EditText (Context  AttributeSet  int  int),Additions
+21,Constructor,EditTextPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,EGLObjectHandle (long),Additions
+21,Constructor,ExpandableListView (Context  AttributeSet  int  int),Additions
+21,Constructor,ExtractEditText (Context  AttributeSet  int  int),Additions
+21,Constructor,Fade (Context  AttributeSet),Additions
+21,Constructor,FrameLayout (Context  AttributeSet  int  int),Additions
+21,Constructor,Gallery (Context  AttributeSet  int  int),Additions
+21,Constructor,GestureOverlayView (Context  AttributeSet  int  int),Additions
+21,Constructor,GridLayout (Context  AttributeSet  int  int),Additions
+21,Constructor,GridView (Context  AttributeSet  int  int),Additions
+21,Constructor,HorizontalScrollView (Context  AttributeSet  int  int),Additions
+21,Constructor,ImageButton (Context  AttributeSet  int  int),Additions
+21,Constructor,ImageView (Context  AttributeSet  int  int),Additions
+21,Constructor,KeyboardView (Context  AttributeSet  int  int),Additions
+21,Constructor,LinearLayout (Context  AttributeSet  int  int),Additions
+21,Constructor,ListPreference (Context  AttributeSet  int),Additions
+21,Constructor,ListPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,ListView (Context  AttributeSet  int  int),Additions
+21,Constructor,MediaCodecList (int),Additions
+21,Constructor,MediaRouteButton (Context  AttributeSet  int  int),Additions
+21,Constructor,MultiAutoCompleteTextView (Context  AttributeSet  int  int),Additions
+21,Constructor,MultiSelectListPreference (Context  AttributeSet  int),Additions
+21,Constructor,MultiSelectListPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,NumberPicker (Context  AttributeSet  int  int),Additions
+21,Constructor,PhoneNumberFormattingTextWatcher (String),Additions
+21,Constructor,Preference (Context  AttributeSet  int  int),Additions
+21,Constructor,PreferenceCategory (Context  AttributeSet  int  int),Additions
+21,Constructor,PreferenceGroup (Context  AttributeSet  int  int),Additions
+21,Constructor,ProgressBar (Context  AttributeSet  int  int),Additions
+21,Constructor,QuickContactBadge (Context  AttributeSet  int  int),Additions
+21,Constructor,RadioButton (Context  AttributeSet  int  int),Additions
+21,Constructor,RatingBar (Context  AttributeSet  int  int),Additions
+21,Constructor,RectEvaluator (Rect),Additions
+21,Constructor,RelativeLayout (Context  AttributeSet  int  int),Additions
+21,Constructor,RestrictionEntry (int  String),Additions
+21,Constructor,RestrictionEntry (String  int),Additions
+21,Constructor,RingtonePreference (Context  AttributeSet  int  int),Additions
+21,Constructor,Scene (ViewGroup  View),Additions
+21,Constructor,ScriptC (RenderScript  String  byte[]  byte[]),Additions
+21,Constructor,ScriptC (long  RenderScript),Additions
+21,Constructor,ScrollView (Context  AttributeSet  int  int),Additions
+21,Constructor,SearchView (Context  AttributeSet  int),Additions
+21,Constructor,SearchView (Context  AttributeSet  int  int),Additions
+21,Constructor,SeekBar (Context  AttributeSet  int  int),Additions
+21,Constructor,SlidingDrawer (Context  AttributeSet  int  int),Additions
+21,Constructor,Space (Context  AttributeSet  int  int),Additions
+21,Constructor,Spinner (Context  AttributeSet  int  int  int),Additions
+21,Constructor,StackView (Context  AttributeSet  int  int),Additions
+21,Constructor,SurfaceView (Context  AttributeSet  int  int),Additions
+21,Constructor,Switch (Context  AttributeSet  int  int),Additions
+21,Constructor,SwitchPreference (Context  AttributeSet  int  int),Additions
+21,Constructor,SynthesisRequest (CharSequence  Bundle),Additions
+21,Constructor,TabHost (Context  AttributeSet  int),Additions
+21,Constructor,TabHost (Context  AttributeSet  int  int),Additions
+21,Constructor,TabWidget (Context  AttributeSet  int  int),Additions
+21,Constructor,TextClock (Context  AttributeSet  int  int),Additions
+21,Constructor,TextInfo (CharSequence  int  int  int  int),Additions
+21,Constructor,TextureView (Context  AttributeSet  int  int),Additions
+21,Constructor,TextView (Context  AttributeSet  int  int),Additions
+21,Constructor,TimePicker (Context  AttributeSet  int  int),Additions
+21,Constructor,ToggleButton (Context  AttributeSet  int  int),Additions
+21,Constructor,Transition (Context  AttributeSet),Additions
+21,Constructor,TransitionSet (Context  AttributeSet),Additions
+21,Constructor,TwoLineListItem (Context  AttributeSet  int  int),Additions
+21,Constructor,TwoStatePreference (Context  AttributeSet  int  int),Additions
+21,Constructor,VideoView (Context  AttributeSet  int  int),Additions
+21,Constructor,View (Context  AttributeSet  int  int),Additions
+21,Constructor,ViewGroup (Context  AttributeSet  int  int),Additions
+21,Constructor,ViewStub (Context  AttributeSet  int  int),Additions
+21,Constructor,Visibility (Context  AttributeSet),Additions
+21,Constructor,WebResourceResponse (String  String  int  String  Map<String  String>  InputStream),Additions
+21,Constructor,WebView (Context  AttributeSet  int  int),Additions
+21,Constructor,ZoomButton (Context  AttributeSet  int  int),Additions
+21,Constructor,AudioFormat (),Removals
+19,Constructor,InputMethodSubtype (int  int  String  String  String  boolean  boolean),Changes
+19,Constructor,InputMethodSubtype (int  int  String  String  String  boolean  boolean  int),Changes
+19,Constructor,Matrix (),Changes
+19,Constructor,AssertionError (String  Throwable),Additions
+19,Constructor,AssetFileDescriptor (ParcelFileDescriptor  long  long  Bundle),Additions
+19,Constructor,ConcurrentModificationException (String  Throwable),Additions
+19,Constructor,ConcurrentModificationException (Throwable),Additions
+19,Constructor,DeflaterOutputStream (OutputStream  boolean),Additions
+19,Constructor,DeflaterOutputStream (OutputStream  Deflater  boolean),Additions
+19,Constructor,DeflaterOutputStream (OutputStream  Deflater  int  boolean),Additions
+19,Constructor,FrameLayout.LayoutParams (LayoutParams),Additions
+19,Constructor,GZIPOutputStream (OutputStream  boolean),Additions
+19,Constructor,GZIPOutputStream (OutputStream  int  boolean),Additions
+19,Constructor,JSONArray (Object),Additions
+19,Constructor,LinearLayout.LayoutParams (LayoutParams),Additions
+19,Constructor,LinkageError (String  Throwable),Additions
+19,Constructor,LocalSocket (int),Additions
+19,Constructor,NinePatch (Bitmap  byte[]),Additions
+19,Constructor,PopupMenu (Context  View  int),Additions
+19,Constructor,RelativeLayout.LayoutParams (LayoutParams),Additions
+19,Constructor,ScaleGestureDetector (Context  OnScaleGestureListener  Handler),Additions
+19,Constructor,SurfaceTexture (int  boolean),Additions
+19,Constructor,Throwable (String  Throwable  boolean  boolean),Additions
