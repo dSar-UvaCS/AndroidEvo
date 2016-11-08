@@ -53,7 +53,7 @@ public class MethodLevelChangeDetails {
 				
 				String changedMethodName = changedMethod.text();
 				String changedMethodLink = changedMethod.attr("href");
-				String primaryToWrite = versionNum  + ",Method,"+ changedMethodName.replace(",", " ") + ",Changes\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -80,7 +80,7 @@ public class MethodLevelChangeDetails {
 				
 				String addedMethodName = addedMethod.text();
 				String addedMethodLink = addedMethod.attr("href");
-				String primaryToWrite = versionNum  + ",Method,"+ addedMethodName.replace(",", " ") + ",Additions\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Method,\""+ addedMethodName + "\",Additions\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -107,7 +107,7 @@ public class MethodLevelChangeDetails {
 				
 				String removedMethodName = removedMethod.text();
 				String removedMethodLink = removedMethod.attr("href");
-				String primaryToWrite = versionNum  + ",Method,"+ removedMethodName.replace(",", " ") + ",Removals\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Method,\""+ removedMethodName + "\",Removals\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				

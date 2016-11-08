@@ -53,7 +53,7 @@ public class FieldLevelChangeDetails {
 				
 				String changedFieldName = changedField.text();
 				String changedFieldLink = changedField.attr("href");
-				String primaryToWrite = versionNum  + ",Field,"+ changedFieldName.replace(",", " ") + ",Changes\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Field,\""+ changedFieldName + "\",Changes\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -80,7 +80,7 @@ public class FieldLevelChangeDetails {
 				
 				String addedFieldName = addedField.text();
 				String addedFieldLink = addedField.attr("href");
-				String primaryToWrite = versionNum  + ",Field,"+ addedFieldName.replace(",", " ") + ",Additions\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Field,\""+ addedFieldName + "\",Additions\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -107,7 +107,7 @@ public class FieldLevelChangeDetails {
 				
 				String removedFieldName = removedField.text();
 				String removedFieldLink = removedField.attr("href");
-				String primaryToWrite = versionNum  + ",Field,"+ removedFieldName.replace(",", " ") + ",Removals\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Field,\""+ removedFieldName + "\",Removals\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				

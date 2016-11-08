@@ -53,7 +53,7 @@ public class ConstructorLevelChangeDetails {
 				
 				String changedConstructorName = changedConstructor.text();
 				String changedConstructorLink = changedConstructor.attr("href");
-				String primaryToWrite = versionNum  + ",Constructor,"+ changedConstructorName.replace(",", " ") + ",Changes\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Constructor,\""+ changedConstructorName + "\",Changes\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -80,7 +80,7 @@ public class ConstructorLevelChangeDetails {
 				
 				String addedConstructorName = addedConstructor.text();
 				String addedConstructorLink = addedConstructor.attr("href");
-				String primaryToWrite = versionNum  + ",Constructor,"+ addedConstructorName.replace(",", " ") + ",Additions\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Constructor,\""+ addedConstructorName + "\",Additions\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -107,7 +107,7 @@ public class ConstructorLevelChangeDetails {
 				
 				String removedConstructorName = removedConstructor.text();
 				String removedConstructorLink = removedConstructor.attr("href");
-				String primaryToWrite = versionNum  + ",Constructor,"+ removedConstructorName.replace(",", " ") + ",Removals\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Constructor,\""+ removedConstructorName + "\",Removals\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 

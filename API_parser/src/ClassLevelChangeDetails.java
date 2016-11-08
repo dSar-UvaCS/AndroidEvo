@@ -75,9 +75,11 @@ public class ClassLevelChangeDetails {
 
 					// Writes each entry into table
 					for (int x = 1; x < numEntries; x++) {
-						String entry = table.getElementsByTag("tr").get(x).text().replace(" ", "");
-						entry = entry.replace(",", " ");
-						toWrite = primaryToWrite + "," + changedElementType + "," + entry.trim() + "," + changedElementModificationType + "\n";
+						String entry = table.getElementsByTag("tr").get(x).text();
+				
+						entry = whitespaceFixer(entry);
+				
+						toWrite = primaryToWrite + "," + changedElementType + ",\"" + entry + "\"," + changedElementModificationType + "\n";
 						bw.write(toWrite);
 					}
 						
@@ -149,5 +151,20 @@ public class ClassLevelChangeDetails {
 		bw.flush();
 		bw.close();
 		System.out.println("TASK COMPLETED!");
+	}
+	
+	// Fixes any trailing whitespaces resulting from a character in the extended ASCII table
+	public static String whitespaceFixer(String input) {
+		String fixed = input.trim();
+		char lastChar = fixed.charAt(fixed.length()-1);
+		
+		while ((int)lastChar > 127) {
+			fixed = fixed.substring(0, fixed.length()-1);
+			lastChar = fixed.charAt(fixed.length()-1);
+		}
+		
+		fixed = fixed.trim();
+		
+		return fixed;
 	}
 }
