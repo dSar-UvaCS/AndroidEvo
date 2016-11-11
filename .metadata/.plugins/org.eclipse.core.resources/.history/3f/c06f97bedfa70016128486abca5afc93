@@ -109,6 +109,7 @@ public class PackageLevelChangeDetails {
 
 								if (responseCode == 200) {
 									Document referencePage = Jsoup.connect(elementURL).get();
+									System.out.println(elementURL);
 
 									if (!referencePage.getElementsByClass("api-signature").isEmpty()) {
 										String apiSignature = referencePage.getElementsByClass("api-signature").first()
