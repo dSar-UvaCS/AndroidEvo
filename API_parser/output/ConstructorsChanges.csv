@@ -1,10 +1,11 @@
 API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
-24,Constructor,"EventListenerProxy (T)",Changes
-24,Constructor,"Notification.BigPictureStyle (Builder)",Changes
-24,Constructor,"Notification.BigTextStyle (Builder)",Changes
-24,Constructor,"Notification.InboxStyle (Builder)",Changes
-24,Constructor,"Notification.MediaStyle (Builder)",Changes
-24,Constructor,"SpellCheckerSubtype (int, String, String)",Changes
+25,Constructor,"Resources (AssetManager, DisplayMetrics, Configuration)",Deprecated
+24,Constructor,"EventListenerProxy (T)",Changes,Type,"FromEventListener to T.",Change
+24,Constructor,"Notification.BigPictureStyle (Builder)",Deprecated
+24,Constructor,"Notification.BigTextStyle (Builder)",Deprecated
+24,Constructor,"Notification.InboxStyle (Builder)",Deprecated
+24,Constructor,"Notification.MediaStyle (Builder)",Deprecated
+24,Constructor,"SpellCheckerSubtype (int, String, String)",Deprecated
 24,Constructor,"AbsSavedState (Parcel, ClassLoader)",Additions
 24,Constructor,"AutoCompleteTextView (Context, AttributeSet, int, int, Theme)",Additions
 24,Constructor,"CertPathValidatorException (String, Throwable, CertPath, int, Reason)",Additions
@@ -29,8 +30,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Constructor,"ZipFile (String, Charset)",Additions
 24,Constructor,"ZipInputStream (InputStream, Charset)",Additions
 24,Constructor,"ZipOutputStream (OutputStream, Charset)",Additions
-23,Constructor,"Notification.Action (int, CharSequence, PendingIntent)",Changes
-23,Constructor,"Notification.Action.Builder (int, CharSequence, PendingIntent)",Changes
+23,Constructor,"Notification.Action (int, CharSequence, PendingIntent)",Deprecated
+23,Constructor,"Notification.Action.Builder (int, CharSequence, PendingIntent)",Deprecated
 23,Constructor,"ArrayMap (ArrayMap<K, V>)",Additions
 23,Constructor,"ContextThemeWrapper (Context, Theme)",Additions
 23,Constructor,"DeadObjectException (String)",Additions
@@ -47,9 +48,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Constructor,"WebIconDatabase ()",Additions
 22,Constructor,"WebSettings ()",Additions
 22,Constructor,"WebViewDatabase ()",Additions
-21,Constructor,"EGLObjectHandle (int)",Changes
-21,Constructor,"Scene (ViewGroup, ViewGroup)",Changes
-21,Constructor,"SoundPool (int, int, int)",Changes
+21,Constructor,"EGLObjectHandle (int)",Deprecated
+21,Constructor,"Scene (ViewGroup, ViewGroup)",Deprecated
+21,Constructor,"SoundPool (int, int, int)",Deprecated
 21,Constructor,"AbsListView (Context, AttributeSet, int, int)",Additions
 21,Constructor,"AbsoluteLayout (Context, AttributeSet, int, int)",Additions
 21,Constructor,"AbsSeekBar (Context, AttributeSet, int, int)",Additions
@@ -149,9 +150,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Constructor,"WebView (Context, AttributeSet, int, int)",Additions
 21,Constructor,"ZoomButton (Context, AttributeSet, int, int)",Additions
 21,Constructor,"AudioFormat ()",Removals
-19,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean)",Changes
-19,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean, int)",Changes
-19,Constructor,"Matrix ()",Changes
+19,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean)",Deprecated
+19,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean, int)",Deprecated
+19,Constructor,"Matrix ()",Deprecated
 19,Constructor,"AssertionError (String, Throwable)",Additions
 19,Constructor,"AssetFileDescriptor (ParcelFileDescriptor, long, long, Bundle)",Additions
 19,Constructor,"ConcurrentModificationException (String, Throwable)",Additions

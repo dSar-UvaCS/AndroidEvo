@@ -31,7 +31,7 @@ public class ConstructorLevelChangeDetails {
 		bw.write(header);
 
 		/* Iterate through all available version data online */
-		for (int version = 24; version >= 19; version--) {
+		for (int version = 25; version >= 19; version--) {
 			int versionNum = version;
 
 			int totalChangedConstructors = 0;
@@ -50,12 +50,52 @@ public class ConstructorLevelChangeDetails {
 			Elements changedConstructorsList = changedConstructorsDoc.getElementsByClass("hiddenlink");
 						
 			for (Element changedConstructor : changedConstructorsList) {
-				
+				// Find table holding changed constructor change details
 				String changedConstructorName = changedConstructor.text();
 				String changedConstructorLink = changedConstructor.attr("href");
-				String primaryToWrite = versionNum  + ",Constructor,\""+ changedConstructorName + "\",Changes\n"; // alters the output string
 				
-				bw.write(primaryToWrite);
+				String primaryToWrite = "";
+				
+				String changedConstructorUrl = "https://developer.android.com/sdk/api_diff/" + versionNum + "/changes/" + changedConstructorLink;
+				Document changedConstructorContent = Jsoup.connect(changedConstructorUrl).get();
+				Element body = changedConstructorContent.getElementById("body-content"); // grabs only body, where all tables are
+				Elements tables = body.select("table");
+				
+				// Iterate through all tables to find the "Changed Constructors" table
+				for (int i = 0; i < tables.size(); i++) {
+					Element table = tables.get(i);
+					String checkTableName = table.select("tr").first().text();
+					
+					// Process the Changed Constructors table
+					if (checkTableName.equals("Changed Constructors")) {
+						String changeDetail = table.select("td").get(1).text();
+						
+						// Case 1: Deprecated
+						if (changeDetail.contains("deprecated")) {
+							primaryToWrite = versionNum  + ",Constructor,\""+ changedConstructorName + "\",Deprecated\n";
+							bw.write(primaryToWrite);
+						}
+						// Case 2: Change in Type
+						else if (changeDetail.contains("type")) {
+							String changedElementModificationType = changeDetail.substring(0, changeDetail.indexOf(" ")).trim();
+							changeDetail = changeDetail.substring(changeDetail.indexOf(" ")).trim();
+							changeDetail = changeDetail.substring(changeDetail.indexOf(" ")).trim();
+							String changedElementType = changeDetail.substring(0, changeDetail.indexOf(" ")).trim();
+							changedElementType = changedElementType.substring(0,1).toUpperCase() + changedElementType.substring(1);
+							changeDetail = changeDetail.trim().substring(changeDetail.indexOf(" ")).trim();
+							String changedElementName = changeDetail.substring(0,1).toUpperCase() + changeDetail.substring(1);
+							
+							primaryToWrite = versionNum  + ",Constructor,\""+ changedConstructorName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+							bw.write(primaryToWrite);
+						}
+						// Case : Unexpected Input
+						else {
+							System.out.println("Unexpected Input:\t" + changedConstructorName);
+							System.exit(0);
+						}
+						
+					}
+				}
 				
 				if (!primaryToWrite.isEmpty())
 					totalChangedConstructors += 1;

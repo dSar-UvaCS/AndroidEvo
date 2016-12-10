@@ -1,0 +1,137 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+public class ConstructorLevelChangeDetails {
+
+	public static void main(String[] args) throws IOException {
+		
+		/**
+		 * Begin: Setup
+		 */
+
+		/* Create string and file to write output to */
+		String toWrite = "";
+		File file = new File("output/ConstructorsChanges.csv");
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+
+		// if file doesn't exists, then create it
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+
+		String header = "API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type\n";
+		bw.write(header);
+
+		/* Iterate through all available version data online */
+		for (int version = 24; version >= 19; version--) {
+			int versionNum = version;
+
+			int totalChangedConstructors = 0;
+			int totalAddedConstructors = 0;
+			int totalRemovedConstructors = 0;
+			
+			/**
+			 * "CHANGES" Constructors
+			 */
+
+			String changedConstructorsUrl = "https://developer.android.com/sdk/api_diff/" + versionNum
+					+ "/changes/constructors_index_changes.html";
+
+			/* Loads HTML and grabs table entries from list */
+			Document changedConstructorsDoc = Jsoup.connect(changedConstructorsUrl).get();
+			Elements changedConstructorsList = changedConstructorsDoc.getElementsByClass("hiddenlink");
+						
+			for (Element changedConstructor : changedConstructorsList) {
+				// Find table holding changed constructor change details
+				
+				
+				String changedConstructorName = changedConstructor.text();
+				String changedConstructorLink = changedConstructor.attr("href");
+				String primaryToWrite = versionNum  + ",Constructor,\""+ changedConstructorName + "\",Changes\n"; // alters the output string
+				
+				bw.write(primaryToWrite);
+				
+				if (!primaryToWrite.isEmpty())
+					totalChangedConstructors += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+
+			/**
+			 * "ADDITIONS" Constructors
+			 */
+			
+			String addedConstructorsUrl = "https://developer.android.com/sdk/api_diff/" + versionNum
+					+ "/changes/constructors_index_additions.html";
+
+			/* Loads HTML and grabs table entries from list */
+			Document addedConstructorsDoc = Jsoup.connect(addedConstructorsUrl).get();
+
+			Elements addedConstructorsList = addedConstructorsDoc.getElementsByClass("hiddenlink");
+			
+			for (Element addedConstructor : addedConstructorsList) {
+				
+				String addedConstructorName = addedConstructor.text();
+				String addedConstructorLink = addedConstructor.attr("href");
+				String primaryToWrite = versionNum  + ",Constructor,\""+ addedConstructorName + "\",Additions\n"; // alters the output string
+				
+				bw.write(primaryToWrite);
+				
+				if (!primaryToWrite.isEmpty())
+					totalAddedConstructors += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+			
+			/**
+			 * "REMOVALS" Constructors
+			 */
+			
+			String removedConstructorsUrl = "https://developer.android.com/sdk/api_diff/" + versionNum
+					+ "/changes/constructors_index_removals.html";
+
+			/* Loads HTML and grabs table entries from list */
+			Document removedConstructorsDoc = Jsoup.connect(removedConstructorsUrl).get();
+
+			Elements removedConstructorsList = removedConstructorsDoc.getElementsByClass("hiddenlink");
+			
+			for (Element removedConstructor : removedConstructorsList) {
+				
+				String removedConstructorName = removedConstructor.text();
+				String removedConstructorLink = removedConstructor.attr("href");
+				String primaryToWrite = versionNum  + ",Constructor,\""+ removedConstructorName + "\",Removals\n"; // alters the output string
+				
+				bw.write(primaryToWrite);
+
+				if (!primaryToWrite.isEmpty())
+					totalRemovedConstructors += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+			
+			/**
+			 * Summary Statistic
+			 */
+			System.out.println("v" + versionNum + ":");
+			System.out.println("# Added Constructors: " + totalAddedConstructors);
+			System.out.println("# Changed Constructors: " + totalChangedConstructors);
+			System.out.println("# Removed Constructors: " + totalRemovedConstructors);
+		}
+
+		bw.flush();
+		bw.close();
+		System.out.println("TASK COMPLETED!");
+	}
+
+}
