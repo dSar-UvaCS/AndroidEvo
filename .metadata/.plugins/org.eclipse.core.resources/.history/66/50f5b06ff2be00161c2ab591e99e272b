@@ -18,7 +18,7 @@ public class ClassLevelChangeDetails {
 		
 		/* Create string and file to write output to */
 		String toWrite = "";
-		File file = new File("output/ClassesChanges.csv");
+		File file = new File("output/ClassesChangesTester.csv");
 		FileWriter fw = new FileWriter(file.getAbsoluteFile());
 		BufferedWriter bw = new BufferedWriter(fw);
 
@@ -31,7 +31,7 @@ public class ClassLevelChangeDetails {
 		bw.write(header);
 
 		/* Iterate through all available version data online */
-		for (int version = 25; version >= 19; version--) {
+		for (int version = 22; version >= 22; version--) {
 			int versionNum = version;
 
 			int totalChangedClasses = 0;
@@ -184,6 +184,9 @@ public class ClassLevelChangeDetails {
 						}
 						// Superclass changed and Removed Interfaces
 						else if (text.contains("Removed") && !text.contains("Added")) {
+							System.out.println(text);
+							
+							
 							String superclassString = text.substring(text.indexOf(" "), text.indexOf("Removed")).trim();
 							String removedInterfaceString = text.substring(text.indexOf("Removed")).trim();
 														
@@ -192,13 +195,26 @@ public class ClassLevelChangeDetails {
 							if (removedInterfaceString.endsWith("."))
 								removedInterfaceString = removedInterfaceString.substring(0, removedInterfaceString.length()-1);
 							
+							
 							String changedElementType = "Superclass";
 							superclassString = superclassString.substring(superclassString.indexOf(" ")).trim();
+							
+
+							System.out.println(superclassString);
+							System.exit(0);
+							
 							String changedElementModificationType = "Changed";
 							superclassString = superclassString.substring(superclassString.indexOf(" ")).trim();
-							String changedElement = superclassString.substring(0,1).toUpperCase() + superclassString.substring(1);
-
+							String changedElement = superclassString.substring(0,1).toUpperCase() + text.substring(1);
+							
 							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElement.trim() + "," + changedElementModificationType + "\n";
+							
+
+							
+							
+							
+							
+							
 							bw.write(toWrite);
 							
 							changedElementType = "Interface";
@@ -214,12 +230,13 @@ public class ClassLevelChangeDetails {
 						}
 						// Unexpected input
 						else
-							System.out.println("\tCase 6 Superclass Changed Unexpected Input:\t" + changedClassName + "\t" + text);
+							System.out.println("\tCase 6:\t" + changedClassName + "\t" + text);
 						
 					}
 					// Case 7: Unexpected input
 					else {
-						System.out.println("\tCase 7 Unexpected Input:\t" + changedClassName + "\t" + text);
+						System.out.println("Case 7");
+						System.out.println("WTF: " + changedClassName + "\t" + text);
 					}
 				}
 				

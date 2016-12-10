@@ -1,0 +1,6 @@
+API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
+22,Class,AbortableHttpRequest,Deprecated
+22,Class,AbstractAuthenticationHandler,Deprecated
+22,Class,AbstractClientConnAdapter,Deprecated
+22,Class,AbstractConnPool,Deprecated
+22,Class,AbstractCookieAttributeHandler,Deprecated

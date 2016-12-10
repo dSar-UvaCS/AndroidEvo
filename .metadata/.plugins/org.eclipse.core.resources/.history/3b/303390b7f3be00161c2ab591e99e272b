@@ -214,12 +214,13 @@ public class ClassLevelChangeDetails {
 						}
 						// Unexpected input
 						else
-							System.out.println("\tCase 6 Superclass Changed Unexpected Input:\t" + changedClassName + "\t" + text);
+							System.out.println("\tCase 6:\t" + changedClassName + "\t" + text);
 						
 					}
 					// Case 7: Unexpected input
 					else {
-						System.out.println("\tCase 7 Unexpected Input:\t" + changedClassName + "\t" + text);
+						System.out.println("Case 7");
+						System.out.println("WTF: " + changedClassName + "\t" + text);
 					}
 				}
 				

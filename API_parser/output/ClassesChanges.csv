@@ -1,4 +1,114 @@
 API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
+25,Class,ActivityManager,Changes,Methods,"void setVrThread(int)",Added
+25,Class,AudioFormat,Changes,Fields,"int ENCODING_DOLBY_TRUEHD",Added
+25,Class,BaseInputConnection,Changes,Methods,"boolean commitContent(InputContentInfo, int, Bundle)",Added
+25,Class,Build.VERSION_CODES,Changes,Fields,"int N_MR1",Added
+25,Class,Call,Changes,Methods,"void pullExternalCall()",Added
+25,Class,Call,Changes,Methods,"void putExtras(Bundle)",Added
+25,Class,Call,Changes,Methods,"void removeExtras()",Added
+25,Class,Call,Changes,Methods,"void removeExtras(List<String>)",Added
+25,Class,Call,Changes,Methods,"void sendCallEvent(String, Bundle)",Added
+25,Class,Call,Changes,Fields,"int STATE_PULLING_CALL",Added
+25,Class,Call.Callback,Changes,Methods,"void onConnectionEvent(Call, String, Bundle)",Added
+25,Class,Call.Details,Changes,Fields,"int CAPABILITY_CAN_PULL_CALL",Added
+25,Class,Call.Details,Changes,Fields,"int PROPERTY_HAS_CDMA_VOICE_PRIVACY",Added
+25,Class,Call.Details,Changes,Fields,"int PROPERTY_IS_EXTERNAL_CALL",Added
+25,Class,CallLog.Calls,Changes,Fields,"int ANSWERED_EXTERNALLY_TYPE",Added
+25,Class,CallLog.Calls,Changes,Fields,"int FEATURES_PULLED_EXTERNALLY",Added
+25,Class,CarrierConfigManager,Changes,Fields,"String KEY_ALLOW_ADD_CALL_DURING_VIDEO_CALL_BOOL",Added
+25,Class,CarrierConfigManager,Changes,Fields,"String KEY_ALLOW_MERGE_WIFI_CALLS_WHEN_VOWIFI_OFF_BOOL",Added
+25,Class,CarrierConfigManager,Changes,Fields,"String KEY_DROP_VIDEO_CALL_WHEN_ANSWERING_AUDIO_CALL_BOOL",Added
+25,Class,CarrierConfigManager,Changes,Fields,"String KEY_TREAT_DOWNGRADED_VIDEO_CALLS_AS_VIDEO_CALLS_BOOL",Added
+25,Class,Conference,Changes,Methods,"int getConnectionProperties()",Added
+25,Class,Conference,Changes,Methods,"void onExtrasChanged(Bundle)",Added
+25,Class,Conference,Changes,Methods,"void putExtras(Bundle)",Added
+25,Class,Conference,Changes,Methods,"void removeExtras()",Added
+25,Class,Conference,Changes,Methods,"void removeExtras(List<String>)",Added
+25,Class,Conference,Changes,Methods,"void setConnectionProperties(int)",Added
+25,Class,Connection,Changes,Methods,"int getConnectionProperties()",Added
+25,Class,Connection,Changes,Methods,"void onCallEvent(String, Bundle)",Added
+25,Class,Connection,Changes,Methods,"void onExtrasChanged(Bundle)",Added
+25,Class,Connection,Changes,Methods,"void onPullExternalCall()",Added
+25,Class,Connection,Changes,Methods,"String propertiesToString(int)",Added
+25,Class,Connection,Changes,Methods,"void putExtras(Bundle)",Added
+25,Class,Connection,Changes,Methods,"void removeExtras()",Added
+25,Class,Connection,Changes,Methods,"void removeExtras(List<String>)",Added
+25,Class,Connection,Changes,Methods,"void sendConnectionEvent(String, Bundle)",Added
+25,Class,Connection,Changes,Methods,"void setConnectionProperties(int)",Added
+25,Class,Connection,Changes,Methods,"void setPulling()",Added
+25,Class,Connection,Changes,Fields,"int CAPABILITY_CAN_PULL_CALL",Added
+25,Class,Connection,Changes,Fields,"String EVENT_CALL_MERGE_FAILED",Added
+25,Class,Connection,Changes,Fields,"String EVENT_CALL_PULL_FAILED",Added
+25,Class,Connection,Changes,Fields,"String EXTRA_ANSWERING_DROPS_FG_CALL",Added
+25,Class,Connection,Changes,Fields,"int PROPERTY_HAS_CDMA_VOICE_PRIVACY",Added
+25,Class,Connection,Changes,Fields,"int PROPERTY_IS_EXTERNAL_CALL",Added
+25,Class,Connection,Changes,Fields,"int STATE_PULLING_CALL",Added
+25,Class,Context,Changes,Fields,"String SHORTCUT_SERVICE",Added
+25,Class,DisconnectCause,Changes,Fields,"int ANSWERED_ELSEWHERE",Added
+25,Class,DisconnectCause,Changes,Fields,"int CALL_PULLED",Added
+25,Class,DisplayMetrics,Changes,Fields,"int DENSITY_260",Added
+25,Class,DisplayMetrics,Changes,Fields,"int DENSITY_300",Added
+25,Class,DisplayMetrics,Changes,Fields,"int DENSITY_340",Added
+25,Class,EditorInfo,Changes,Fields,"String[] contentMimeTypes",Added
+25,Class,InCallService,Changes,Methods,"void onConnectionEvent(Call, String, Bundle)",Added
+25,Class,InputConnection,Changes,Methods,"boolean commitContent(InputContentInfo, int, Bundle)",Added
+25,Class,InputConnection,Changes,Fields,"int INPUT_CONTENT_GRANT_READ_URI_PERMISSION",Added
+25,Class,InputConnectionWrapper,Changes,Methods,"boolean commitContent(InputContentInfo, int, Bundle)",Added
+25,Class,KeyEvent,Changes,Fields,"int KEYCODE_SYSTEM_NAVIGATION_DOWN",Added
+25,Class,KeyEvent,Changes,Fields,"int KEYCODE_SYSTEM_NAVIGATION_LEFT",Added
+25,Class,KeyEvent,Changes,Fields,"int KEYCODE_SYSTEM_NAVIGATION_RIGHT",Added
+25,Class,KeyEvent,Changes,Fields,"int KEYCODE_SYSTEM_NAVIGATION_UP",Added
+25,Class,LauncherApps,Changes,Methods,"Drawable getShortcutBadgedIconDrawable(ShortcutInfo, int)",Added
+25,Class,LauncherApps,Changes,Methods,"Drawable getShortcutIconDrawable(ShortcutInfo, int)",Added
+25,Class,LauncherApps,Changes,Methods,"List<ShortcutInfo> getShortcuts(ShortcutQuery, UserHandle)",Added
+25,Class,LauncherApps,Changes,Methods,"boolean hasShortcutHostPermission()",Added
+25,Class,LauncherApps,Changes,Methods,"void pinShortcuts(String, List<String>, UserHandle)",Added
+25,Class,LauncherApps,Changes,Methods,"void startShortcut(ShortcutInfo, Rect, Bundle)",Added
+25,Class,LauncherApps,Changes,Methods,"void startShortcut(String, String, Rect, Bundle, UserHandle)",Added
+25,Class,LauncherApps.Callback,Changes,Methods,"void onShortcutsChanged(String, List<ShortcutInfo>, UserHandle)",Added
+25,Class,Notification.Action.WearableExtender,Changes,Methods,"boolean getHintDisplayActionInline()",Added
+25,Class,Notification.Action.WearableExtender,Changes,Methods,"WearableExtender setHintDisplayActionInline(boolean)",Added
+25,Class,R.attr,Changes,Fields,"int colorSecondary",Added
+25,Class,R.attr,Changes,Fields,"int contextDescription",Added
+25,Class,R.attr,Changes,Fields,"int contextUri",Added
+25,Class,R.attr,Changes,Fields,"int roundIcon",Added
+25,Class,R.attr,Changes,Fields,"int shortcutDisabledMessage",Added
+25,Class,R.attr,Changes,Fields,"int shortcutId",Added
+25,Class,R.attr,Changes,Fields,"int shortcutLongLabel",Added
+25,Class,R.attr,Changes,Fields,"int shortcutShortLabel",Added
+25,Class,R.attr,Changes,Fields,"int showMetadataInPreview",Added
+25,Class,RemoteConference.Callback,Changes,Methods,"void onConnectionPropertiesChanged(RemoteConference, int)",Added
+25,Class,RemoteConnection,Changes,Methods,"int getConnectionProperties()",Added
+25,Class,RemoteConnection,Changes,Methods,"void pullExternalCall()",Added
+25,Class,RemoteConnection.Callback,Changes,Methods,"void onConnectionEvent(RemoteConnection, String, Bundle)",Added
+25,Class,RemoteConnection.Callback,Changes,Methods,"void onConnectionPropertiesChanged(RemoteConnection, int)",Added
+25,Class,Resources,Changes,Constructors,"Resources(AssetManager, DisplayMetrics, Configuration) Now deprecated.",Changed
+25,Class,Resources,Changes,Methods,"void updateConfiguration(Configuration, DisplayMetrics) Now deprecated.",Changed
+25,Class,Settings.Global,Changes,Fields,"String DEVICE_NAME",Added
+25,Class,StorageManager,Changes,Fields,"String ACTION_MANAGE_STORAGE",Added
+25,Class,TelecomManager,Changes,Fields,"String METADATA_INCLUDE_EXTERNAL_CALLS",Added
+25,Class,TelephonyManager,Changes,Fields,"int NETWORK_TYPE_GSM",Added
+25,Class,TelephonyManager,Changes,Fields,"int NETWORK_TYPE_IWLAN",Added
+25,Class,TelephonyManager,Changes,Fields,"int NETWORK_TYPE_TD_SCDMA",Added
+25,Class,UsageEvents.Event,Changes,Methods,"String getShortcutId()",Added
+25,Class,UsageEvents.Event,Changes,Fields,"int SHORTCUT_INVOCATION",Added
+25,Class,UserManager,Changes,Methods,"boolean isDemoUser()",Added
+25,Class,View,Changes,Methods,"boolean getRevealOnFocusHint()",Added
+25,Class,View,Changes,Methods,"void setRevealOnFocusHint(boolean)",Added
+25,Class,VoicemailContract,Changes,Fields,"String EXTRA_PHONE_ACCOUNT_HANDLE",Added
+25,Class,VoicemailContract.Status,Changes,Fields,"int CONFIGURATION_STATE_CONFIGURING",Added
+25,Class,VoicemailContract.Status,Changes,Fields,"int CONFIGURATION_STATE_DISABLED",Added
+25,Class,VoicemailContract.Status,Changes,Fields,"int CONFIGURATION_STATE_FAILED",Added
+25,Class,VoicemailContract.Status,Changes,Fields,"String SOURCE_TYPE",Added
+25,Class,WallpaperInfo,Changes,Methods,"boolean getShowMetadataInPreview()",Added
+25,Class,WallpaperInfo,Changes,Methods,"CharSequence loadContextDescription(PackageManager)",Added
+25,Class,WallpaperInfo,Changes,Methods,"Uri loadContextUri(PackageManager)",Added
+25,Class,WindowManager.LayoutParams,Changes,Fields,"int TYPE_DRAWN_APPLICATION",Added
+25,Class,InputContentInfo,Additions
+25,Class,LauncherApps.ShortcutQuery,Additions
+25,Class,ShortcutInfo,Additions
+25,Class,ShortcutInfo.Builder,Additions
+25,Class,ShortcutManager,Additions
 24,Class,AbsSavedState,Changes,Constructors,"AbsSavedState(Parcel, ClassLoader)",Added
 24,Class,AbsSeekBar,Changes,Methods,"Drawable getTickMark()",Added
 24,Class,AbsSeekBar,Changes,Methods,"ColorStateList getTickMarkTintList()",Added
@@ -6,6 +116,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,AbsSeekBar,Changes,Methods,"void setTickMark(Drawable)",Added
 24,Class,AbsSeekBar,Changes,Methods,"void setTickMarkTintList(ColorStateList)",Added
 24,Class,AbsSeekBar,Changes,Methods,"void setTickMarkTintMode(Mode)",Added
+24,Class,AbstractStringBuilder,Changes,Interfaces,java.lang.CharSequence,Added
 24,Class,AccessibilityNodeInfo,Changes,Methods,"int getDrawingOrder()",Added
 24,Class,AccessibilityNodeInfo,Changes,Methods,"boolean isImportantForAccessibility()",Added
 24,Class,AccessibilityNodeInfo,Changes,Methods,"void setDrawingOrder(int)",Added
@@ -50,8 +161,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Activity,Changes,Methods,"void setSecondaryProgress(int) Now deprecated.",Changed
 24,Class,ActivityInfo,Changes,Fields,"int FLAG_ENABLE_VR_MODE",Added
 24,Class,ActivityInfo,Changes,Fields,"WindowLayout windowLayout",Added
+24,Class,ActivityInstrumentationTestCase2,Deprecated
 24,Class,ActivityOptions,Changes,Methods,"Rect getLaunchBounds()",Added
 24,Class,ActivityOptions,Changes,Methods,"ActivityOptions setLaunchBounds(Rect)",Added
+24,Class,ActivityTestCase,Deprecated
+24,Class,ActivityUnitTestCase,Deprecated
 24,Class,AlarmManager,Changes,Methods,"void cancel(OnAlarmListener)",Added
 24,Class,AlarmManager,Changes,Methods,"void set(int, long, String, OnAlarmListener, Handler)",Added
 24,Class,AlarmManager,Changes,Methods,"void setExact(int, long, String, OnAlarmListener, Handler)",Added
@@ -60,6 +174,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Allocation,Changes,Methods,"ByteBuffer getByteBuffer()",Added
 24,Class,Allocation,Changes,Methods,"long getStride()",Added
 24,Class,Allocation,Changes,Methods,"long getTimeStamp()",Added
+24,Class,AndroidTestCase,Deprecated
+24,Class,AndroidTestRunner,Deprecated
 24,Class,Animator,Changes,Methods,"long getTotalDuration()",Added
 24,Class,Animator,Changes,Fields,"long DURATION_INFINITE",Added
 24,Class,AnnotatedElement,Changes,Methods,"T[] getAnnotationsByType(Class<T>)",Added
@@ -69,6 +185,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,ApplicationInfo,Changes,Fields,"int FLAG_SUSPENDED",Added
 24,Class,ApplicationInfo,Changes,Fields,"String deviceProtectedDataDir",Added
 24,Class,ApplicationInfo,Changes,Fields,"int minSdkVersion",Added
+24,Class,ApplicationTestCase,Deprecated
 24,Class,ArrayBlockingQueue,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,ArrayDeque,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,ArrayList,Changes,Methods,"void forEach(Consumer<? super E>)",Added
@@ -197,6 +314,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,BaseInputConnection,Changes,Methods,"void closeConnection()",Added
 24,Class,BaseInputConnection,Changes,Methods,"boolean deleteSurroundingTextInCodePoints(int, int)",Added
 24,Class,BaseInputConnection,Changes,Methods,"Handler getHandler()",Added
+24,Class,BatchUpdateException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,BitmapFactory.Options,Changes,Methods,"void requestCancelDecode() Now deprecated.",Changed
 24,Class,BitmapFactory.Options,Changes,Fields,"boolean inDither Now deprecated.",Changed
 24,Class,BitmapFactory.Options,Changes,Fields,"boolean inPreferQualityOverSpeed Now deprecated.",Changed
@@ -400,6 +518,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Connection,Changes,Methods,"void onReject(String)",Added
 24,Class,Connection,Changes,Fields,"int CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO",Added
 24,Class,Connection,Changes,Fields,"int CAPABILITY_CAN_SEND_RESPONSE_VIA_CONNECTION",Added
+24,Class,ConnectionEvent,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,ConnectionService,Changes,Methods,"Collection<Conference> getAllConferences()",Added
 24,Class,ConnectivityManager,Changes,Methods,"int getRestrictBackgroundStatus()",Added
 24,Class,ConnectivityManager,Changes,Methods,"void registerDefaultNetworkCallback(NetworkCallback)",Added
@@ -462,6 +581,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,DatagramChannel,Changes,Methods,"SocketAddress getRemoteAddress()",Added
 24,Class,DatagramChannel,Changes,Methods,"DatagramChannel open(ProtocolFamily)",Added
 24,Class,DatagramChannel,Changes,Methods,"DatagramChannel setOption(SocketOption<T>, T)",Added
+24,Class,DataTruncation,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,DatePicker,Changes,Methods,"CalendarView getCalendarView() Now deprecated.",Changed
 24,Class,DatePicker,Changes,Methods,"boolean getCalendarViewShown() Now deprecated.",Changed
 24,Class,DatePicker,Changes,Methods,"boolean getSpinnersShown() Now deprecated.",Changed
@@ -551,6 +671,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,DrmManagerClient,Changes,Methods,"void close()",Added
 24,Class,DrmManagerClient,Changes,Methods,"void release() Now deprecated.",Changed
 24,Class,EditorInfo,Changes,Fields,"LocaleList hintLocales",Added
+24,Class,EnumMap,Changes,Interfaces,java.util.Map,Removed
 24,Class,Error,Changes,Constructors,"Error(String, Throwable, boolean, boolean)",Added
 24,Class,EventListenerProxy,Changes,Constructors,"EventListenerProxy(T) Change in type fromEventListener to T.",Changed
 24,Class,EventListenerProxy,Changes,Methods,"T getListener() Change in return type from EventListener to T.",Changed
@@ -665,7 +786,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,ExifInterface,Changes,Fields,"String TAG_SUBSEC_TIME_ORIG Now deprecated.",Changed
 24,Class,FeatureInfo,Changes,Fields,"int version",Added
 24,Class,Field,Changes,Methods,"boolean isAnnotationPresent(Class<Annotation>) Method was inherited from java.lang.reflect.AccessibleObject, but is now defined locally.",Changed
+24,Class,FileChannel,Changes,Interfaces,java.nio.channels.ByteChannel,Removed
+24,Class,FileChannel,Changes,Interfaces,java.nio.channels.SeekableByteChannel,Added
 24,Class,FileLock,Changes,Methods,"Channel acquiredBy()",Added
+24,Class,FlakyTest,Deprecated
 24,Class,Float,Changes,Methods,"int hashCode(float)",Added
 24,Class,Float,Changes,Methods,"boolean isFinite(float)",Added
 24,Class,Float,Changes,Methods,"float max(float, float)",Added
@@ -678,7 +802,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,ForkJoinTask,Changes,Methods,"short getForkJoinTaskTag()",Added
 24,Class,ForkJoinTask,Changes,Methods,"void quietlyComplete()",Added
 24,Class,ForkJoinTask,Changes,Methods,"short setForkJoinTaskTag(short)",Added
+24,Class,FormatFlagsConversionMismatchException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,Formattable,Changes,Methods,"void formatTo(Formatter, int, int, int) Change in exceptions thrown from java.util.IllegalFormatException to no exceptions.",Changed
+24,Class,FormatterClosedException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,Fragment,Changes,Methods,"void onAttachFragment(Fragment)",Added
 24,Class,Fragment,Changes,Methods,"void onMultiWindowModeChanged(boolean)",Added
 24,Class,Fragment,Changes,Methods,"void onPictureInPictureModeChanged(boolean)",Added
@@ -701,6 +827,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,GLES31,Changes,Fields,"int GL_SHADER_IMAGE_ACCESS_BARRIER_BIT",Added
 24,Class,GLES31,Changes,Fields,"int GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT",Added
 24,Class,GLSurfaceView,Changes,Methods,"void surfaceRedrawNeeded(SurfaceHolder)",Added
+24,Class,GpsSatellite,Deprecated
+24,Class,GpsStatus,Deprecated
+24,Class,GpsStatus.Listener,Deprecated
+24,Class,GpsStatus.NmeaListener,Deprecated
 24,Class,GradientDrawable,Changes,Methods,"ColorStateList getColor()",Added
 24,Class,GradientDrawable,Changes,Methods,"int[] getColors()",Added
 24,Class,GradientDrawable,Changes,Methods,"float[] getCornerRadii()",Added
@@ -752,6 +882,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,HttpCookie,Changes,Methods,"void setHttpOnly(boolean)",Added
 24,Class,IdentityHashMap,Changes,Methods,"void forEach(BiConsumer<?, super, K, ?, super, V>)",Added
 24,Class,IdentityHashMap,Changes,Methods,"void replaceAll(BiFunction<?, super, K, ?, super, V, ?, extends, V>)",Added
+24,Class,IllegalFormatCodePointException,Changes,Interfaces,java.io.Serializable,Removed
+24,Class,IllegalFormatConversionException,Changes,Interfaces,java.io.Serializable,Removed
+24,Class,IllegalFormatException,Changes,Interfaces,java.io.Serializable,Removed
+24,Class,IllegalFormatFlagsException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,ImageFormat,Changes,Fields,"int RAW_PRIVATE",Added
 24,Class,InCallService,Changes,Methods,"void onSilenceRinger()",Added
 24,Class,InflaterInputStream,Changes,Fields,"boolean closed",Added
@@ -765,7 +899,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,InputMethodSubtype,Changes,Methods,"String getLanguageTag()",Added
 24,Class,InputMethodSubtype,Changes,Methods,"String getLocale() Now deprecated.",Changed
 24,Class,InputMethodSubtype.InputMethodSubtypeBuilder,Changes,Methods,"InputMethodSubtypeBuilder setLanguageTag(String)",Added
+24,Class,InputMismatchException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,Instrumentation,Changes,Methods,"UiAutomation getUiAutomation(int)",Added
+24,Class,InstrumentationTestCase,Deprecated
+24,Class,InstrumentationTestRunner,Deprecated
+24,Class,InstrumentationTestSuite,Deprecated
 24,Class,Integer,Changes,Methods,"int hashCode(int)",Added
 24,Class,Integer,Changes,Methods,"int max(int, int)",Added
 24,Class,Integer,Changes,Methods,"int min(int, int)",Added
@@ -789,6 +927,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Intent,Changes,Fields,"int FLAG_ACTIVITY_LAUNCH_ADJACENT",Added
 24,Class,InternalError,Changes,Constructors,"InternalError(String, Throwable)",Added
 24,Class,InternalError,Changes,Constructors,"InternalError(Throwable)",Added
+24,Class,IsolatedContext,Deprecated
 24,Class,Iterable,Changes,Methods,"void forEach(Consumer<? super T>)",Added
 24,Class,Iterable,Changes,Methods,"Spliterator<T> spliterator()",Added
 24,Class,Iterator,Changes,Methods,"void forEachRemaining(Consumer<? super E>)",Added
@@ -831,12 +970,14 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,KeyProtection,Changes,Methods,"boolean isUserAuthenticationValidWhileOnBody()",Added
 24,Class,KeyProtection.Builder,Changes,Methods,"Builder setInvalidatedByBiometricEnrollment(boolean)",Added
 24,Class,KeyProtection.Builder,Changes,Methods,"Builder setUserAuthenticationValidWhileOnBody(boolean)",Added
+24,Class,LargeTest,Deprecated
 24,Class,LauncherApps.Callback,Changes,Methods,"void onPackagesSuspended(String[], UserHandle)",Added
 24,Class,LauncherApps.Callback,Changes,Methods,"void onPackagesUnsuspended(String[], UserHandle)",Added
 24,Class,LayerDrawable,Changes,Fields,"int INSET_UNDEFINED",Added
 24,Class,LinearLayout,Changes,Methods,"int getGravity()",Added
 24,Class,LinkedBlockingDeque,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,LinkedBlockingQueue,Changes,Methods,"Spliterator<E> spliterator()",Added
+24,Class,LinkedHashMap,Changes,Interfaces,java.util.Map,Added
 24,Class,LinkedList,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,LinkedTransferQueue,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,Linkify,Changes,Methods,"boolean addLinks(Spannable, Pattern, String, String[], MatchFilter, TransformFilter)",Added
@@ -871,6 +1012,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Logger,Changes,Methods,"void removeHandler(Handler) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,Logger,Changes,Methods,"void setFilter(Filter) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,Logger,Changes,Methods,"void setLevel(Level) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
+24,Class,LoggingPermission,Changes,Interfaces,java.io.Serializable,Removed
+24,Class,LoggingPermission,Changes,Interfaces,java.security.Guard,Removed
 24,Class,LogManager,Changes,Methods,"void addPropertyChangeListener(PropertyChangeListener) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,LogManager,Changes,Methods,"void checkAccess() Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,LogManager,Changes,Methods,"void removePropertyChangeListener(PropertyChangeListener) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
@@ -1016,20 +1159,26 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,MediaSession.Callback,Changes,Methods,"void onPrepareFromMediaId(String, Bundle)",Added
 24,Class,MediaSession.Callback,Changes,Methods,"void onPrepareFromSearch(String, Bundle)",Added
 24,Class,MediaSession.Callback,Changes,Methods,"void onPrepareFromUri(Uri, Bundle)",Added
+24,Class,MediumTest,Deprecated
 24,Class,MemoryHandler,Changes,Methods,"void close() Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,MemoryHandler,Changes,Methods,"void setPushLevel(Level) Change in exceptions thrown from no exceptions to java.lang.SecurityException.",Changed
 24,Class,Method,Changes,Methods,"boolean isDefault()",Added
+24,Class,MockApplication,Deprecated
 24,Class,MockContext,Changes,Methods,"Context createDeviceProtectedStorageContext()",Added
 24,Class,MockContext,Changes,Methods,"boolean deleteSharedPreferences(String)",Added
 24,Class,MockContext,Changes,Methods,"File getDataDir()",Added
 24,Class,MockContext,Changes,Methods,"boolean isDeviceProtectedStorage()",Added
 24,Class,MockContext,Changes,Methods,"boolean moveDatabaseFrom(Context, String)",Added
 24,Class,MockContext,Changes,Methods,"boolean moveSharedPreferencesFrom(Context, String)",Added
+24,Class,MockCursor,Deprecated
+24,Class,MockDialogInterface,Deprecated
 24,Class,MockPackageManager,Changes,Methods,"String getDefaultBrowserPackageName(int)",Removed
 24,Class,MockPackageManager,Changes,Methods,"boolean setDefaultBrowserPackageName(String, int)",Removed
 24,Class,MockPackageManager,Changes,Methods,"int[] getPackageGids(String, int)",Added
 24,Class,MockPackageManager,Changes,Methods,"int getPackageUid(String, int)",Added
 24,Class,MockPackageManager,Changes,Methods,"boolean hasSystemFeature(String, int)",Added
+24,Class,MockResources,Deprecated
+24,Class,MoreAsserts,Deprecated
 24,Class,MotionEvent,Changes,Fields,"int AXIS_RELATIVE_X",Added
 24,Class,MotionEvent,Changes,Fields,"int AXIS_RELATIVE_Y",Added
 24,Class,MtpConstants,Changes,Fields,"int FORMAT_DEFINED",Added
@@ -1101,6 +1250,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,NetworkStatsManager,Changes,Methods,"void registerUsageCallback(int, String, long, UsageCallback, Handler)",Added
 24,Class,NetworkStatsManager,Changes,Methods,"void unregisterUsageCallback(UsageCallback)",Added
 24,Class,NfcAdapter,Changes,Methods,"boolean ignore(Tag, int, OnTagRemovedListener, Handler)",Added
+24,Class,NodeChangeEvent,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,Notification,Changes,Fields,"String EXTRA_CHRONOMETER_COUNT_DOWN",Added
 24,Class,Notification,Changes,Fields,"String EXTRA_CONVERSATION_TITLE",Added
 24,Class,Notification,Changes,Fields,"String EXTRA_MESSAGES",Added
@@ -1225,6 +1375,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Pattern,Changes,Methods,"Stream<String> splitAsStream(CharSequence)",Added
 24,Class,Pattern,Changes,Fields,"int UNICODE_CHARACTER_CLASS",Added
 24,Class,Patterns,Changes,Fields,"String GOOD_IRI_CHAR Now deprecated.",Changed
+24,Class,PerformanceTestCase,Deprecated
 24,Class,Permission,Changes,Methods,"boolean equals(Object)",Removed
 24,Class,Permission,Changes,Methods,"String toString()",Removed
 24,Class,PermissionInfo,Changes,Fields,"int PROTECTION_FLAG_SETUP",Added
@@ -1244,6 +1395,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,PowerManager,Changes,Methods,"boolean isSustainedPerformanceModeSupported()",Added
 24,Class,Preference,Changes,Methods,"Set<String> getPersistedStringSet(Set<String>)",Added
 24,Class,Preference,Changes,Methods,"boolean persistStringSet(Set<String>)",Added
+24,Class,PreferenceChangeEvent,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,PreferenceManager,Changes,Methods,"String getDefaultSharedPreferencesName(Context)",Added
 24,Class,PreferenceManager,Changes,Methods,"boolean isStorageDefault()",Added
 24,Class,PreferenceManager,Changes,Methods,"boolean isStorageDeviceProtected()",Added
@@ -1346,6 +1498,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,ReferenceQueue,Changes,Methods,"Reference<? extends T> remove(long) Change in exceptions thrown from java.lang.InterruptedException to (java.lang.IllegalArgumentException, java.lang.InterruptedException).",Changed
 24,Class,RemoteConference,Changes,Methods,"int getConnectionProperties()",Added
 24,Class,RemoteViews,Changes,Methods,"void setChronometerCountDown(int, boolean)",Added
+24,Class,RenamingDelegatingContext,Deprecated
 24,Class,ResourceBundle,Changes,Methods,"void clearCache() Change from non-final to final.",Changed
 24,Class,ResourceBundle,Changes,Methods,"void clearCache(ClassLoader) Change from non-final to final.",Changed
 24,Class,ResourceBundle,Changes,Methods,"ResourceBundle getBundle(String) Change in exceptions thrown from java.util.MissingResourceException to no exceptions. Change from non-final to final.",Changed
@@ -1356,9 +1509,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,ResourceBundle.Control,Changes,Methods,"Control getControl(List<String>) Change from non-final to final.",Changed
 24,Class,ResourceBundle.Control,Changes,Methods,"Control getNoFallbackControl(List<String>) Change from non-final to final.",Changed
 24,Class,Resources.NotFoundException,Changes,Constructors,"Resources.NotFoundException(String, Exception)",Added
+24,Class,RowSetEvent,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,RuntimeException,Changes,Constructors,"RuntimeException(String, Throwable, boolean, boolean)",Added
 24,Class,Scanner,Changes,Methods,"void remove()",Removed
 24,Class,Script,Changes,Methods,"void reduce(int, Allocation[], Allocation, LaunchOptions)",Added
+24,Class,SecretKeySpec,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,SelectorProvider,Changes,Methods,"DatagramChannel openDatagramChannel(ProtocolFamily)",Added
 24,Class,Sensor,Changes,Methods,"int getId()",Added
 24,Class,Sensor,Changes,Methods,"boolean isAdditionalInfoSupported()",Added
@@ -1384,6 +1539,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Service,Changes,Fields,"int STOP_FOREGROUND_DETACH",Added
 24,Class,Service,Changes,Fields,"int STOP_FOREGROUND_REMOVE",Added
 24,Class,ServiceInfo,Changes,Fields,"int FLAG_EXTERNAL_SERVICE",Added
+24,Class,ServiceTestCase,Deprecated
 24,Class,Settings,Changes,Fields,"String ACTION_HARD_KEYBOARD_SETTINGS",Added
 24,Class,Settings,Changes,Fields,"String ACTION_IGNORE_BACKGROUND_DATA_RESTRICTIONS_SETTINGS",Added
 24,Class,Settings,Changes,Fields,"String ACTION_MANAGE_DEFAULT_APPS_SETTINGS",Added
@@ -1397,6 +1553,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Settings.System,Changes,Fields,"String SYS_PROP_SETTING_VERSION",Removed
 24,Class,Short,Changes,Methods,"int hashCode(short)",Added
 24,Class,Short,Changes,Fields,"int BYTES",Added
+24,Class,SingleLaunchActivityTestCase,Deprecated
+24,Class,SmallTest,Deprecated
+24,Class,Smoke,Deprecated
 24,Class,SocketChannel,Changes,Methods,"SocketChannel bind(SocketAddress)",Added
 24,Class,SocketChannel,Changes,Methods,"SocketAddress getRemoteAddress()",Added
 24,Class,SocketChannel,Changes,Methods,"SocketChannel setOption(SocketOption<T>, T)",Added
@@ -1408,7 +1567,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,SpellCheckerSubtype,Changes,Constructors,"SpellCheckerSubtype(int, String, String) Now deprecated.",Changed
 24,Class,SpellCheckerSubtype,Changes,Methods,"String getLanguageTag()",Added
 24,Class,SpellCheckerSubtype,Changes,Methods,"String getLocale() Now deprecated.",Changed
+24,Class,SQLException,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,SQLiteDatabase,Changes,Methods,"void validateSql(String, CancellationSignal)",Added
+24,Class,SQLPermission,Changes,Interfaces,java.io.Serializable,Removed
+24,Class,SQLPermission,Changes,Interfaces,java.security.Guard,Removed
+24,Class,SQLWarning,Changes,Interfaces,java.io.Serializable,Removed
 24,Class,SSLEngine,Changes,Methods,"SSLSession getHandshakeSession()",Added
 24,Class,SSLParameters,Changes,Methods,"AlgorithmConstraints getAlgorithmConstraints()",Added
 24,Class,SSLParameters,Changes,Methods,"String getEndpointIdentificationAlgorithm()",Added
@@ -1453,6 +1616,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,SubscriptionManager,Changes,Fields,"int INVALID_SUBSCRIPTION_ID",Added
 24,Class,SuggestionSpan,Changes,Methods,"Locale getLocaleObject()",Added
 24,Class,SuggestionSpan,Changes,Methods,"String getLocale() Now deprecated.",Changed
+24,Class,Suppress,Deprecated
+24,Class,SyncBaseInstrumentation,Deprecated
 24,Class,SynchronousQueue,Changes,Methods,"Spliterator<E> spliterator()",Added
 24,Class,SyncRequest.Builder,Changes,Methods,"Builder setRequiresCharging(boolean)",Added
 24,Class,TabWidget,Changes,Methods,"Drawable getLeftStripDrawable()",Added
@@ -1479,6 +1644,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,TelephonyManager,Changes,Fields,"int APPTYPE_USIM",Added
 24,Class,TelephonyManager,Changes,Fields,"int AUTHTYPE_EAP_AKA",Added
 24,Class,TelephonyManager,Changes,Fields,"int AUTHTYPE_EAP_SIM",Added
+24,Class,TestSuiteProvider,Deprecated
 24,Class,TextUtils,Changes,Methods,"CharSequence getReverse(CharSequence, int, int) Now deprecated.",Changed
 24,Class,TextUtils,Changes,Methods,"boolean isGraphic(char) Now deprecated.",Changed
 24,Class,TextUtils.SimpleStringSplitter,Changes,Methods,"void remove()",Removed
@@ -1506,6 +1672,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,Toolbar,Changes,Methods,"void setTitleMarginEnd(int)",Added
 24,Class,Toolbar,Changes,Methods,"void setTitleMarginStart(int)",Added
 24,Class,Toolbar,Changes,Methods,"void setTitleMarginTop(int)",Added
+24,Class,TouchUtils,Deprecated
 24,Class,TrafficStats,Changes,Methods,"void tagDatagramSocket(DatagramSocket)",Added
 24,Class,TrafficStats,Changes,Methods,"void untagDatagramSocket(DatagramSocket)",Added
 24,Class,TreeMap,Changes,Methods,"void forEach(BiConsumer<?, super, K, ?, super, V>)",Added
@@ -1550,6 +1717,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,TvView,Changes,Methods,"void timeShiftPlay(String, Uri)",Added
 24,Class,TvView,Changes,Methods,"void tune(String, Uri, Bundle)",Added
 24,Class,UiAutomation,Changes,Fields,"int FLAG_DONT_SUPPRESS_ACCESSIBILITY_SERVICES",Added
+24,Class,UiThreadTest,Deprecated
 24,Class,URLClassLoader,Changes,Methods,"void close()",Added
 24,Class,URLConnection,Changes,Methods,"long getContentLengthLong()",Added
 24,Class,URLConnection,Changes,Methods,"long getHeaderFieldLong(String, long)",Added
@@ -1594,6 +1762,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Class,View,Changes,Fields,"int DRAG_FLAG_GLOBAL_URI_WRITE",Added
 24,Class,View,Changes,Fields,"int DRAG_FLAG_OPAQUE",Added
 24,Class,View.BaseSavedState,Changes,Constructors,"View.BaseSavedState(Parcel, ClassLoader)",Added
+24,Class,ViewAsserts,Deprecated
 24,Class,ViewGroup,Changes,Methods,"boolean showContextMenuForChild(View, float, float)",Added
 24,Class,ViewParent,Changes,Methods,"boolean showContextMenuForChild(View, float, float)",Added
 24,Class,VirtualMachineError,Changes,Constructors,"VirtualMachineError(String, Throwable)",Added
@@ -1925,6 +2094,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,Allocation,Changes,Methods,"void setFromFieldPacker(int, int, int, int, FieldPacker)",Added
 23,Class,AllocationAdapter,Changes,Methods,"AllocationAdapter createTyped(RenderScript, Allocation, Type)",Added
 23,Class,AllocationAdapter,Changes,Methods,"void setX(int)",Added
+23,Class,AnalogClock,Deprecated
 23,Class,AnimatedVectorDrawable,Changes,Methods,"void clearAnimationCallbacks()",Added
 23,Class,AnimatedVectorDrawable,Changes,Methods,"void registerAnimationCallback(AnimationCallback)",Added
 23,Class,AnimatedVectorDrawable,Changes,Methods,"void reset()",Added
@@ -2255,6 +2425,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,Debug,Changes,Methods,"void resetThreadAllocSize() Now deprecated.",Changed
 23,Class,Debug,Changes,Methods,"void resetThreadGcInvocationCount() Now deprecated.",Changed
 23,Class,Debug,Changes,Fields,"int TRACE_COUNT_ALLOCS Now deprecated.",Changed
+23,Class,Debug.InstructionCount,Deprecated
 23,Class,Debug.MemoryInfo,Changes,Methods,"String getMemoryStat(String)",Added
 23,Class,Debug.MemoryInfo,Changes,Methods,"(Map<String, String>) getMemoryStats()",Added
 23,Class,DeviceAdminReceiver,Changes,Methods,"String onChoosePrivateKeyAlias(Context, Intent, int, Uri, String)",Added
@@ -2397,6 +2568,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,KeyEvent,Changes,Fields,"int KEYCODE_NAVIGATE_OUT",Added
 23,Class,KeyEvent,Changes,Fields,"int KEYCODE_NAVIGATE_PREVIOUS",Added
 23,Class,KeyguardManager,Changes,Methods,"boolean isDeviceSecure()",Added
+23,Class,KeyPairGeneratorSpec,Deprecated
+23,Class,KeyPairGeneratorSpec.Builder,Deprecated
+23,Class,KeyStoreParameter,Deprecated
+23,Class,KeyStoreParameter.Builder,Deprecated
 23,Class,LayerDrawable,Changes,Methods,"int addLayer(Drawable)",Added
 23,Class,LayerDrawable,Changes,Methods,"int findIndexByLayerId(int)",Added
 23,Class,LayerDrawable,Changes,Methods,"int getBottomPadding()",Added
@@ -2725,6 +2900,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,PrintService,Changes,Fields,"String EXTRA_PRINT_DOCUMENT_INFO",Added
 23,Class,Process,Changes,Methods,"boolean is64Bit()",Added
 23,Class,Proxy,Changes,Fields,"String EXTRA_PROXY_INFO Now deprecated.",Changed
+23,Class,ProxyInfo,Deprecated
 23,Class,QuickContactBadge,Changes,Methods,"void setPrioritizedMimeType(String)",Added
 23,Class,R.attr,Changes,Fields,"int allowUndo",Added
 23,Class,R.attr,Changes,Fields,"int autoVerify",Added
@@ -2870,6 +3046,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,ScriptGroup,Changes,Methods,"void execute()",Added
 23,Class,ScriptGroup,Changes,Methods,"void setInput(KernelID, Allocation) Now deprecated.",Changed
 23,Class,ScriptGroup,Changes,Methods,"void setOutput(KernelID, Allocation) Now deprecated.",Changed
+23,Class,ScriptGroup.Builder,Deprecated
 23,Class,Settings,Changes,Methods,"boolean canDrawOverlays(Context)",Added
 23,Class,Settings,Changes,Fields,"String ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS",Added
 23,Class,Settings,Changes,Fields,"String ACTION_MANAGE_OVERLAY_PERMISSION",Added
@@ -3332,6 +3509,29 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Class,PlainSocketFactory,Removals
 23,Class,Scheme,Removals
 23,Class,SchemeRegistry,Removals
+22,Class,AbortableHttpRequest,Deprecated
+22,Class,AbstractAuthenticationHandler,Deprecated
+22,Class,AbstractClientConnAdapter,Deprecated
+22,Class,AbstractConnPool,Deprecated
+22,Class,AbstractCookieAttributeHandler,Deprecated
+22,Class,AbstractCookieSpec,Deprecated
+22,Class,AbstractHttpClient,Deprecated
+22,Class,AbstractHttpClientConnection,Deprecated
+22,Class,AbstractHttpEntity,Deprecated
+22,Class,AbstractHttpMessage,Deprecated
+22,Class,AbstractHttpParams,Deprecated
+22,Class,AbstractHttpServerConnection,Deprecated
+22,Class,AbstractMessageParser,Deprecated
+22,Class,AbstractMessageWriter,Deprecated
+22,Class,AbstractPooledConnAdapter,Deprecated
+22,Class,AbstractPoolEntry,Deprecated
+22,Class,AbstractSessionInputBuffer,Deprecated
+22,Class,AbstractSessionOutputBuffer,Deprecated
+22,Class,AbstractVerifier,Deprecated
+22,Class,AccelerateDecelerateInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,AccelerateDecelerateInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,AccelerateInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,AccelerateInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
 22,Class,AccessibilityNodeInfo,Changes,Methods,"AccessibilityNodeInfo getTraversalAfter()",Added
 22,Class,AccessibilityNodeInfo,Changes,Methods,"AccessibilityNodeInfo getTraversalBefore()",Added
 22,Class,AccessibilityNodeInfo,Changes,Methods,"void setTraversalAfter(View)",Added
@@ -3344,30 +3544,140 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,AccountManager,Changes,Methods,"AccountManagerFuture<Boolean> removeAccount(Account, AccountManagerCallback<Boolean>, Handler)",Added
 22,Class,AccountManager,Changes,Methods,"boolean removeAccountExplicitly(Account)",Added
 22,Class,Activity,Changes,Methods,"Uri getReferrer()",Added
+22,Class,AllClientPNames,Deprecated
+22,Class,AllowAllHostnameVerifier,Deprecated
 22,Class,AndroidHttpClient,Changes,Methods,"AndroidHttpClient newInstance(String) Now deprecated.",Changed
 22,Class,AndroidHttpClient,Changes,Methods,"AndroidHttpClient newInstance(String, Context) Now deprecated.",Changed
+22,Class,AnticipateInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,AnticipateInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,AnticipateOvershootInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,AnticipateOvershootInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,AUTH,Deprecated
+22,Class,AuthenticationException,Deprecated
+22,Class,AuthenticationHandler,Deprecated
+22,Class,AuthParamBean,Deprecated
+22,Class,AuthParams,Deprecated
+22,Class,AuthPNames,Deprecated
+22,Class,AuthPolicy,Deprecated
+22,Class,AuthScheme,Deprecated
+22,Class,AuthSchemeBase,Deprecated
+22,Class,AuthSchemeFactory,Deprecated
+22,Class,AuthSchemeRegistry,Deprecated
+22,Class,AuthScope,Deprecated
+22,Class,AuthState,Deprecated
 22,Class,BaseBundle,Changes,Methods,"boolean getBoolean(String)",Added
 22,Class,BaseBundle,Changes,Methods,"boolean getBoolean(String, boolean)",Added
 22,Class,BaseBundle,Changes,Methods,"boolean[] getBooleanArray(String)",Added
 22,Class,BaseBundle,Changes,Methods,"void putBoolean(String, boolean)",Added
 22,Class,BaseBundle,Changes,Methods,"void putBooleanArray(String, boolean[])",Added
+22,Class,BasicClientCookie,Deprecated
+22,Class,BasicClientCookie2,Deprecated
+22,Class,BasicCommentHandler,Deprecated
+22,Class,BasicCookieStore,Deprecated
+22,Class,BasicCredentialsProvider,Deprecated
+22,Class,BasicDomainHandler,Deprecated
+22,Class,BasicEofSensorWatcher,Deprecated
+22,Class,BasicExpiresHandler,Deprecated
+22,Class,BasicHeader,Deprecated
+22,Class,BasicHeaderElement,Deprecated
+22,Class,BasicHeaderElementIterator,Deprecated
+22,Class,BasicHeaderIterator,Deprecated
+22,Class,BasicHeaderValueFormatter,Deprecated
+22,Class,BasicHeaderValueParser,Deprecated
+22,Class,BasicHttpContext,Deprecated
+22,Class,BasicHttpEntity,Deprecated
+22,Class,BasicHttpEntityEnclosingRequest,Deprecated
+22,Class,BasicHttpParams,Deprecated
+22,Class,BasicHttpProcessor,Deprecated
+22,Class,BasicHttpRequest,Deprecated
+22,Class,BasicHttpResponse,Deprecated
+22,Class,BasicLineFormatter,Deprecated
+22,Class,BasicLineParser,Deprecated
+22,Class,BasicListHeaderIterator,Deprecated
+22,Class,BasicManagedEntity,Deprecated
+22,Class,BasicMaxAgeHandler,Deprecated
+22,Class,BasicNameValuePair,Deprecated
+22,Class,BasicPathHandler,Deprecated
+22,Class,BasicPooledConnAdapter,Deprecated
+22,Class,BasicPoolEntry,Deprecated
+22,Class,BasicPoolEntryRef,Deprecated
+22,Class,BasicRequestLine,Deprecated
+22,Class,BasicResponseHandler,Deprecated
+22,Class,BasicRouteDirector,Deprecated
+22,Class,BasicScheme,Deprecated
+22,Class,BasicSchemeFactory,Deprecated
+22,Class,BasicSecureHandler,Deprecated
+22,Class,BasicStatusLine,Deprecated
+22,Class,BasicTokenIterator,Deprecated
+22,Class,BasicUserPrincipal,Deprecated
+22,Class,BestMatchSpec,Deprecated
+22,Class,BestMatchSpecFactory,Deprecated
 22,Class,BluetoothGattServerCallback,Changes,Methods,"void onMtuChanged(BluetoothDevice, int)",Added
+22,Class,BounceInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,BounceInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,BrowserCompatHostnameVerifier,Deprecated
+22,Class,BrowserCompatSpec,Deprecated
+22,Class,BrowserCompatSpecFactory,Deprecated
+22,Class,BufferedHeader,Deprecated
+22,Class,BufferedHttpEntity,Deprecated
 22,Class,Build.VERSION_CODES,Changes,Fields,"int LOLLIPOP_MR1",Added
 22,Class,Bundle,Changes,Methods,"boolean getBoolean(String)",Removed
 22,Class,Bundle,Changes,Methods,"boolean getBoolean(String, boolean)",Removed
 22,Class,Bundle,Changes,Methods,"boolean[] getBooleanArray(String) Method was locally defined, but is now inherited from BaseBundle.",Changed
 22,Class,Bundle,Changes,Methods,"void putBoolean(String, boolean) Method was locally defined, but is now inherited from BaseBundle.",Changed
 22,Class,Bundle,Changes,Methods,"void putBooleanArray(String, boolean[]) Method was locally defined, but is now inherited from BaseBundle.",Changed
+22,Class,ByteArrayBuffer,Deprecated
+22,Class,ByteArrayEntity,Deprecated
 22,Class,CameraMetadata,Changes,Fields,"int CONTROL_SCENE_MODE_HDR",Added
 22,Class,CameraMetadata,Changes,Fields,"int REQUEST_AVAILABLE_CAPABILITIES_BURST_CAPTURE",Added
 22,Class,CameraMetadata,Changes,Fields,"int REQUEST_AVAILABLE_CAPABILITIES_READ_SENSOR_SETTINGS",Added
 22,Class,ChangeBounds,Changes,Methods,"boolean getResizeClip()",Added
+22,Class,CharArrayBuffer,Deprecated
+22,Class,ChunkedInputStream,Deprecated
+22,Class,ChunkedOutputStream,Deprecated
+22,Class,CircularRedirectException,Deprecated
+22,Class,ClientConnectionManager,Deprecated
+22,Class,ClientConnectionManagerFactory,Deprecated
+22,Class,ClientConnectionOperator,Deprecated
+22,Class,ClientConnectionRequest,Deprecated
+22,Class,ClientContext,Deprecated
+22,Class,ClientContextConfigurer,Deprecated
+22,Class,ClientCookie,Deprecated
+22,Class,ClientParamBean,Deprecated
+22,Class,ClientParamsStack,Deprecated
+22,Class,ClientPNames,Deprecated
+22,Class,ClientProtocolException,Deprecated
+22,Class,CloneUtils,Deprecated
+22,Class,ConnConnectionParamBean,Deprecated
+22,Class,ConnConnectionPNames,Deprecated
+22,Class,ConnectionClosedException,Deprecated
+22,Class,ConnectionKeepAliveStrategy,Deprecated
+22,Class,ConnectionPoolTimeoutException,Deprecated
+22,Class,ConnectionReleaseTrigger,Deprecated
+22,Class,ConnectionReuseStrategy,Deprecated
 22,Class,ConnectivityManager,Changes,Methods,"void releaseNetworkRequest(PendingIntent)",Added
 22,Class,ConnectivityManager,Changes,Methods,"void requestNetwork(NetworkRequest, PendingIntent)",Added
 22,Class,ConnectivityManager,Changes,Fields,"String EXTRA_NETWORK",Added
 22,Class,ConnectivityManager,Changes,Fields,"String EXTRA_NETWORK_REQUEST",Added
+22,Class,ConnectTimeoutException,Deprecated
+22,Class,ConnManagerParamBean,Deprecated
+22,Class,ConnManagerParams,Deprecated
+22,Class,ConnManagerPNames,Deprecated
+22,Class,ConnPerRoute,Deprecated
+22,Class,ConnPerRouteBean,Deprecated
+22,Class,ConnPoolByRoute,Deprecated
+22,Class,ConnRouteParamBean,Deprecated
+22,Class,ConnRouteParams,Deprecated
+22,Class,ConnRoutePNames,Deprecated
+22,Class,ContentLengthInputStream,Deprecated
+22,Class,ContentLengthOutputStream,Deprecated
+22,Class,ContentLengthStrategy,Deprecated
+22,Class,ContentProducer,Deprecated
 22,Class,Context,Changes,Fields,"String TELEPHONY_SUBSCRIPTION_SERVICE",Added
 22,Class,Context,Changes,Fields,"String USAGE_STATS_SERVICE",Added
+22,Class,Cookie,Deprecated
+22,Class,CookieAttributeHandler,Deprecated
+22,Class,CookieIdentityComparator,Deprecated
 22,Class,CookieManager,Changes,Constructors,"CookieManager()",Added
 22,Class,CookieManager,Changes,Methods,"boolean acceptCookie() Changed from non-abstract to abstract.",Changed
 22,Class,CookieManager,Changes,Methods,"boolean acceptThirdPartyCookies(WebView) Changed from non-abstract to abstract.",Changed
@@ -3383,6 +3693,22 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,CookieManager,Changes,Methods,"void setAcceptThirdPartyCookies(WebView, boolean) Changed from non-abstract to abstract.",Changed
 22,Class,CookieManager,Changes,Methods,"void setCookie(String, String) Changed from non-abstract to abstract.",Changed
 22,Class,CookieManager,Changes,Methods,"void setCookie(String, String, ValueCallback<Boolean>) Changed from non-abstract to abstract.",Changed
+22,Class,CookieOrigin,Deprecated
+22,Class,CookiePathComparator,Deprecated
+22,Class,CookiePolicy,Deprecated
+22,Class,CookieSpec,Deprecated
+22,Class,CookieSpecBase,Deprecated
+22,Class,CookieSpecFactory,Deprecated
+22,Class,CookieSpecParamBean,Deprecated
+22,Class,CookieSpecPNames,Deprecated
+22,Class,CookieSpecRegistry,Deprecated
+22,Class,CookieStore,Deprecated
+22,Class,CoreConnectionPNames,Deprecated
+22,Class,CoreProtocolPNames,Deprecated
+22,Class,Credentials,Deprecated
+22,Class,CredentialsProvider,Deprecated
+22,Class,CycleInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,CycleInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
 22,Class,DateFormat,Changes,Fields,"char AM_PM",Removed
 22,Class,DateFormat,Changes,Fields,"char CAPITAL_AM_PM",Removed
 22,Class,DateFormat,Changes,Fields,"char DATE",Removed
@@ -3396,26 +3722,167 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,DateFormat,Changes,Fields,"char STANDALONE_MONTH",Removed
 22,Class,DateFormat,Changes,Fields,"char TIME_ZONE",Removed
 22,Class,DateFormat,Changes,Fields,"char YEAR",Removed
+22,Class,DateParseException,Deprecated
+22,Class,DateUtils,Deprecated
+22,Class,DecelerateInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,DecelerateInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,DefaultClientConnection,Deprecated
+22,Class,DefaultClientConnectionOperator,Deprecated
+22,Class,DefaultConnectionKeepAliveStrategy,Deprecated
+22,Class,DefaultConnectionReuseStrategy,Deprecated
+22,Class,DefaultedHttpContext,Deprecated
+22,Class,DefaultedHttpParams,Deprecated
+22,Class,DefaultHttpClient,Deprecated
+22,Class,DefaultHttpClientConnection,Deprecated
+22,Class,DefaultHttpRequestFactory,Deprecated
+22,Class,DefaultHttpRequestRetryHandler,Deprecated
+22,Class,DefaultHttpResponseFactory,Deprecated
+22,Class,DefaultHttpRoutePlanner,Deprecated
+22,Class,DefaultHttpServerConnection,Deprecated
+22,Class,DefaultProxyAuthenticationHandler,Deprecated
+22,Class,DefaultRedirectHandler,Deprecated
+22,Class,DefaultRequestDirector,Deprecated
+22,Class,DefaultResponseParser,Deprecated
+22,Class,DefaultTargetAuthenticationHandler,Deprecated
+22,Class,DefaultUserTokenHandler,Deprecated
 22,Class,DevicePolicyManager,Changes,Methods,"List<PersistableBundle> getTrustAgentConfiguration(ComponentName, ComponentName)",Added
 22,Class,DevicePolicyManager,Changes,Methods,"void setTrustAgentConfiguration(ComponentName, ComponentName, PersistableBundle)",Added
 22,Class,DevicePolicyManager,Changes,Fields,"String EXTRA_PROVISIONING_ACCOUNT_TO_MIGRATE",Added
 22,Class,DevicePolicyManager,Changes,Fields,"String EXTRA_PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED",Added
 22,Class,DevicePolicyManager,Changes,Fields,"int WIPE_RESET_PROTECTION_DATA",Added
+22,Class,DigestScheme,Deprecated
+22,Class,DigestSchemeFactory,Deprecated
 22,Class,DisplayMetrics,Changes,Fields,"int DENSITY_280",Added
+22,Class,EncodingUtils,Deprecated
+22,Class,EnglishReasonPhraseCatalog,Deprecated
+22,Class,EntityDeserializer,Deprecated
+22,Class,EntityEnclosingRequestWrapper,Deprecated
+22,Class,EntitySerializer,Deprecated
+22,Class,EntityTemplate,Deprecated
+22,Class,EntityUtils,Deprecated
+22,Class,EofSensorInputStream,Deprecated
+22,Class,EofSensorWatcher,Deprecated
+22,Class,ExceptionUtils,Deprecated
+22,Class,ExecutionContext,Deprecated
+22,Class,FileEntity,Deprecated
+22,Class,FloatMath,Deprecated
+22,Class,FormattedHeader,Deprecated
+22,Class,Header,Deprecated
+22,Class,HeaderElement,Deprecated
+22,Class,HeaderElementIterator,Deprecated
+22,Class,HeaderGroup,Deprecated
+22,Class,HeaderIterator,Deprecated
+22,Class,HeaderValueFormatter,Deprecated
+22,Class,HeaderValueParser,Deprecated
+22,Class,HostNameResolver,Deprecated
+22,Class,HTTP,Deprecated
+22,Class,HttpAbstractParamBean,Deprecated
+22,Class,HttpClient,Deprecated
+22,Class,HttpClientConnection,Deprecated
+22,Class,HttpClientParams,Deprecated
+22,Class,HttpConnection,Deprecated
+22,Class,HttpConnectionMetrics,Deprecated
+22,Class,HttpConnectionMetricsImpl,Deprecated
+22,Class,HttpConnectionParamBean,Deprecated
+22,Class,HttpConnectionParams,Deprecated
+22,Class,HttpContext,Deprecated
+22,Class,HttpDateGenerator,Deprecated
+22,Class,HttpDelete,Deprecated
+22,Class,HttpEntity,Deprecated
+22,Class,HttpEntityEnclosingRequest,Deprecated
+22,Class,HttpEntityEnclosingRequestBase,Deprecated
+22,Class,HttpEntityWrapper,Deprecated
+22,Class,HttpException,Deprecated
+22,Class,HttpExpectationVerifier,Deprecated
+22,Class,HttpGet,Deprecated
+22,Class,HttpHead,Deprecated
+22,Class,HttpHost,Deprecated
+22,Class,HttpHostConnectException,Deprecated
+22,Class,HttpInetConnection,Deprecated
+22,Class,HttpMessage,Deprecated
+22,Class,HttpMessageParser,Deprecated
+22,Class,HttpMessageWriter,Deprecated
+22,Class,HttpOptions,Deprecated
+22,Class,HttpParams,Deprecated
+22,Class,HttpPost,Deprecated
+22,Class,HttpProcessor,Deprecated
+22,Class,HttpProtocolParamBean,Deprecated
+22,Class,HttpProtocolParams,Deprecated
+22,Class,HttpPut,Deprecated
+22,Class,HttpRequest,Deprecated
+22,Class,HttpRequestBase,Deprecated
+22,Class,HttpRequestExecutor,Deprecated
+22,Class,HttpRequestFactory,Deprecated
+22,Class,HttpRequestHandler,Deprecated
+22,Class,HttpRequestHandlerRegistry,Deprecated
+22,Class,HttpRequestHandlerResolver,Deprecated
+22,Class,HttpRequestInterceptor,Deprecated
+22,Class,HttpRequestInterceptorList,Deprecated
+22,Class,HttpRequestParser,Deprecated
+22,Class,HttpRequestRetryHandler,Deprecated
+22,Class,HttpRequestWriter,Deprecated
+22,Class,HttpResponse,Deprecated
+22,Class,HttpResponseException,Deprecated
+22,Class,HttpResponseFactory,Deprecated
+22,Class,HttpResponseInterceptor,Deprecated
+22,Class,HttpResponseInterceptorList,Deprecated
+22,Class,HttpResponseParser,Deprecated
+22,Class,HttpResponseWriter,Deprecated
+22,Class,HttpRoute,Deprecated
+22,Class,HttpRouteDirector,Deprecated
+22,Class,HttpRoutePlanner,Deprecated
+22,Class,HttpServerConnection,Deprecated
+22,Class,HttpService,Deprecated
+22,Class,HttpStatus,Deprecated
+22,Class,HttpTrace,Deprecated
+22,Class,HttpTransportMetrics,Deprecated
+22,Class,HttpTransportMetricsImpl,Deprecated
+22,Class,HttpUriRequest,Deprecated
+22,Class,HttpVersion,Deprecated
+22,Class,IdentityInputStream,Deprecated
+22,Class,IdentityOutputStream,Deprecated
+22,Class,IdleConnectionHandler,Deprecated
+22,Class,InetAddressUtils,Deprecated
+22,Class,InputStreamEntity,Deprecated
 22,Class,Intent,Changes,Methods,"Intent createChooser(Intent, CharSequence, IntentSender)",Added
 22,Class,Intent,Changes,Fields,"String EXTRA_CHOSEN_COMPONENT",Added
 22,Class,Intent,Changes,Fields,"String EXTRA_CHOSEN_COMPONENT_INTENT_SENDER",Added
 22,Class,Intent,Changes,Fields,"String EXTRA_REFERRER_NAME",Added
 22,Class,Intent,Changes,Fields,"int URI_ALLOW_UNSAFE",Added
 22,Class,Intent,Changes,Fields,"int URI_ANDROID_APP_SCHEME",Added
+22,Class,InvalidCredentialsException,Deprecated
 22,Class,KeyguardManager,Changes,Methods,"boolean isDeviceLocked()",Added
+22,Class,LangUtils,Deprecated
+22,Class,LaxContentLengthStrategy,Deprecated
+22,Class,LayeredSocketFactory,Deprecated
+22,Class,LinearInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,LinearInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,LineFormatter,Deprecated
+22,Class,LineParser,Deprecated
+22,Class,Log,Deprecated
+22,Class,LoggingSessionInputBuffer,Deprecated
+22,Class,LoggingSessionOutputBuffer,Deprecated
+22,Class,MalformedChallengeException,Deprecated
+22,Class,MalformedChunkCodingException,Deprecated
+22,Class,MalformedCookieException,Deprecated
+22,Class,ManagedClientConnection,Deprecated
 22,Class,Manifest.permission,Changes,Fields,"String BIND_CARRIER_MESSAGING_SERVICE",Added
 22,Class,MediaDrm,Changes,Methods,"byte[] getSecureStop(byte[])",Added
 22,Class,MediaDrm,Changes,Methods,"void releaseAllSecureStops()",Added
 22,Class,MediaSession,Changes,Methods,"void setRatingType(int)",Added
 22,Class,Message,Changes,Methods,"boolean isAsynchronous()",Added
 22,Class,Message,Changes,Methods,"void setAsynchronous(boolean)",Added
+22,Class,MethodNotSupportedException,Deprecated
+22,Class,MultihomePlainSocketFactory,Deprecated
+22,Class,NameValuePair,Deprecated
+22,Class,NetscapeDomainHandler,Deprecated
+22,Class,NetscapeDraftHeaderParser,Deprecated
+22,Class,NetscapeDraftSpec,Deprecated
+22,Class,NetscapeDraftSpecFactory,Deprecated
 22,Class,Network,Changes,Methods,"void bindSocket(DatagramSocket)",Added
+22,Class,NoConnectionReuseStrategy,Deprecated
+22,Class,NoHttpResponseException,Deprecated
+22,Class,NonRepeatableRequestException,Deprecated
 22,Class,Notification.Action.WearableExtender,Changes,Methods,"CharSequence getCancelLabel()",Added
 22,Class,Notification.Action.WearableExtender,Changes,Methods,"CharSequence getConfirmLabel()",Added
 22,Class,Notification.Action.WearableExtender,Changes,Methods,"CharSequence getInProgressLabel()",Added
@@ -3428,15 +3895,33 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,Notification.WearableExtender,Changes,Methods,"WearableExtender setHintScreenTimeout(int)",Added
 22,Class,Notification.WearableExtender,Changes,Fields,"int SCREEN_TIMEOUT_LONG",Added
 22,Class,Notification.WearableExtender,Changes,Fields,"int SCREEN_TIMEOUT_SHORT",Added
+22,Class,NTCredentials,Deprecated
+22,Class,NTLMEngine,Deprecated
+22,Class,NTLMEngineException,Deprecated
+22,Class,NTLMScheme,Deprecated
+22,Class,NTUserPrincipal,Deprecated
+22,Class,OperatedClientConnection,Deprecated
 22,Class,Outline,Changes,Methods,"void offset(int, int)",Added
+22,Class,OvershootInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,OvershootInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
 22,Class,PackageInfo,Changes,Fields,"int baseRevisionCode",Added
 22,Class,PackageInfo,Changes,Fields,"int[] splitRevisionCodes",Added
 22,Class,PackageItemInfo,Changes,Methods,"Drawable loadUnbadgedIcon(PackageManager)",Added
+22,Class,ParseException,Deprecated
+22,Class,ParserCursor,Deprecated
+22,Class,PathInterpolator,Changes,Superclass,From java.lang.Object to android.view.animation.BaseInterpolator,Changed
+22,Class,PathInterpolator,Changes,Interface,android.view.animation.Interpolator,Removed
+22,Class,PlainSocketFactory,Deprecated
 22,Class,PlaybackState,Changes,Methods,"Bundle getExtras()",Added
 22,Class,PlaybackState.Builder,Changes,Methods,"Builder setExtras(Bundle)",Added
+22,Class,PoolEntryRequest,Deprecated
 22,Class,PopupMenu,Changes,Constructors,"PopupMenu(Context, View, int, int, int)",Added
 22,Class,PopupWindow,Changes,Methods,"boolean isAttachedInDecor()",Added
 22,Class,PopupWindow,Changes,Methods,"void setAttachedInDecor(boolean)",Added
+22,Class,ProtocolException,Deprecated
+22,Class,ProtocolVersion,Deprecated
+22,Class,ProxyInfo,Deprecated
+22,Class,ProxySelectorRoutePlanner,Deprecated
 22,Class,R.attr,Changes,Fields,"int accessibilityTraversalAfter",Added
 22,Class,R.attr,Changes,Fields,"int accessibilityTraversalBefore",Added
 22,Class,R.attr,Changes,Fields,"int collapseContentDescription",Added
@@ -3446,12 +3931,62 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,R.attr,Changes,Fields,"int searchHintIcon",Added
 22,Class,R.style,Changes,Fields,"int Theme_DeviceDefault_Dialog_Alert",Added
 22,Class,R.style,Changes,Fields,"int Theme_DeviceDefault_Light_Dialog_Alert",Added
+22,Class,ReasonPhraseCatalog,Deprecated
+22,Class,RedirectException,Deprecated
+22,Class,RedirectHandler,Deprecated
+22,Class,RedirectLocations,Deprecated
+22,Class,RefQueueHandler,Deprecated
+22,Class,RefQueueWorker,Deprecated
 22,Class,RemoteViews,Changes,Methods,"void setAccessibilityTraversalAfter(int, int)",Added
 22,Class,RemoteViews,Changes,Methods,"void setAccessibilityTraversalBefore(int, int)",Added
+22,Class,RequestAddCookies,Deprecated
+22,Class,RequestConnControl,Deprecated
+22,Class,RequestContent,Deprecated
+22,Class,RequestDate,Deprecated
+22,Class,RequestDefaultHeaders,Deprecated
+22,Class,RequestDirector,Deprecated
+22,Class,RequestExpectContinue,Deprecated
+22,Class,RequestLine,Deprecated
+22,Class,RequestProxyAuthentication,Deprecated
+22,Class,RequestTargetAuthentication,Deprecated
+22,Class,RequestTargetHost,Deprecated
+22,Class,RequestUserAgent,Deprecated
+22,Class,RequestWrapper,Deprecated
 22,Class,Resources,Changes,Methods,"Drawable getDrawable(int) Now deprecated.",Changed
 22,Class,Resources,Changes,Methods,"Drawable getDrawableForDensity(int, int) Now deprecated.",Changed
+22,Class,ResponseConnControl,Deprecated
+22,Class,ResponseContent,Deprecated
+22,Class,ResponseDate,Deprecated
+22,Class,ResponseHandler,Deprecated
+22,Class,ResponseProcessCookies,Deprecated
+22,Class,ResponseServer,Deprecated
+22,Class,RFC2109DomainHandler,Deprecated
+22,Class,RFC2109Spec,Deprecated
+22,Class,RFC2109SpecFactory,Deprecated
+22,Class,RFC2109VersionHandler,Deprecated
+22,Class,RFC2617Scheme,Deprecated
+22,Class,RFC2965CommentUrlAttributeHandler,Deprecated
+22,Class,RFC2965DiscardAttributeHandler,Deprecated
+22,Class,RFC2965DomainAttributeHandler,Deprecated
+22,Class,RFC2965PortAttributeHandler,Deprecated
+22,Class,RFC2965Spec,Deprecated
+22,Class,RFC2965SpecFactory,Deprecated
+22,Class,RFC2965VersionAttributeHandler,Deprecated
+22,Class,RoutedRequest,Deprecated
+22,Class,RouteInfo,Deprecated
+22,Class,RouteSpecificPool,Deprecated
+22,Class,RouteTracker,Deprecated
+22,Class,Scheme,Deprecated
+22,Class,SchemeRegistry,Deprecated
+22,Class,SerializableEntity,Deprecated
+22,Class,SessionInputBuffer,Deprecated
+22,Class,SessionOutputBuffer,Deprecated
+22,Class,SetCookie,Deprecated
+22,Class,SetCookie2,Deprecated
 22,Class,Settings,Changes,Fields,"String ACTION_BATTERY_SAVER_SETTINGS",Added
 22,Class,Settings,Changes,Fields,"String ACTION_NOTIFICATION_LISTENER_SETTINGS",Added
+22,Class,SingleClientConnManager,Deprecated
+22,Class,SM,Deprecated
 22,Class,SmsManager,Changes,Methods,"int getDefaultSmsSubscriptionId()",Added
 22,Class,SmsManager,Changes,Methods,"SmsManager getSmsManagerForSubscriptionId(int)",Added
 22,Class,SmsManager,Changes,Methods,"int getSubscriptionId()",Added
@@ -3459,8 +3994,19 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,SmsManager,Changes,Fields,"String EXTRA_MMS_HTTP_STATUS",Added
 22,Class,SmsManager,Changes,Fields,"String MMS_CONFIG_SHOW_CELL_BROADCAST_APP_LINKS",Added
 22,Class,SmsManager,Changes,Fields,"int MMS_ERROR_NO_DATA_NETWORK",Added
+22,Class,SocketFactory,Deprecated
+22,Class,SocketHttpClientConnection,Deprecated
+22,Class,SocketHttpServerConnection,Deprecated
+22,Class,SocketInputBuffer,Deprecated
+22,Class,SocketOutputBuffer,Deprecated
 22,Class,SSLCertificateSocketFactory,Changes,Methods,"SSLSocketFactory getHttpSocketFactory(int, SSLSessionCache) Now deprecated.",Changed
+22,Class,SSLSocketFactory,Deprecated
 22,Class,StateListAnimator,Changes,Methods,"StateListAnimator clone() Change in return type from Object to StateListAnimator. Change in exceptions thrown from java.lang.CloneNotSupportedException to no exceptions. Method was inherited from java.lang.Object, but is now defined locally. Change of visibility from protected to public.",Changed
+22,Class,StatusLine,Deprecated
+22,Class,StrictContentLengthStrategy,Deprecated
+22,Class,StrictHostnameVerifier,Deprecated
+22,Class,StringEntity,Deprecated
+22,Class,SyncBasicHttpContext,Deprecated
 22,Class,Telephony.BaseMmsColumns,Changes,Fields,"String SUBSCRIPTION_ID",Added
 22,Class,Telephony.Carriers,Changes,Fields,"String SUBSCRIPTION_ID",Added
 22,Class,Telephony.MmsSms.PendingMessages,Changes,Fields,"String SUBSCRIPTION_ID",Added
@@ -3471,6 +4017,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,TelephonyManager,Changes,Methods,"boolean setOperatorBrandOverride(String)",Added
 22,Class,TelephonyManager,Changes,Methods,"boolean setPreferredNetworkTypeToGlobal()",Added
 22,Class,TelephonyManager,Changes,Methods,"boolean setVoiceMailNumber(String, String)",Added
+22,Class,ThreadSafeClientConnManager,Deprecated
+22,Class,Time,Deprecated
+22,Class,TokenIterator,Deprecated
+22,Class,TunnelRefusedException,Deprecated
 22,Class,TvContract.Programs.Genres,Changes,Fields,"String ARTS",Added
 22,Class,TvContract.Programs.Genres,Changes,Fields,"String ENTERTAINMENT",Added
 22,Class,TvContract.Programs.Genres,Changes,Fields,"String LIFE_STYLE",Added
@@ -3481,9 +4031,18 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,TypedValue,Changes,Methods,"int getComplexUnit()",Added
 22,Class,TypedValue,Changes,Fields,"int DATA_NULL_EMPTY",Added
 22,Class,TypedValue,Changes,Fields,"int DATA_NULL_UNDEFINED",Added
+22,Class,UnsupportedDigestAlgorithmException,Deprecated
+22,Class,UnsupportedHttpVersionException,Deprecated
+22,Class,UriPatternMatcher,Deprecated
+22,Class,URIUtils,Deprecated
+22,Class,UrlEncodedFormEntity,Deprecated
+22,Class,URLEncodedUtils,Deprecated
 22,Class,UserManager,Changes,Fields,"String DISALLOW_OUTGOING_BEAM",Added
 22,Class,UserManager,Changes,Fields,"String KEY_RESTRICTIONS_PENDING",Added
+22,Class,UsernamePasswordCredentials,Deprecated
+22,Class,UserTokenHandler,Deprecated
 22,Class,ValueAnimator,Changes,Methods,"void setCurrentFraction(float)",Added
+22,Class,VersionInfo,Deprecated
 22,Class,View,Changes,Methods,"void dispatchDrawableHotspotChanged(float, float)",Added
 22,Class,View,Changes,Methods,"boolean dispatchNestedPrePerformAccessibilityAction(int, Bundle)",Added
 22,Class,View,Changes,Methods,"int getAccessibilityTraversalAfter()",Added
@@ -3494,6 +4053,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,ViewParent,Changes,Methods,"boolean onNestedPrePerformAccessibilityAction(View, int, Bundle)",Added
 22,Class,VpnService,Changes,Methods,"boolean setUnderlyingNetworks(Network[])",Added
 22,Class,VpnService.Builder,Changes,Methods,"Builder setUnderlyingNetworks(Network[])",Added
+22,Class,WaitingThread,Deprecated
+22,Class,WaitingThreadAborter,Deprecated
 22,Class,WebBackForwardList,Changes,Constructors,"WebBackForwardList()",Added
 22,Class,WebBackForwardList,Changes,Methods,"WebBackForwardList clone() Change in return type from Object to WebBackForwardList. Change in exceptions thrown from java.lang.CloneNotSupportedException to no exceptions. Method was inherited from java.lang.Object, but is now defined locally. Changed from non-abstract to abstract.",Changed
 22,Class,WebBackForwardList,Changes,Methods,"int getCurrentIndex() Changed from non-abstract to abstract.",Changed
@@ -3610,6 +4171,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Class,Window,Changes,Fields,"int DEFAULT_FEATURES Now deprecated.",Changed
 22,Class,WindowManager.LayoutParams,Changes,Fields,"int FLAG_LAYOUT_ATTACHED_IN_DECOR",Added
 22,Class,WindowManager.LayoutParams,Changes,Fields,"int TYPE_ACCESSIBILITY_OVERLAY",Added
+22,Class,Wire,Deprecated
+22,Class,X509HostnameVerifier,Deprecated
 22,Class,BaseInterpolator,Additions
 22,Class,SubscriptionInfo,Additions
 22,Class,SubscriptionManager,Additions
@@ -3686,6 +4249,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,ActionBar,Changes,Fields,"int NAVIGATION_MODE_LIST Now deprecated.",Changed
 21,Class,ActionBar,Changes,Fields,"int NAVIGATION_MODE_STANDARD Now deprecated.",Changed
 21,Class,ActionBar,Changes,Fields,"int NAVIGATION_MODE_TABS Now deprecated.",Changed
+21,Class,ActionBar.OnNavigationListener,Deprecated
+21,Class,ActionBar.Tab,Deprecated
+21,Class,ActionBar.TabListener,Deprecated
 21,Class,Activity,Changes,Methods,"void finishAfterTransition()",Added
 21,Class,Activity,Changes,Methods,"void finishAndRemoveTask()",Added
 21,Class,Activity,Changes,Methods,"Scene getContentScene()",Added
@@ -3775,6 +4341,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,AppWidgetProviderInfo,Changes,Fields,"int WIDGET_CATEGORY_SEARCHBOX",Added
 21,Class,AppWidgetProviderInfo,Changes,Fields,"String label Now deprecated.",Changed
 21,Class,ArrayMap,Changes,Methods,"int indexOfKey(Object)",Added
+21,Class,AssetManager,Changes,Interfaces,java.lang.AutoCloseable,Added
 21,Class,AssetManager.AssetInputStream,Changes,Methods,"int getAssetInt()",Removed
 21,Class,AudioFormat,Changes,Constructors,"AudioFormat()",Removed
 21,Class,AudioFormat,Changes,Methods,"int getChannelMask()",Added
@@ -3905,6 +4472,20 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,CamcorderProfile,Changes,Fields,"int QUALITY_HIGH_SPEED_HIGH",Added
 21,Class,CamcorderProfile,Changes,Fields,"int QUALITY_HIGH_SPEED_LOW",Added
 21,Class,CamcorderProfile,Changes,Fields,"int QUALITY_TIME_LAPSE_2160P",Added
+21,Class,Camera,Deprecated
+21,Class,Camera.Area,Deprecated
+21,Class,Camera.AutoFocusCallback,Deprecated
+21,Class,Camera.AutoFocusMoveCallback,Deprecated
+21,Class,Camera.CameraInfo,Deprecated
+21,Class,Camera.ErrorCallback,Deprecated
+21,Class,Camera.Face,Deprecated
+21,Class,Camera.FaceDetectionListener,Deprecated
+21,Class,Camera.OnZoomChangeListener,Deprecated
+21,Class,Camera.Parameters,Deprecated
+21,Class,Camera.PictureCallback,Deprecated
+21,Class,Camera.PreviewCallback,Deprecated
+21,Class,Camera.ShutterCallback,Deprecated
+21,Class,Camera.Size,Deprecated
 21,Class,Canvas,Changes,Methods,"void drawArc(float, float, float, float, float, float, boolean, Paint)",Added
 21,Class,Canvas,Changes,Methods,"void drawOval(float, float, float, float, Paint)",Added
 21,Class,Canvas,Changes,Methods,"void drawRoundRect(float, float, float, float, float, float, Paint)",Added
@@ -4028,6 +4609,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,ContactsContract.Contacts,Changes,Fields,"String EXTRA_ADDRESS_BOOK_INDEX",Added
 21,Class,ContactsContract.Contacts,Changes,Fields,"String EXTRA_ADDRESS_BOOK_INDEX_COUNTS",Added
 21,Class,ContactsContract.Contacts,Changes,Fields,"String EXTRA_ADDRESS_BOOK_INDEX_TITLES",Added
+21,Class,ContactsContract.Contacts.Entity,Changes,Interfaces,android.provider.ContactsContract.DataUsageStatColumns,Added
 21,Class,ContactsContract.Contacts.StreamItems,Changes,Fields,"String CONTENT_DIRECTORY Now deprecated.",Changed
 21,Class,ContactsContract.ContactsColumns,Changes,Fields,"String IN_DEFAULT_DIRECTORY",Added
 21,Class,ContactsContract.ContactsColumns,Changes,Fields,"String NAME_RAW_CONTACT_ID",Added
@@ -4282,6 +4864,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,Fragment,Changes,Methods,"void setReturnTransition(Transition)",Added
 21,Class,Fragment,Changes,Methods,"void setSharedElementEnterTransition(Transition)",Added
 21,Class,Fragment,Changes,Methods,"void setSharedElementReturnTransition(Transition)",Added
+21,Class,FragmentBreadCrumbs,Deprecated
 21,Class,FragmentTransaction,Changes,Methods,"FragmentTransaction addSharedElement(View, String)",Added
 21,Class,FrameLayout,Changes,Constructors,"FrameLayout(Context, AttributeSet, int, int)",Added
 21,Class,FrameLayout,Changes,Methods,"ColorStateList getForegroundTintList()",Added
@@ -4390,6 +4973,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,LayerDrawable,Changes,Methods,"void setPaddingMode(int)",Added
 21,Class,LayerDrawable,Changes,Fields,"int PADDING_MODE_NEST",Added
 21,Class,LayerDrawable,Changes,Fields,"int PADDING_MODE_STACK",Added
+21,Class,LayerRasterizer,Deprecated
 21,Class,LinearLayout,Changes,Constructors,"LinearLayout(Context, AttributeSet, int, int)",Added
 21,Class,ListPreference,Changes,Constructors,"ListPreference(Context, AttributeSet, int)",Added
 21,Class,ListPreference,Changes,Constructors,"ListPreference(Context, AttributeSet, int, int)",Added
@@ -4522,6 +5106,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,MediaFormat,Changes,Fields,"String MIMETYPE_VIDEO_RAW",Added
 21,Class,MediaFormat,Changes,Fields,"String MIMETYPE_VIDEO_VP8",Added
 21,Class,MediaFormat,Changes,Fields,"String MIMETYPE_VIDEO_VP9",Added
+21,Class,MediaMetadataEditor,Deprecated
 21,Class,MediaMuxer.OutputFormat,Changes,Fields,"int MUXER_OUTPUT_WEBM",Added
 21,Class,MediaPlayer,Changes,Methods,"MediaPlayer create(Context, Uri, SurfaceHolder, AudioAttributes, int)",Added
 21,Class,MediaPlayer,Changes,Methods,"MediaPlayer create(Context, int, AudioAttributes, int)",Added
@@ -5195,11 +5780,14 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,R.style,Changes,Fields,"int Widget_DeviceDefault_Light_ActionBar_TabView_Inverse Now deprecated.",Changed
 21,Class,R.style,Changes,Fields,"int Widget_DeviceDefault_Light_ActionMode_Inverse Now deprecated.",Changed
 21,Class,RadioButton,Changes,Constructors,"RadioButton(Context, AttributeSet, int, int)",Added
+21,Class,Rasterizer,Deprecated
 21,Class,Rating,Changes,Fields,"int RATING_NONE",Added
 21,Class,RatingBar,Changes,Constructors,"RatingBar(Context, AttributeSet, int, int)",Added
 21,Class,RectEvaluator,Changes,Constructors,"RectEvaluator(Rect)",Added
 21,Class,RelativeLayout,Changes,Constructors,"RelativeLayout(Context, AttributeSet, int, int)",Added
 21,Class,RemoteControlClient,Changes,Methods,"MediaSession getMediaSession()",Added
+21,Class,RemoteControlClient.MetadataEditor,Deprecated
+21,Class,RemoteController,Deprecated
 21,Class,RenderScript,Changes,Methods,"RenderScript create(Context, ContextType, int)",Added
 21,Class,RenderScript,Changes,Fields,"int CREATE_FLAG_LOW_LATENCY",Added
 21,Class,RenderScript,Changes,Fields,"int CREATE_FLAG_LOW_POWER",Added
@@ -5616,6 +6204,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Class,WebSettings,Changes,Fields,"int MIXED_CONTENT_ALWAYS_ALLOW",Added
 21,Class,WebSettings,Changes,Fields,"int MIXED_CONTENT_COMPATIBILITY_MODE",Added
 21,Class,WebSettings,Changes,Fields,"int MIXED_CONTENT_NEVER_ALLOW",Added
+21,Class,WebSyncManager,Deprecated
 21,Class,WebView,Changes,Constructors,"WebView(Context, AttributeSet, int, int)",Added
 21,Class,WebView,Changes,Methods,"PrintDocumentAdapter createPrintDocumentAdapter()",Removed
 21,Class,WebView,Changes,Methods,"void clearClientCertPreferences(Runnable)",Added
@@ -6434,6 +7023,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,Cipher,Changes,Methods,"void updateAAD(ByteBuffer)",Added
 19,Class,CipherSpi,Changes,Methods,"void engineUpdateAAD(byte[], int, int)",Added
 19,Class,CipherSpi,Changes,Methods,"void engineUpdateAAD(ByteBuffer)",Added
+19,Class,ClassNotFoundException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
+19,Class,Closeable,Changes,Interfaces,java.lang.AutoCloseable,Added
 19,Class,Collections,Changes,Methods,"Enumeration<T> emptyEnumeration()",Added
 19,Class,Collections,Changes,Methods,"Iterator<T> emptyIterator()",Added
 19,Class,Collections,Changes,Methods,"ListIterator<T> emptyListIterator()",Added
@@ -6442,6 +7033,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,ConcurrentModificationException,Changes,Constructors,"ConcurrentModificationException(String, Throwable)",Added
 19,Class,ConcurrentModificationException,Changes,Constructors,"ConcurrentModificationException(Throwable)",Added
 19,Class,Configuration,Changes,Fields,"int MNC_ZERO",Added
+19,Class,Connection,Changes,Interfaces,java.lang.AutoCloseable,Added
 19,Class,ContentProvider,Changes,Methods,"Uri canonicalize(Uri)",Added
 19,Class,ContentProvider,Changes,Methods,"String getCallingPackage()",Added
 19,Class,ContentProvider,Changes,Methods,"AssetFileDescriptor openAssetFile(Uri, String, CancellationSignal)",Added
@@ -6478,6 +7070,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,Currency,Changes,Methods,"String getDisplayName(Locale)",Added
 19,Class,Cursor,Changes,Methods,"Uri getNotificationUri()",Added
 19,Class,CursorWrapper,Changes,Methods,"Uri getNotificationUri()",Added
+19,Class,DatagramSocket,Changes,Interfaces,java.io.Closeable,Added
 19,Class,Debug.MemoryInfo,Changes,Methods,"String getOtherLabel(int)",Removed
 19,Class,Debug.MemoryInfo,Changes,Methods,"int getOtherPrivateDirty(int)",Removed
 19,Class,Debug.MemoryInfo,Changes,Methods,"int getOtherPss(int)",Removed
@@ -6492,6 +7085,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,DeflaterOutputStream,Changes,Constructors,"DeflaterOutputStream(OutputStream, boolean)",Added
 19,Class,DeflaterOutputStream,Changes,Constructors,"DeflaterOutputStream(OutputStream, Deflater, boolean)",Added
 19,Class,DeflaterOutputStream,Changes,Constructors,"DeflaterOutputStream(OutputStream, Deflater, int, boolean)",Added
+19,Class,DhcpInfo,Deprecated
 19,Class,Display,Changes,Fields,"int FLAG_PRESENTATION",Added
 19,Class,Display,Changes,Fields,"int FLAG_PRIVATE",Added
 19,Class,DisplayManager,Changes,Methods,"VirtualDisplay createVirtualDisplay(String, int, int, int, Surface, int)",Added
@@ -6507,12 +7101,15 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,Environment,Changes,Methods,"String getStorageState(File)",Added
 19,Class,Environment,Changes,Fields,"String DIRECTORY_DOCUMENTS",Added
 19,Class,Environment,Changes,Fields,"String MEDIA_UNKNOWN",Added
+19,Class,FileInputStream,Changes,Interfaces,java.io.Closeable,Removed
 19,Class,FileLock,Changes,Methods,"void close()",Added
+19,Class,FileOutputStream,Changes,Interfaces,java.io.Closeable,Removed
 19,Class,FrameLayout.LayoutParams,Changes,Constructors,"FrameLayout.LayoutParams(LayoutParams)",Added
 19,Class,GZIPOutputStream,Changes,Constructors,"GZIPOutputStream(OutputStream, boolean)",Added
 19,Class,GZIPOutputStream,Changes,Constructors,"GZIPOutputStream(OutputStream, int, boolean)",Added
 19,Class,HttpURLConnection,Changes,Methods,"void setFixedLengthStreamingMode(long)",Added
 19,Class,HttpURLConnection,Changes,Fields,"long fixedContentLengthLong",Added
+19,Class,IllegalAccessException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
 19,Class,ImageFormat,Changes,Fields,"int YUV_420_888",Added
 19,Class,InetAddress,Changes,Methods,"InetAddress getLoopbackAddress()",Added
 19,Class,InetSocketAddress,Changes,Methods,"String getHostString()",Added
@@ -6525,6 +7122,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,InputMethodSubtype,Changes,Constructors,"InputMethodSubtype(int, int, String, String, String, boolean, boolean, int) Now deprecated.",Changed
 19,Class,InputMethodSubtype,Changes,Methods,"boolean isAsciiCapable()",Added
 19,Class,InsetDrawable,Changes,Methods,"Drawable getDrawable()",Added
+19,Class,InstantiationException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
 19,Class,Integer,Changes,Methods,"int compare(int, int)",Added
 19,Class,Intent,Changes,Fields,"String ACTION_CREATE_DOCUMENT",Added
 19,Class,Intent,Changes,Fields,"String ACTION_OPEN_DOCUMENT",Added
@@ -6538,6 +7136,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,IntentFilter,Changes,Methods,"boolean hasDataSchemeSpecificPart(String)",Added
 19,Class,IntentFilter,Changes,Methods,"Iterator<PatternMatcher> schemeSpecificPartsIterator()",Added
 19,Class,IntentFilter,Changes,Fields,"int MATCH_CATEGORY_SCHEME_SPECIFIC_PART",Added
+19,Class,InvocationTargetException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
 19,Class,JSONArray,Changes,Constructors,"JSONArray(Object)",Added
 19,Class,JSONArray,Changes,Methods,"Object remove(int)",Added
 19,Class,JSONObject,Changes,Methods,"Object wrap(Object)",Added
@@ -6627,6 +7226,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,NinePatch,Changes,Methods,"Bitmap getBitmap()",Added
 19,Class,NinePatch,Changes,Methods,"String getName()",Added
 19,Class,NinePatch,Changes,Methods,"Paint getPaint()",Added
+19,Class,NoSuchFieldException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
+19,Class,NoSuchMethodException,Changes,Superclass,From java.lang.Exception to java.lang.ReflectiveOperationException,Changed
 19,Class,Notification,Changes,Fields,"String EXTRA_INFO_TEXT",Added
 19,Class,Notification,Changes,Fields,"String EXTRA_LARGE_ICON",Added
 19,Class,Notification,Changes,Fields,"String EXTRA_LARGE_ICON_BIG",Added
@@ -6651,6 +7252,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,Notification.Builder,Changes,Methods,"Builder setExtras(Bundle)",Added
 19,Class,Notification.InboxStyle,Changes,Methods,"Notification build() Method was locally defined, but is now inherited from Notification.Style.",Changed
 19,Class,Notification.Style,Changes,Methods,"Notification build() Changed from abstract to non-abstract.",Changed
+19,Class,ObjectInput,Changes,Interfaces,java.lang.AutoCloseable,Added
+19,Class,ObjectOutput,Changes,Interfaces,java.lang.AutoCloseable,Added
 19,Class,PackageManager,Changes,Methods,"List<ResolveInfo> queryIntentContentProviders(Intent, int)",Added
 19,Class,PackageManager,Changes,Fields,"String FEATURE_CONSUMER_IR",Added
 19,Class,PackageManager,Changes,Fields,"String FEATURE_DEVICE_ADMIN",Added
@@ -6713,16 +7316,19 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,RemoteControlClient.MetadataEditor,Changes,Methods,"MediaMetadataEditor putLong(int, long) Change in return type from MetadataEditor to MediaMetadataEditor. Method was locally defined, but is now inherited from MediaMetadataEditor.",Changed
 19,Class,RemoteControlClient.MetadataEditor,Changes,Methods,"MediaMetadataEditor putString(int, String) Change in return type from MetadataEditor to MediaMetadataEditor. Method was locally defined, but is now inherited from MediaMetadataEditor.",Changed
 19,Class,ResolveInfo,Changes,Fields,"ProviderInfo providerInfo",Added
+19,Class,ResultSet,Changes,Interfaces,java.lang.AutoCloseable,Added
 19,Class,RingtoneManager,Changes,Methods,"boolean getIncludeDrm() Now deprecated.",Changed
 19,Class,RingtoneManager,Changes,Methods,"void setIncludeDrm(boolean) Now deprecated.",Changed
 19,Class,RingtoneManager,Changes,Fields,"String EXTRA_RINGTONE_INCLUDE_DRM Now deprecated.",Changed
 19,Class,ScaleGestureDetector,Changes,Constructors,"ScaleGestureDetector(Context, OnScaleGestureListener, Handler)",Added
 19,Class,ScaleGestureDetector,Changes,Methods,"boolean isQuickScaleEnabled()",Added
 19,Class,ScaleGestureDetector,Changes,Methods,"void setQuickScaleEnabled(boolean)",Added
+19,Class,Scanner,Changes,Interfaces,java.io.Closeable,Added
 19,Class,ScriptIntrinsicColorMatrix,Changes,Methods,"ScriptIntrinsicColorMatrix create(RenderScript)",Added
 19,Class,ScriptIntrinsicColorMatrix,Changes,Methods,"void setAdd(Float4)",Added
 19,Class,ScriptIntrinsicColorMatrix,Changes,Methods,"void setAdd(float, float, float, float)",Added
 19,Class,ScriptIntrinsicColorMatrix,Changes,Methods,"ScriptIntrinsicColorMatrix create(RenderScript, Element) Now deprecated.",Changed
+19,Class,Selector,Changes,Interfaces,java.io.Closeable,Added
 19,Class,Sensor,Changes,Methods,"int getFifoMaxEventCount()",Added
 19,Class,Sensor,Changes,Methods,"int getFifoReservedEventCount()",Added
 19,Class,Sensor,Changes,Fields,"int TYPE_GEOMAGNETIC_ROTATION_VECTOR",Added
@@ -6731,6 +7337,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,SensorManager,Changes,Methods,"boolean flush(SensorEventListener)",Added
 19,Class,SensorManager,Changes,Methods,"boolean registerListener(SensorEventListener, Sensor, int, int)",Added
 19,Class,SensorManager,Changes,Methods,"boolean registerListener(SensorEventListener, Sensor, int, int, Handler)",Added
+19,Class,ServerSocket,Changes,Interfaces,java.io.Closeable,Added
 19,Class,Settings,Changes,Fields,"String ACTION_CAPTIONING_SETTINGS",Added
 19,Class,Settings,Changes,Fields,"String ACTION_NFC_PAYMENT_SETTINGS",Added
 19,Class,Settings,Changes,Fields,"String ACTION_PRINT_SETTINGS",Added
@@ -6743,9 +7350,13 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,Settings.Secure,Changes,Fields,"int LOCATION_MODE_SENSORS_ONLY",Added
 19,Class,Settings.Secure,Changes,Fields,"String LOCATION_PROVIDERS_ALLOWED Now deprecated.",Changed
 19,Class,Short,Changes,Methods,"int compare(short, short)",Added
+19,Class,Socket,Changes,Interfaces,java.io.Closeable,Added
 19,Class,SparseArray,Changes,Methods,"void removeAtRange(int, int)",Added
+19,Class,Statement,Changes,Interfaces,java.lang.AutoCloseable,Added
+19,Class,Surface.OutOfResourcesException,Changes,Superclass,From java.lang.Exception to java.lang.RuntimeException,Changed
 19,Class,SurfaceTexture,Changes,Constructors,"SurfaceTexture(int, boolean)",Added
 19,Class,SurfaceTexture,Changes,Methods,"void releaseTexImage()",Added
+19,Class,SurfaceTexture.OutOfResourcesException,Deprecated
 19,Class,SynthesisRequest,Changes,Methods,"int getCallerUid()",Added
 19,Class,System,Changes,Methods,"String lineSeparator()",Added
 19,Class,TelephonyManager,Changes,Methods,"String getMmsUAProfUrl()",Added
@@ -6803,6 +7414,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,WebSettings,Changes,Methods,"ZoomDensity getDefaultZoom() Now deprecated.",Changed
 19,Class,WebSettings,Changes,Methods,"void setDatabasePath(String) Now deprecated.",Changed
 19,Class,WebSettings,Changes,Methods,"void setDefaultZoom(ZoomDensity) Now deprecated.",Changed
+19,Class,WebStorage.QuotaUpdater,Deprecated
 19,Class,WebView,Changes,Methods,"PrintDocumentAdapter createPrintDocumentAdapter()",Added
 19,Class,WebView,Changes,Methods,"void evaluateJavascript(String, ValueCallback<String>)",Added
 19,Class,WebView,Changes,Methods,"void setWebContentsDebuggingEnabled(boolean)",Added
@@ -6819,6 +7431,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Class,WindowManager.LayoutParams,Changes,Fields,"int FLAG_TRANSLUCENT_NAVIGATION",Added
 19,Class,WindowManager.LayoutParams,Changes,Fields,"int FLAG_TRANSLUCENT_STATUS",Added
 19,Class,WindowManager.LayoutParams,Changes,Fields,"int TYPE_PRIVATE_PRESENTATION",Added
+19,Class,XmlResourceParser,Changes,Interfaces,java.lang.AutoCloseable,Added
 19,Class,ZipFile,Changes,Methods,"String getComment()",Added
 19,Class,AccessibilityManager.TouchExplorationStateChangeListener,Additions
 19,Class,AccessibilityNodeInfo.CollectionInfo,Additions
