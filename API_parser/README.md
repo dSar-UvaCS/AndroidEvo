@@ -2,10 +2,10 @@
 Parses Android API change documentations for changes from Package level down to Field level between versions.
 
 ## Code
-*ChangeDetail.java parses online change documentations, *ChangeDetailsArchivedVersions.java parses change documentations of older versions that require input zipped files.
+*ChangeDetail.java parses online change documentations, *ChangeDetailsArchivedVersions.java parses change documentations of older versions that require input files.
 
 ## Input
-"input" folder contains zipped files of older versions of change documentations used by *ChangeDetailsArchivedVersions.java.
+"input" folder contains unzipped folders containing files of older versions of change documentations used by *ChangeDetailsArchivedVersions.java.
 
 ## Output
 Output files are in .csv formats and placed in "output" folder, each file contains seven columns:
