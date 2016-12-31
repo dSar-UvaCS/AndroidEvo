@@ -1,26 +1,69 @@
 API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
+25,Package,android,Changes,Classes,R.attr,Changed
+25,Package,android.app,Changes,Classes,ActivityManager,Changed
+25,Package,android.app,Changes,Classes,Notification.Action.WearableExtender,Changed
+25,Package,android.app,Changes,Classes,WallpaperInfo,Changed
+25,Package,android.app.usage,Changes,Classes,UsageEvents.Event,Changed
+25,Package,android.content,Changes,Classes,Context,Changed
+25,Package,android.content.pm,Changes,Classes,LauncherApps.ShortcutQuery,Added
+25,Package,android.content.pm,Changes,Classes,ShortcutInfo,Added
+25,Package,android.content.pm,Changes,Classes,ShortcutInfo.Builder,Added
+25,Package,android.content.pm,Changes,Classes,ShortcutManager,Added
+25,Package,android.content.pm,Changes,Classes,LauncherApps,Changed
+25,Package,android.content.pm,Changes,Classes,LauncherApps.Callback,Changed
+25,Package,android.content.res,Changes,Classes,Resources,Changed
+25,Package,android.media,Changes,Classes,AudioFormat,Changed
+25,Package,android.os,Changes,Classes,Build.VERSION_CODES,Changed
+25,Package,android.os,Changes,Classes,UserManager,Changed
+25,Package,android.os.storage,Changes,Classes,StorageManager,Changed
+25,Package,android.provider,Changes,Classes,CallLog.Calls,Changed
+25,Package,android.provider,Changes,Classes,Settings.Global,Changed
+25,Package,android.provider,Changes,Classes,VoicemailContract,Changed
+25,Package,android.provider,Changes,Classes,VoicemailContract.Status,Changed
+25,Package,android.telecom,Changes,Classes,Call,Changed
+25,Package,android.telecom,Changes,Classes,Call.Callback,Changed
+25,Package,android.telecom,Changes,Classes,Call.Details,Changed
+25,Package,android.telecom,Changes,Classes,Conference,Changed
+25,Package,android.telecom,Changes,Classes,Connection,Changed
+25,Package,android.telecom,Changes,Classes,DisconnectCause,Changed
+25,Package,android.telecom,Changes,Classes,InCallService,Changed
+25,Package,android.telecom,Changes,Classes,RemoteConference.Callback,Changed
+25,Package,android.telecom,Changes,Classes,RemoteConnection,Changed
+25,Package,android.telecom,Changes,Classes,RemoteConnection.Callback,Changed
+25,Package,android.telecom,Changes,Classes,TelecomManager,Changed
+25,Package,android.telephony,Changes,Classes,CarrierConfigManager,Changed
+25,Package,android.telephony,Changes,Classes,TelephonyManager,Changed
+25,Package,android.util,Changes,Classes,DisplayMetrics,Changed
+25,Package,android.view,Changes,Classes,KeyEvent,Changed
+25,Package,android.view,Changes,Classes,View,Changed
+25,Package,android.view,Changes,Classes,WindowManager.LayoutParams,Changed
+25,Package,android.view.inputmethod,Changes,Classes,InputContentInfo,Added
+25,Package,android.view.inputmethod,Changes,Classes,BaseInputConnection,Changed
+25,Package,android.view.inputmethod,Changes,Classes,EditorInfo,Changed
+25,Package,android.view.inputmethod,Changes,Interfaces,InputConnection,Changed
+25,Package,android.view.inputmethod,Changes,Classes,InputConnectionWrapper,Changed
 24,Package,android,Changes,Classes,Manifest.permission,Changed
 24,Package,android,Changes,Classes,R.attr,Changed
 24,Package,android,Changes,Classes,R.id,Changed
 24,Package,android,Changes,Classes,R.style,Changed
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,AccessibilityService. GestureResultCallback,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,AccessibilityService. MagnificationController,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,AccessibilityService. MagnificationController.OnMagnificationChangedListener,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,AccessibilityService. SoftKeyboardController,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,AccessibilityService. SoftKeyboardController.OnShowModeChangedListener,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,GestureDescription,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,GestureDescription.Builder,Added
-24,Package,android.accessibilityservice,Changes,Classes and Interfaces,GestureDescription.StrokeDescription,Added
+24,Package,android.accessibilityservice,Changes,Classes,AccessibilityService. GestureResultCallback,Added
+24,Package,android.accessibilityservice,Changes,Classes,AccessibilityService. MagnificationController,Added
+24,Package,android.accessibilityservice,Changes,Interfaces,AccessibilityService. MagnificationController.OnMagnificationChangedListener,Added
+24,Package,android.accessibilityservice,Changes,Classes,AccessibilityService. SoftKeyboardController,Added
+24,Package,android.accessibilityservice,Changes,Interfaces,AccessibilityService. SoftKeyboardController.OnShowModeChangedListener,Added
+24,Package,android.accessibilityservice,Changes,Classes,GestureDescription,Added
+24,Package,android.accessibilityservice,Changes,Classes,GestureDescription.Builder,Added
+24,Package,android.accessibilityservice,Changes,Classes,GestureDescription.StrokeDescription,Added
 24,Package,android.accessibilityservice,Changes,Classes,AccessibilityService,Changed
 24,Package,android.accessibilityservice,Changes,Classes,AccessibilityServiceInfo,Changed
 24,Package,android.animation,Changes,Classes,Animator,Changed
-24,Package,android.app,Changes,Classes and Interfaces,AlarmManager.OnAlarmListener,Added
-24,Package,android.app,Changes,Classes and Interfaces,AutomaticZenRule,Added
-24,Package,android.app,Changes,Classes and Interfaces,FragmentManagerNonConfig,Added
-24,Package,android.app,Changes,Classes and Interfaces,Notification.DecoratedCustomViewStyle,Added
-24,Package,android.app,Changes,Classes and Interfaces,Notification.DecoratedMediaCustomViewStyle,Added
-24,Package,android.app,Changes,Classes and Interfaces,Notification.MessagingStyle,Added
-24,Package,android.app,Changes,Classes and Interfaces,Notification.MessagingStyle. Message,Added
+24,Package,android.app,Changes,Interfaces,AlarmManager.OnAlarmListener,Added
+24,Package,android.app,Changes,Classes,AutomaticZenRule,Added
+24,Package,android.app,Changes,Classes,FragmentManagerNonConfig,Added
+24,Package,android.app,Changes,Classes,Notification.DecoratedCustomViewStyle,Added
+24,Package,android.app,Changes,Classes,Notification.DecoratedMediaCustomViewStyle,Added
+24,Package,android.app,Changes,Classes,Notification.MessagingStyle,Added
+24,Package,android.app,Changes,Classes,Notification.MessagingStyle. Message,Added
 24,Package,android.app,Changes,Classes,Activity,Changed
 24,Package,android.app,Changes,Classes,ActivityOptions,Changed
 24,Package,android.app,Changes,Classes,AlarmManager,Changed
@@ -110,49 +153,49 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,android.hardware.camera2,Changes,Classes,CaptureRequest,Changed
 24,Package,android.hardware.camera2,Changes,Classes,CaptureResult,Changed
 24,Package,android.hardware.camera2.params,Changes,Classes,OutputConfiguration,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssClock,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssMeasurement,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssMeasurementsEvent,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssMeasurementsEvent. Callback,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssNavigationMessage,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssNavigationMessage. Callback,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssStatus,Added
-24,Package,android.location,Changes,Classes and Interfaces,GnssStatus.Callback,Added
-24,Package,android.location,Changes,Classes and Interfaces,OnNmeaMessageListener,Added
-24,Package,android.location,Changes,Classes and Interfaces,GpsSatellite,Changed
-24,Package,android.location,Changes,Classes and Interfaces,GpsStatus,Changed
-24,Package,android.location,Changes,Classes and Interfaces,GpsStatus.Listener,Changed
-24,Package,android.location,Changes,Classes and Interfaces,GpsStatus.NmeaListener,Changed
-24,Package,android.location,Changes,Classes and Interfaces,LocationManager,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioManager.AudioRecordingCallback,Added
-24,Package,android.media,Changes,Classes and Interfaces,AudioRecordingConfiguration,Added
-24,Package,android.media,Changes,Classes and Interfaces,AudioRouting,Added
-24,Package,android.media,Changes,Classes and Interfaces,AudioRouting.OnRoutingChangedListener,Added
-24,Package,android.media,Changes,Classes and Interfaces,DrmInitData,Added
-24,Package,android.media,Changes,Classes and Interfaces,DrmInitData.SchemeInitData,Added
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodec.CryptoInfo.Pattern,Added
-24,Package,android.media,Changes,Classes and Interfaces,AudioAttributes,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioDeviceInfo,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioFormat,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioManager,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioRecord,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioRecord.OnRoutingChangedListener,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioTimestamp,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioTrack,Changed
-24,Package,android.media,Changes,Classes and Interfaces,AudioTrack.OnRoutingChangedListener,Changed
-24,Package,android.media,Changes,Classes and Interfaces,ExifInterface,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodec,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodec.CryptoException,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodec.CryptoInfo,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodecInfo.CodecCapabilities,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaCodecInfo.CodecProfileLevel,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaExtractor,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaFormat,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaPlayer,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaRecorder,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaRecorder.AudioSource,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaRecorder.VideoEncoder,Changed
-24,Package,android.media,Changes,Classes and Interfaces,MediaRouter.RouteInfo,Changed
+24,Package,android.location,Changes,Classes,GnssClock,Added
+24,Package,android.location,Changes,Classes,GnssMeasurement,Added
+24,Package,android.location,Changes,Classes,GnssMeasurementsEvent,Added
+24,Package,android.location,Changes,Classes,GnssMeasurementsEvent. Callback,Added
+24,Package,android.location,Changes,Classes,GnssNavigationMessage,Added
+24,Package,android.location,Changes,Classes,GnssNavigationMessage. Callback,Added
+24,Package,android.location,Changes,Classes,GnssStatus,Added
+24,Package,android.location,Changes,Classes,GnssStatus.Callback,Added
+24,Package,android.location,Changes,Interfaces,OnNmeaMessageListener,Added
+24,Package,android.location,Changes,Classes,GpsSatellite,Changed
+24,Package,android.location,Changes,Classes,GpsStatus,Changed
+24,Package,android.location,Changes,Interfaces,GpsStatus.Listener,Changed
+24,Package,android.location,Changes,Interfaces,GpsStatus.NmeaListener,Changed
+24,Package,android.location,Changes,Classes,LocationManager,Changed
+24,Package,android.media,Changes,Classes,AudioManager.AudioRecordingCallback,Added
+24,Package,android.media,Changes,Classes,AudioRecordingConfiguration,Added
+24,Package,android.media,Changes,Interfaces,AudioRouting,Added
+24,Package,android.media,Changes,Interfaces,AudioRouting.OnRoutingChangedListener,Added
+24,Package,android.media,Changes,Classes,DrmInitData,Added
+24,Package,android.media,Changes,Classes,DrmInitData.SchemeInitData,Added
+24,Package,android.media,Changes,Classes,MediaCodec.CryptoInfo.Pattern,Added
+24,Package,android.media,Changes,Classes,AudioAttributes,Changed
+24,Package,android.media,Changes,Classes,AudioDeviceInfo,Changed
+24,Package,android.media,Changes,Classes,AudioFormat,Changed
+24,Package,android.media,Changes,Classes,AudioManager,Changed
+24,Package,android.media,Changes,Classes,AudioRecord,Changed
+24,Package,android.media,Changes,Interfaces,AudioRecord.OnRoutingChangedListener,Changed
+24,Package,android.media,Changes,Classes,AudioTimestamp,Changed
+24,Package,android.media,Changes,Classes,AudioTrack,Changed
+24,Package,android.media,Changes,Interfaces,AudioTrack.OnRoutingChangedListener,Changed
+24,Package,android.media,Changes,Classes,ExifInterface,Changed
+24,Package,android.media,Changes,Classes,MediaCodec,Changed
+24,Package,android.media,Changes,Classes,MediaCodec.CryptoException,Changed
+24,Package,android.media,Changes,Classes,MediaCodec.CryptoInfo,Changed
+24,Package,android.media,Changes,Classes,MediaCodecInfo.CodecCapabilities,Changed
+24,Package,android.media,Changes,Classes,MediaCodecInfo.CodecProfileLevel,Changed
+24,Package,android.media,Changes,Classes,MediaExtractor,Changed
+24,Package,android.media,Changes,Classes,MediaFormat,Changed
+24,Package,android.media,Changes,Classes,MediaPlayer,Changed
+24,Package,android.media,Changes,Classes,MediaRecorder,Changed
+24,Package,android.media,Changes,Classes,MediaRecorder.AudioSource,Changed
+24,Package,android.media,Changes,Classes,MediaRecorder.VideoEncoder,Changed
+24,Package,android.media,Changes,Classes,MediaRouter.RouteInfo,Changed
 24,Package,android.media.browse,Changes,Classes,MediaBrowser,Changed
 24,Package,android.media.browse,Changes,Classes,MediaBrowser.SubscriptionCallback,Changed
 24,Package,android.media.session,Changes,Classes,MediaController.TransportControls,Changed
@@ -190,8 +233,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,android.nfc,Changes,Classes,NfcAdapter,Changed
 24,Package,android.nfc.cardemulation,Changes,Classes,HostNfcFService,Added
 24,Package,android.nfc.cardemulation,Changes,Classes,NfcFCardEmulation,Added
-24,Package,android.opengl,Changes,Classes and Interfaces,GLES32,Added
-24,Package,android.opengl,Changes,Classes and Interfaces,GLES32.DebugProc,Added
+24,Package,android.opengl,Changes,Classes,GLES32,Added
+24,Package,android.opengl,Changes,Interfaces,GLES32.DebugProc,Added
 24,Package,android.opengl,Changes,Classes,GLES30,Changed
 24,Package,android.opengl,Changes,Classes,GLES31,Changed
 24,Package,android.opengl,Changes,Classes,GLSurfaceView,Changed
@@ -216,29 +259,29 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,android.printservice,Changes,Classes,PrinterDiscoverySession,Changed
 24,Package,android.provider,Changes,Classes,BlockedNumberContract,Added
 24,Package,android.provider,Changes,Classes,BlockedNumberContract. BlockedNumbers,Added
-24,Package,android.provider,Changes,Classes and Interfaces,CallLog.Calls,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Callable,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Email,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Organization,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Phone,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. StructuredName,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Contacts,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Directory,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Intents,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.PhoneLookupColumns,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.RawContactsColumns,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Document,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Root,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,DocumentsProvider,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,Settings,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,Settings.Global,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,Settings.Secure,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,Settings.System,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Intents,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract.Status,Changed
-24,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract.Voicemails,Changed
+24,Package,android.provider,Changes,Classes,CallLog.Calls,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Callable,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Email,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Organization,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Phone,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. StructuredName,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.Contacts,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.Directory,Changed
+24,Package,android.provider,Changes,Classes,ContactsContract.Intents,Changed
+24,Package,android.provider,Changes,Interfaces,ContactsContract.PhoneLookupColumns,Changed
+24,Package,android.provider,Changes,Interfaces,ContactsContract.RawContactsColumns,Changed
+24,Package,android.provider,Changes,Classes,DocumentsContract,Changed
+24,Package,android.provider,Changes,Classes,DocumentsContract.Document,Changed
+24,Package,android.provider,Changes,Classes,DocumentsContract.Root,Changed
+24,Package,android.provider,Changes,Classes,DocumentsProvider,Changed
+24,Package,android.provider,Changes,Classes,Settings,Changed
+24,Package,android.provider,Changes,Classes,Settings.Global,Changed
+24,Package,android.provider,Changes,Classes,Settings.Secure,Changed
+24,Package,android.provider,Changes,Classes,Settings.System,Changed
+24,Package,android.provider,Changes,Classes,Telephony.Sms.Intents,Changed
+24,Package,android.provider,Changes,Classes,VoicemailContract,Changed
+24,Package,android.provider,Changes,Classes,VoicemailContract.Status,Changed
+24,Package,android.provider,Changes,Classes,VoicemailContract.Voicemails,Changed
 24,Package,android.renderscript,Changes,Classes,Allocation,Changed
 24,Package,android.renderscript,Changes,Classes,Script,Changed
 24,Package,android.security,Changes,Classes,NetworkSecurityPolicy,Changed
@@ -274,27 +317,27 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,android.telephony,Changes,Classes,CellIdentityWcdma,Changed
 24,Package,android.telephony,Changes,Classes,SubscriptionManager,Changed
 24,Package,android.telephony,Changes,Classes,TelephonyManager,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ActivityInstrumentationTestCase2,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ActivityTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ActivityUnitTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,AndroidTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,AndroidTestRunner,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ApplicationTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,FlakyTest,Changed
-24,Package,android.test,Changes,Classes and Interfaces,InstrumentationTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,InstrumentationTestRunner,Changed
-24,Package,android.test,Changes,Classes and Interfaces,InstrumentationTestSuite,Changed
-24,Package,android.test,Changes,Classes and Interfaces,IsolatedContext,Changed
-24,Package,android.test,Changes,Classes and Interfaces,MoreAsserts,Changed
-24,Package,android.test,Changes,Classes and Interfaces,PerformanceTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,RenamingDelegatingContext,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ServiceTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,SingleLaunchActivityTestCase,Changed
-24,Package,android.test,Changes,Classes and Interfaces,SyncBaseInstrumentation,Changed
-24,Package,android.test,Changes,Classes and Interfaces,TestSuiteProvider,Changed
-24,Package,android.test,Changes,Classes and Interfaces,TouchUtils,Changed
-24,Package,android.test,Changes,Classes and Interfaces,UiThreadTest,Changed
-24,Package,android.test,Changes,Classes and Interfaces,ViewAsserts,Changed
+24,Package,android.test,Changes,Classes,ActivityInstrumentationTestCase2,Changed
+24,Package,android.test,Changes,Classes,ActivityTestCase,Changed
+24,Package,android.test,Changes,Classes,ActivityUnitTestCase,Changed
+24,Package,android.test,Changes,Classes,AndroidTestCase,Changed
+24,Package,android.test,Changes,Classes,AndroidTestRunner,Changed
+24,Package,android.test,Changes,Classes,ApplicationTestCase,Changed
+24,Package,android.test,Changes,Interfaces,FlakyTest,Changed
+24,Package,android.test,Changes,Classes,InstrumentationTestCase,Changed
+24,Package,android.test,Changes,Classes,InstrumentationTestRunner,Changed
+24,Package,android.test,Changes,Classes,InstrumentationTestSuite,Changed
+24,Package,android.test,Changes,Classes,IsolatedContext,Changed
+24,Package,android.test,Changes,Classes,MoreAsserts,Changed
+24,Package,android.test,Changes,Interfaces,PerformanceTestCase,Changed
+24,Package,android.test,Changes,Classes,RenamingDelegatingContext,Changed
+24,Package,android.test,Changes,Classes,ServiceTestCase,Changed
+24,Package,android.test,Changes,Classes,SingleLaunchActivityTestCase,Changed
+24,Package,android.test,Changes,Classes,SyncBaseInstrumentation,Changed
+24,Package,android.test,Changes,Interfaces,TestSuiteProvider,Changed
+24,Package,android.test,Changes,Classes,TouchUtils,Changed
+24,Package,android.test,Changes,Interfaces,UiThreadTest,Changed
+24,Package,android.test,Changes,Classes,ViewAsserts,Changed
 24,Package,android.test.mock,Changes,Classes,MockApplication,Changed
 24,Package,android.test.mock,Changes,Classes,MockContext,Changed
 24,Package,android.test.mock,Changes,Classes,MockCursor,Changed
@@ -316,43 +359,43 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,android.util,Changes,Classes,IntProperty,Added
 24,Package,android.util,Changes,Classes,DisplayMetrics,Changed
 24,Package,android.util,Changes,Classes,Patterns,Changed
-24,Package,android.view,Changes,Classes and Interfaces,Display.HdrCapabilities,Added
-24,Package,android.view,Changes,Classes and Interfaces,DragAndDropPermissions,Added
-24,Package,android.view,Changes,Classes and Interfaces,FrameMetrics,Added
-24,Package,android.view,Changes,Classes and Interfaces,KeyboardShortcutGroup,Added
-24,Package,android.view,Changes,Classes and Interfaces,KeyboardShortcutInfo,Added
-24,Package,android.view,Changes,Classes and Interfaces,PixelCopy,Added
-24,Package,android.view,Changes,Classes and Interfaces,PixelCopy.OnPixelCopyFinishedListener,Added
-24,Package,android.view,Changes,Classes and Interfaces,PointerIcon,Added
-24,Package,android.view,Changes,Classes and Interfaces,Window.OnFrameMetricsAvailableListener,Added
-24,Package,android.view,Changes,Classes and Interfaces,Window.OnRestrictedCaptionAreaChangedListener,Added
-24,Package,android.view,Changes,Classes and Interfaces,AbsSavedState,Changed
-24,Package,android.view,Changes,Classes and Interfaces,Display,Changed
-24,Package,android.view,Changes,Classes and Interfaces,KeyEvent,Changed
-24,Package,android.view,Changes,Classes and Interfaces,MotionEvent,Changed
-24,Package,android.view,Changes,Classes and Interfaces,View,Changed
-24,Package,android.view,Changes,Classes and Interfaces,View.BaseSavedState,Changed
-24,Package,android.view,Changes,Classes and Interfaces,ViewGroup,Changed
-24,Package,android.view,Changes,Classes and Interfaces,ViewParent,Changed
-24,Package,android.view,Changes,Classes and Interfaces,Window,Changed
-24,Package,android.view,Changes,Classes and Interfaces,Window.Callback,Changed
+24,Package,android.view,Changes,Classes,Display.HdrCapabilities,Added
+24,Package,android.view,Changes,Classes,DragAndDropPermissions,Added
+24,Package,android.view,Changes,Classes,FrameMetrics,Added
+24,Package,android.view,Changes,Classes,KeyboardShortcutGroup,Added
+24,Package,android.view,Changes,Classes,KeyboardShortcutInfo,Added
+24,Package,android.view,Changes,Classes,PixelCopy,Added
+24,Package,android.view,Changes,Interfaces,PixelCopy.OnPixelCopyFinishedListener,Added
+24,Package,android.view,Changes,Classes,PointerIcon,Added
+24,Package,android.view,Changes,Interfaces,Window.OnFrameMetricsAvailableListener,Added
+24,Package,android.view,Changes,Interfaces,Window.OnRestrictedCaptionAreaChangedListener,Added
+24,Package,android.view,Changes,Classes,AbsSavedState,Changed
+24,Package,android.view,Changes,Classes,Display,Changed
+24,Package,android.view,Changes,Classes,KeyEvent,Changed
+24,Package,android.view,Changes,Classes,MotionEvent,Changed
+24,Package,android.view,Changes,Classes,View,Changed
+24,Package,android.view,Changes,Classes,View.BaseSavedState,Changed
+24,Package,android.view,Changes,Classes,ViewGroup,Changed
+24,Package,android.view,Changes,Interfaces,ViewParent,Changed
+24,Package,android.view,Changes,Classes,Window,Changed
+24,Package,android.view,Changes,Interfaces,Window.Callback,Changed
 24,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo,Changed
 24,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. AccessibilityAction,Changed
 24,Package,android.view.accessibility,Changes,Classes,AccessibilityWindowInfo,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,BaseInputConnection,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,EditorInfo,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputConnection,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputConnectionWrapper,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputMethodManager,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputMethodSubtype,Changed
-24,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputMethodSubtype.InputMethodSubtypeBuilder,Changed
+24,Package,android.view.inputmethod,Changes,Classes,BaseInputConnection,Changed
+24,Package,android.view.inputmethod,Changes,Classes,EditorInfo,Changed
+24,Package,android.view.inputmethod,Changes,Interfaces,InputConnection,Changed
+24,Package,android.view.inputmethod,Changes,Classes,InputConnectionWrapper,Changed
+24,Package,android.view.inputmethod,Changes,Classes,InputMethodManager,Changed
+24,Package,android.view.inputmethod,Changes,Classes,InputMethodSubtype,Changed
+24,Package,android.view.inputmethod,Changes,Classes,InputMethodSubtype.InputMethodSubtypeBuilder,Changed
 24,Package,android.view.textservice,Changes,Classes,SpellCheckerSubtype,Changed
 24,Package,android.webkit,Changes,Classes,ServiceWorkerClient,Added
 24,Package,android.webkit,Changes,Classes,ServiceWorkerController,Added
 24,Package,android.webkit,Changes,Classes,ServiceWorkerWebSettings,Added
-24,Package,android.webkit,Changes,Classes and Interfaces,WebResourceRequest,Changed
-24,Package,android.webkit,Changes,Classes and Interfaces,WebSettings,Changed
-24,Package,android.webkit,Changes,Classes and Interfaces,WebViewClient,Changed
+24,Package,android.webkit,Changes,Interfaces,WebResourceRequest,Changed
+24,Package,android.webkit,Changes,Classes,WebSettings,Changed
+24,Package,android.webkit,Changes,Classes,WebViewClient,Changed
 24,Package,android.widget,Changes,Classes,AbsSeekBar,Changed
 24,Package,android.widget,Changes,Classes,AutoCompleteTextView,Changed
 24,Package,android.widget,Changes,Classes,CalendarView,Changed
@@ -376,45 +419,45 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,java.lang,Changes,Classes,Character.UnicodeScript,Added
 24,Package,java.lang,Changes,Classes,FunctionalInterface,Added
 24,Package,java.lang,Changes,Classes and Interfaces,AbstractStringBuilder,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Boolean,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Byte,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,CharSequence,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Character,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Character.UnicodeBlock,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Class,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,ClassLoader,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Double,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Error,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Exception,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Float,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Integer,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,InternalError,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Iterable,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Long,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Math,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Package,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,RuntimeException,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,Short,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,StrictMath,Changed
-24,Package,java.lang,Changes,Classes and Interfaces,VirtualMachineError,Changed
+24,Package,java.lang,Changes,Classes,Boolean,Changed
+24,Package,java.lang,Changes,Classes,Byte,Changed
+24,Package,java.lang,Changes,Interfaces,CharSequence,Changed
+24,Package,java.lang,Changes,Classes,Character,Changed
+24,Package,java.lang,Changes,Classes,Character.UnicodeBlock,Changed
+24,Package,java.lang,Changes,Classes,Class,Changed
+24,Package,java.lang,Changes,Classes,ClassLoader,Changed
+24,Package,java.lang,Changes,Classes,Double,Changed
+24,Package,java.lang,Changes,Classes,Error,Changed
+24,Package,java.lang,Changes,Classes,Exception,Changed
+24,Package,java.lang,Changes,Classes,Float,Changed
+24,Package,java.lang,Changes,Classes,Integer,Changed
+24,Package,java.lang,Changes,Classes,InternalError,Changed
+24,Package,java.lang,Changes,Interfaces,Iterable,Changed
+24,Package,java.lang,Changes,Classes,Long,Changed
+24,Package,java.lang,Changes,Classes,Math,Changed
+24,Package,java.lang,Changes,Classes,Package,Changed
+24,Package,java.lang,Changes,Classes,RuntimeException,Changed
+24,Package,java.lang,Changes,Classes,Short,Changed
+24,Package,java.lang,Changes,Classes,StrictMath,Changed
+24,Package,java.lang,Changes,Classes,VirtualMachineError,Changed
 24,Package,java.lang.annotation,Changes,Classes,Repeatable,Added
 24,Package,java.lang.ref,Changes,Classes,ReferenceQueue,Changed
-24,Package,java.lang.reflect,Changes,Classes and Interfaces,AccessibleObject,Changed
-24,Package,java.lang.reflect,Changes,Classes and Interfaces,AnnotatedElement,Changed
-24,Package,java.lang.reflect,Changes,Classes and Interfaces,Constructor,Changed
-24,Package,java.lang.reflect,Changes,Classes and Interfaces,Field,Changed
-24,Package,java.lang.reflect,Changes,Classes and Interfaces,Method,Changed
-24,Package,java.net,Changes,Classes and Interfaces,ProtocolFamily,Added
-24,Package,java.net,Changes,Classes and Interfaces,SocketOption,Added
-24,Package,java.net,Changes,Classes and Interfaces,StandardProtocolFamily,Added
-24,Package,java.net,Changes,Classes and Interfaces,StandardSocketOptions,Added
+24,Package,java.lang.reflect,Changes,Classes,AccessibleObject,Changed
+24,Package,java.lang.reflect,Changes,Interfaces,AnnotatedElement,Changed
+24,Package,java.lang.reflect,Changes,Classes,Constructor,Changed
+24,Package,java.lang.reflect,Changes,Classes,Field,Changed
+24,Package,java.lang.reflect,Changes,Classes,Method,Changed
+24,Package,java.net,Changes,Interfaces,ProtocolFamily,Added
+24,Package,java.net,Changes,Interfaces,SocketOption,Added
+24,Package,java.net,Changes,Interfaces,StandardProtocolFamily,Added
+24,Package,java.net,Changes,Classes,StandardSocketOptions,Added
 24,Package,java.net,Changes,Classes,HttpCookie,Changed
 24,Package,java.net,Changes,Classes,URLClassLoader,Changed
 24,Package,java.net,Changes,Classes,URLConnection,Changed
 24,Package,java.nio,Changes,Classes,CharBuffer,Changed
-24,Package,java.nio.channels,Changes,Classes and Interfaces,AlreadyBoundException,Added
-24,Package,java.nio.channels,Changes,Classes and Interfaces,NetworkChannel,Added
-24,Package,java.nio.channels,Changes,Classes and Interfaces,SeekableByteChannel,Added
+24,Package,java.nio.channels,Changes,Classes,AlreadyBoundException,Added
+24,Package,java.nio.channels,Changes,Interfaces,NetworkChannel,Added
+24,Package,java.nio.channels,Changes,Interfaces,SeekableByteChannel,Added
 24,Package,java.nio.channels,Changes,Classes,DatagramChannel,Changed
 24,Package,java.nio.channels,Changes,Classes,FileChannel,Changed
 24,Package,java.nio.channels,Changes,Classes,FileLock,Changed
@@ -422,19 +465,19 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,java.nio.channels,Changes,Classes,SocketChannel,Changed
 24,Package,java.nio.channels.spi,Changes,Classes,SelectorProvider,Changed
 24,Package,java.nio.charset,Changes,Classes,CoderResult,Changed
-24,Package,java.security,Changes,Classes and Interfaces,AlgorithmConstraints,Added
-24,Package,java.security,Changes,Classes and Interfaces,CryptoPrimitive,Added
+24,Package,java.security,Changes,Interfaces,AlgorithmConstraints,Added
+24,Package,java.security,Changes,Interfaces,CryptoPrimitive,Added
 24,Package,java.security,Changes,Classes,Provider,Changed
 24,Package,java.security.acl,Changes,Interfaces,Permission,Changed
-24,Package,java.security.cert,Changes,Classes and Interfaces,CRLReason,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,CertPathChecker,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,CertPathValidatorException. BasicReason,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,CertPathValidatorException. Reason,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,CertificateRevokedException,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,Extension,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,PKIXReason,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,PKIXRevocationChecker,Added
-24,Package,java.security.cert,Changes,Classes and Interfaces,PKIXRevocationChecker.Option,Added
+24,Package,java.security.cert,Changes,Interfaces,CRLReason,Added
+24,Package,java.security.cert,Changes,Interfaces,CertPathChecker,Added
+24,Package,java.security.cert,Changes,Interfaces,CertPathValidatorException. BasicReason,Added
+24,Package,java.security.cert,Changes,Interfaces,CertPathValidatorException. Reason,Added
+24,Package,java.security.cert,Changes,Classes,CertificateRevokedException,Added
+24,Package,java.security.cert,Changes,Interfaces,Extension,Added
+24,Package,java.security.cert,Changes,Interfaces,PKIXReason,Added
+24,Package,java.security.cert,Changes,Classes,PKIXRevocationChecker,Added
+24,Package,java.security.cert,Changes,Interfaces,PKIXRevocationChecker.Option,Added
 24,Package,java.security.cert,Changes,Classes,CertPathBuilder,Changed
 24,Package,java.security.cert,Changes,Classes,CertPathBuilderSpi,Changed
 24,Package,java.security.cert,Changes,Classes,CertPathValidator,Changed
@@ -450,80 +493,80 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,java.sql,Changes,Classes,SQLWarning,Changed
 24,Package,java.sql,Changes,Classes,Timestamp,Changed
 24,Package,java.text,Changes,Classes,DecimalFormatSymbols,Changed
-24,Package,java.util,Changes,Classes and Interfaces,DoubleSummaryStatistics,Added
-24,Package,java.util,Changes,Classes and Interfaces,IntSummaryStatistics,Added
-24,Package,java.util,Changes,Classes and Interfaces,Locale.Category,Added
-24,Package,java.util,Changes,Classes and Interfaces,LongSummaryStatistics,Added
-24,Package,java.util,Changes,Classes and Interfaces,Optional,Added
-24,Package,java.util,Changes,Classes and Interfaces,OptionalDouble,Added
-24,Package,java.util,Changes,Classes and Interfaces,OptionalInt,Added
-24,Package,java.util,Changes,Classes and Interfaces,OptionalLong,Added
-24,Package,java.util,Changes,Classes and Interfaces,PrimitiveIterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,PrimitiveIterator.OfDouble,Added
-24,Package,java.util,Changes,Classes and Interfaces,PrimitiveIterator.OfInt,Added
-24,Package,java.util,Changes,Classes and Interfaces,PrimitiveIterator.OfLong,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterator.OfDouble,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterator.OfInt,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterator.OfLong,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterator.OfPrimitive,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterators,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterators.AbstractDoubleSpliterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterators.AbstractIntSpliterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterators.AbstractLongSpliterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,Spliterators.AbstractSpliterator,Added
-24,Package,java.util,Changes,Classes and Interfaces,SplittableRandom,Added
-24,Package,java.util,Changes,Classes and Interfaces,StringJoiner,Added
-24,Package,java.util,Changes,Classes and Interfaces,ArrayDeque,Changed
-24,Package,java.util,Changes,Classes and Interfaces,ArrayList,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Arrays,Changed
-24,Package,java.util,Changes,Classes and Interfaces,BitSet,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Calendar,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Collection,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Collections,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Comparator,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Currency,Changed
-24,Package,java.util,Changes,Classes and Interfaces,EnumMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,EventListenerProxy,Changed
-24,Package,java.util,Changes,Classes and Interfaces,FormatFlagsConversionMismatchException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Formattable,Changed
-24,Package,java.util,Changes,Classes and Interfaces,FormatterClosedException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,GregorianCalendar,Changed
-24,Package,java.util,Changes,Classes and Interfaces,HashMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,HashSet,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Hashtable,Changed
-24,Package,java.util,Changes,Classes and Interfaces,IdentityHashMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,IllegalFormatCodePointException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,IllegalFormatConversionException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,IllegalFormatException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,IllegalFormatFlagsException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,InputMismatchException,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Iterator,Changed
-24,Package,java.util,Changes,Classes and Interfaces,LinkedHashMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,LinkedList,Changed
-24,Package,java.util,Changes,Classes and Interfaces,List,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Locale,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Map,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Map.Entry,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Objects,Changed
-24,Package,java.util,Changes,Classes and Interfaces,PriorityQueue,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Random,Changed
-24,Package,java.util,Changes,Classes and Interfaces,ResourceBundle,Changed
-24,Package,java.util,Changes,Classes and Interfaces,ResourceBundle.Control,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Scanner,Changed
-24,Package,java.util,Changes,Classes and Interfaces,SortedMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,TimeZone,Changed
-24,Package,java.util,Changes,Classes and Interfaces,TreeMap,Changed
-24,Package,java.util,Changes,Classes and Interfaces,TreeSet,Changed
-24,Package,java.util,Changes,Classes and Interfaces,Vector,Changed
-24,Package,java.util,Changes,Classes and Interfaces,WeakHashMap,Changed
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,CompletableFuture,Added
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,CompletableFuture.AsynchronousCompletionTask,Added
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,CompletionException,Added
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,CompletionStage,Added
+24,Package,java.util,Changes,Classes,DoubleSummaryStatistics,Added
+24,Package,java.util,Changes,Classes,IntSummaryStatistics,Added
+24,Package,java.util,Changes,Interfaces,Locale.Category,Added
+24,Package,java.util,Changes,Classes,LongSummaryStatistics,Added
+24,Package,java.util,Changes,Classes,Optional,Added
+24,Package,java.util,Changes,Classes,OptionalDouble,Added
+24,Package,java.util,Changes,Classes,OptionalInt,Added
+24,Package,java.util,Changes,Classes,OptionalLong,Added
+24,Package,java.util,Changes,Interfaces,PrimitiveIterator,Added
+24,Package,java.util,Changes,Interfaces,PrimitiveIterator.OfDouble,Added
+24,Package,java.util,Changes,Interfaces,PrimitiveIterator.OfInt,Added
+24,Package,java.util,Changes,Interfaces,PrimitiveIterator.OfLong,Added
+24,Package,java.util,Changes,Interfaces,Spliterator,Added
+24,Package,java.util,Changes,Interfaces,Spliterator.OfDouble,Added
+24,Package,java.util,Changes,Interfaces,Spliterator.OfInt,Added
+24,Package,java.util,Changes,Interfaces,Spliterator.OfLong,Added
+24,Package,java.util,Changes,Interfaces,Spliterator.OfPrimitive,Added
+24,Package,java.util,Changes,Classes,Spliterators,Added
+24,Package,java.util,Changes,Classes,Spliterators.AbstractDoubleSpliterator,Added
+24,Package,java.util,Changes,Classes,Spliterators.AbstractIntSpliterator,Added
+24,Package,java.util,Changes,Classes,Spliterators.AbstractLongSpliterator,Added
+24,Package,java.util,Changes,Classes,Spliterators.AbstractSpliterator,Added
+24,Package,java.util,Changes,Classes,SplittableRandom,Added
+24,Package,java.util,Changes,Classes,StringJoiner,Added
+24,Package,java.util,Changes,Classes,ArrayDeque,Changed
+24,Package,java.util,Changes,Classes,ArrayList,Changed
+24,Package,java.util,Changes,Classes,Arrays,Changed
+24,Package,java.util,Changes,Classes,BitSet,Changed
+24,Package,java.util,Changes,Classes,Calendar,Changed
+24,Package,java.util,Changes,Interfaces,Collection,Changed
+24,Package,java.util,Changes,Classes,Collections,Changed
+24,Package,java.util,Changes,Interfaces,Comparator,Changed
+24,Package,java.util,Changes,Classes,Currency,Changed
+24,Package,java.util,Changes,Classes,EnumMap,Changed
+24,Package,java.util,Changes,Classes,EventListenerProxy,Changed
+24,Package,java.util,Changes,Classes,FormatFlagsConversionMismatchException,Changed
+24,Package,java.util,Changes,Interfaces,Formattable,Changed
+24,Package,java.util,Changes,Classes,FormatterClosedException,Changed
+24,Package,java.util,Changes,Classes,GregorianCalendar,Changed
+24,Package,java.util,Changes,Classes,HashMap,Changed
+24,Package,java.util,Changes,Classes,HashSet,Changed
+24,Package,java.util,Changes,Classes,Hashtable,Changed
+24,Package,java.util,Changes,Classes,IdentityHashMap,Changed
+24,Package,java.util,Changes,Classes,IllegalFormatCodePointException,Changed
+24,Package,java.util,Changes,Classes,IllegalFormatConversionException,Changed
+24,Package,java.util,Changes,Classes,IllegalFormatException,Changed
+24,Package,java.util,Changes,Classes,IllegalFormatFlagsException,Changed
+24,Package,java.util,Changes,Classes,InputMismatchException,Changed
+24,Package,java.util,Changes,Interfaces,Iterator,Changed
+24,Package,java.util,Changes,Classes,LinkedHashMap,Changed
+24,Package,java.util,Changes,Classes,LinkedList,Changed
+24,Package,java.util,Changes,Interfaces,List,Changed
+24,Package,java.util,Changes,Classes,Locale,Changed
+24,Package,java.util,Changes,Interfaces,Map,Changed
+24,Package,java.util,Changes,Interfaces,Map.Entry,Changed
+24,Package,java.util,Changes,Classes,Objects,Changed
+24,Package,java.util,Changes,Classes,PriorityQueue,Changed
+24,Package,java.util,Changes,Classes,Random,Changed
+24,Package,java.util,Changes,Classes,ResourceBundle,Changed
+24,Package,java.util,Changes,Classes,ResourceBundle.Control,Changed
+24,Package,java.util,Changes,Classes,Scanner,Changed
+24,Package,java.util,Changes,Interfaces,SortedMap,Changed
+24,Package,java.util,Changes,Classes,TimeZone,Changed
+24,Package,java.util,Changes,Classes,TreeMap,Changed
+24,Package,java.util,Changes,Classes,TreeSet,Changed
+24,Package,java.util,Changes,Classes,Vector,Changed
+24,Package,java.util,Changes,Classes,WeakHashMap,Changed
+24,Package,java.util.concurrent,Changes,Classes,CompletableFuture,Added
+24,Package,java.util.concurrent,Changes,Interfaces,CompletableFuture.AsynchronousCompletionTask,Added
+24,Package,java.util.concurrent,Changes,Classes,CompletionException,Added
+24,Package,java.util.concurrent,Changes,Interfaces,CompletionStage,Added
 24,Package,java.util.concurrent,Changes,Classes and Interfaces,ConcurrentHashMap.CollectionView,Added
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,ConcurrentHashMap.KeySetView,Added
-24,Package,java.util.concurrent,Changes,Classes and Interfaces,CountedCompleter,Added
+24,Package,java.util.concurrent,Changes,Classes,ConcurrentHashMap.KeySetView,Added
+24,Package,java.util.concurrent,Changes,Classes,CountedCompleter,Added
 24,Package,java.util.concurrent,Changes,Classes,ArrayBlockingQueue,Changed
 24,Package,java.util.concurrent,Changes,Classes,ConcurrentHashMap,Changed
 24,Package,java.util.concurrent,Changes,Classes,ConcurrentLinkedDeque,Changed
@@ -579,9 +622,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 24,Package,javax.net.ssl,Changes,Classes,SSLParameters,Changed
 24,Package,javax.net.ssl,Changes,Classes,SSLServerSocket,Changed
 24,Package,javax.net.ssl,Changes,Classes,SSLSocket,Changed
-24,Package,javax.sql,Changes,Classes and Interfaces,CommonDataSource,Changed
-24,Package,javax.sql,Changes,Classes and Interfaces,ConnectionEvent,Changed
-24,Package,javax.sql,Changes,Classes and Interfaces,RowSetEvent,Changed
+24,Package,javax.sql,Changes,Interfaces,CommonDataSource,Changed
+24,Package,javax.sql,Changes,Classes,ConnectionEvent,Changed
+24,Package,javax.sql,Changes,Classes,RowSetEvent,Changed
 24,Package,android.icu.lang,Additions
 24,Package,android.icu.math,Additions
 24,Package,android.icu.text,Additions
@@ -599,23 +642,23 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android,Changes,Classes,R.style,Changed
 23,Package,android.accounts,Changes,Classes,AbstractAccountAuthenticator,Changed
 23,Package,android.accounts,Changes,Classes,AccountManager,Changed
-23,Package,android.app,Changes,Classes and Interfaces,FragmentContainer,Added
-23,Package,android.app,Changes,Classes and Interfaces,FragmentController,Added
-23,Package,android.app,Changes,Classes and Interfaces,FragmentHostCallback,Added
-23,Package,android.app,Changes,Classes and Interfaces,Notification.CarExtender,Added
-23,Package,android.app,Changes,Classes and Interfaces,Notification.CarExtender. Builder,Added
-23,Package,android.app,Changes,Classes and Interfaces,Notification.CarExtender. UnreadConversation,Added
-23,Package,android.app,Changes,Classes and Interfaces,NotificationManager.Policy,Added
-23,Package,android.app,Changes,Classes and Interfaces,SharedElementCallback. OnSharedElementsReadyListener,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.AbortVoiceRequest,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.CommandRequest,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.CompleteVoiceRequest,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.ConfirmationRequest,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.PickOptionRequest,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.PickOptionRequest. Option,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.Prompt,Added
-23,Package,android.app,Changes,Classes and Interfaces,VoiceInteractor.Request,Added
+23,Package,android.app,Changes,Classes,FragmentContainer,Added
+23,Package,android.app,Changes,Classes,FragmentController,Added
+23,Package,android.app,Changes,Classes,FragmentHostCallback,Added
+23,Package,android.app,Changes,Classes,Notification.CarExtender,Added
+23,Package,android.app,Changes,Classes,Notification.CarExtender. Builder,Added
+23,Package,android.app,Changes,Classes,Notification.CarExtender. UnreadConversation,Added
+23,Package,android.app,Changes,Classes,NotificationManager.Policy,Added
+23,Package,android.app,Changes,Interfaces,SharedElementCallback. OnSharedElementsReadyListener,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.AbortVoiceRequest,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.CommandRequest,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.CompleteVoiceRequest,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.ConfirmationRequest,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.PickOptionRequest,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.PickOptionRequest. Option,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.Prompt,Added
+23,Package,android.app,Changes,Classes,VoiceInteractor.Request,Added
 23,Package,android.app,Changes,Classes,Activity,Changed
 23,Package,android.app,Changes,Classes,ActivityManager,Changed
 23,Package,android.app,Changes,Classes,ActivityManager.RecentTaskInfo,Changed
@@ -646,9 +689,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android.app.usage,Changes,Classes,NetworkStatsManager,Added
 23,Package,android.app.usage,Changes,Classes,UsageEvents.Event,Changed
 23,Package,android.app.usage,Changes,Classes,UsageStatsManager,Changed
-23,Package,android.bluetooth,Changes,Classes and Interfaces,BluetoothDevice,Changed
-23,Package,android.bluetooth,Changes,Classes and Interfaces,BluetoothProfile,Changed
-23,Package,android.bluetooth,Changes,Classes and Interfaces,BluetoothSocket,Changed
+23,Package,android.bluetooth,Changes,Classes,BluetoothDevice,Changed
+23,Package,android.bluetooth,Changes,Interfaces,BluetoothProfile,Changed
+23,Package,android.bluetooth,Changes,Classes,BluetoothSocket,Changed
 23,Package,android.bluetooth.le,Changes,Classes,ScanSettings,Changed
 23,Package,android.bluetooth.le,Changes,Classes,ScanSettings.Builder,Changed
 23,Package,android.content,Changes,Classes,AbstractThreadedSyncAdapter,Changed
@@ -667,17 +710,17 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android.content.res,Changes,Classes,Configuration,Changed
 23,Package,android.content.res,Changes,Classes,Resources,Changed
 23,Package,android.content.res,Changes,Classes,Resources.Theme,Changed
-23,Package,android.database,Changes,Classes and Interfaces,AbstractCursor,Changed
-23,Package,android.database,Changes,Classes and Interfaces,Cursor,Changed
-23,Package,android.database,Changes,Classes and Interfaces,CursorWrapper,Changed
+23,Package,android.database,Changes,Classes,AbstractCursor,Changed
+23,Package,android.database,Changes,Interfaces,Cursor,Changed
+23,Package,android.database,Changes,Classes,CursorWrapper,Changed
 23,Package,android.graphics,Changes,Classes,Canvas,Changed
 23,Package,android.graphics,Changes,Classes,ImageFormat,Changed
 23,Package,android.graphics,Changes,Classes,Paint,Changed
-23,Package,android.graphics.drawable,Changes,Classes and Interfaces,Animatable2,Added
-23,Package,android.graphics.drawable,Changes,Classes and Interfaces,Animatable2.AnimationCallback,Added
-23,Package,android.graphics.drawable,Changes,Classes and Interfaces,DrawableWrapper,Added
-23,Package,android.graphics.drawable,Changes,Classes and Interfaces,Icon,Added
-23,Package,android.graphics.drawable,Changes,Classes and Interfaces,Icon.OnDrawableLoadedListener,Added
+23,Package,android.graphics.drawable,Changes,Interfaces,Animatable2,Added
+23,Package,android.graphics.drawable,Changes,Classes,Animatable2.AnimationCallback,Added
+23,Package,android.graphics.drawable,Changes,Classes,DrawableWrapper,Added
+23,Package,android.graphics.drawable,Changes,Classes,Icon,Added
+23,Package,android.graphics.drawable,Changes,Interfaces,Icon.OnDrawableLoadedListener,Added
 23,Package,android.graphics.drawable,Changes,Classes,AnimatedVectorDrawable,Changed
 23,Package,android.graphics.drawable,Changes,Classes,ClipDrawable,Changed
 23,Package,android.graphics.drawable,Changes,Classes,Drawable,Changed
@@ -701,28 +744,28 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android.hardware.camera2.params,Changes,Classes,InputConfiguration,Added
 23,Package,android.hardware.camera2.params,Changes,Classes,StreamConfigurationMap,Changed
 23,Package,android.hardware.usb,Changes,Classes,UsbDevice,Changed
-23,Package,android.media,Changes,Classes and Interfaces,AudioDeviceCallback,Added
-23,Package,android.media,Changes,Classes and Interfaces,AudioDeviceInfo,Added
-23,Package,android.media,Changes,Classes and Interfaces,AudioRecord.Builder,Added
-23,Package,android.media,Changes,Classes and Interfaces,AudioRecord.OnRoutingChangedListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,AudioTrack.Builder,Added
-23,Package,android.media,Changes,Classes and Interfaces,AudioTrack.OnRoutingChangedListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,ImageWriter,Added
-23,Package,android.media,Changes,Classes and Interfaces,ImageWriter.OnImageReleasedListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaCodec.OnFrameRenderedListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaDataSource,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaDrm.KeyStatus,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaDrm.OnExpirationUpdateListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaDrm.OnKeyStatusChangeListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaDrmResetException,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaPlayer.OnTimedMetaDataAvailableListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaSync,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaSync.Callback,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaSync.OnErrorListener,Added
-23,Package,android.media,Changes,Classes and Interfaces,MediaTimestamp,Added
-23,Package,android.media,Changes,Classes and Interfaces,PlaybackParams,Added
-23,Package,android.media,Changes,Classes and Interfaces,SyncParams,Added
-23,Package,android.media,Changes,Classes and Interfaces,TimedMetaData,Added
+23,Package,android.media,Changes,Classes,AudioDeviceCallback,Added
+23,Package,android.media,Changes,Classes,AudioDeviceInfo,Added
+23,Package,android.media,Changes,Classes,AudioRecord.Builder,Added
+23,Package,android.media,Changes,Interfaces,AudioRecord.OnRoutingChangedListener,Added
+23,Package,android.media,Changes,Classes,AudioTrack.Builder,Added
+23,Package,android.media,Changes,Interfaces,AudioTrack.OnRoutingChangedListener,Added
+23,Package,android.media,Changes,Classes,ImageWriter,Added
+23,Package,android.media,Changes,Interfaces,ImageWriter.OnImageReleasedListener,Added
+23,Package,android.media,Changes,Interfaces,MediaCodec.OnFrameRenderedListener,Added
+23,Package,android.media,Changes,Classes,MediaDataSource,Added
+23,Package,android.media,Changes,Classes,MediaDrm.KeyStatus,Added
+23,Package,android.media,Changes,Interfaces,MediaDrm.OnExpirationUpdateListener,Added
+23,Package,android.media,Changes,Interfaces,MediaDrm.OnKeyStatusChangeListener,Added
+23,Package,android.media,Changes,Classes,MediaDrmResetException,Added
+23,Package,android.media,Changes,Interfaces,MediaPlayer.OnTimedMetaDataAvailableListener,Added
+23,Package,android.media,Changes,Classes,MediaSync,Added
+23,Package,android.media,Changes,Classes,MediaSync.Callback,Added
+23,Package,android.media,Changes,Interfaces,MediaSync.OnErrorListener,Added
+23,Package,android.media,Changes,Classes,MediaTimestamp,Added
+23,Package,android.media,Changes,Classes,PlaybackParams,Added
+23,Package,android.media,Changes,Classes,SyncParams,Added
+23,Package,android.media,Changes,Classes,TimedMetaData,Added
 23,Package,android.media,Changes,Classes,AsyncPlayer,Changed
 23,Package,android.media,Changes,Classes,AudioFormat,Changed
 23,Package,android.media,Changes,Classes,AudioFormat.Builder,Changed
@@ -813,24 +856,24 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItemsColumns,Removed
 23,Package,android.provider,Changes,Classes,ContactsContract.Contacts. AggregationSuggestions.Builder,Added
 23,Package,android.provider,Changes,Classes,ContactsContract.ProviderStatus,Added
-23,Package,android.provider,Changes,Classes and Interfaces,AlarmClock,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Browser,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,CallLog.Calls,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Email,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Contacts,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.DataColumns,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.DisplayNameSources,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Intents. Insert,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.QuickContact,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,MediaStore,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Settings,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Settings.Global,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Settings.Secure,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Settings.System,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,Telephony.Threads,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract.Status,Changed
-23,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract.Voicemails,Changed
+23,Package,android.provider,Changes,Classes,AlarmClock,Changed
+23,Package,android.provider,Changes,Classes,Browser,Changed
+23,Package,android.provider,Changes,Classes,CallLog.Calls,Changed
+23,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Email,Changed
+23,Package,android.provider,Changes,Classes,ContactsContract.Contacts,Changed
+23,Package,android.provider,Changes,Interfaces,ContactsContract.DataColumns,Changed
+23,Package,android.provider,Changes,Interfaces,ContactsContract.DisplayNameSources,Changed
+23,Package,android.provider,Changes,Classes,ContactsContract.Intents. Insert,Changed
+23,Package,android.provider,Changes,Classes,ContactsContract.QuickContact,Changed
+23,Package,android.provider,Changes,Classes,DocumentsContract,Changed
+23,Package,android.provider,Changes,Classes,MediaStore,Changed
+23,Package,android.provider,Changes,Classes,Settings,Changed
+23,Package,android.provider,Changes,Classes,Settings.Global,Changed
+23,Package,android.provider,Changes,Classes,Settings.Secure,Changed
+23,Package,android.provider,Changes,Classes,Settings.System,Changed
+23,Package,android.provider,Changes,Classes,Telephony.Threads,Changed
+23,Package,android.provider,Changes,Classes,VoicemailContract.Status,Changed
+23,Package,android.provider,Changes,Classes,VoicemailContract.Voicemails,Changed
 23,Package,android.renderscript,Changes,Classes,Script.InvokeID,Added
 23,Package,android.renderscript,Changes,Classes,ScriptGroup.Binding,Added
 23,Package,android.renderscript,Changes,Classes,ScriptGroup.Builder2,Added
@@ -920,30 +963,30 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 23,Package,android.util,Changes,Classes,DisplayMetrics,Changed
 23,Package,android.util,Changes,Classes,EventLog,Changed
 23,Package,android.util,Changes,Classes,FloatMath,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ActionMode.Callback2,Added
-23,Package,android.view,Changes,Classes and Interfaces,Display.Mode,Added
-23,Package,android.view,Changes,Classes and Interfaces,GestureDetector.OnContextClickListener,Added
-23,Package,android.view,Changes,Classes and Interfaces,SearchEvent,Added
-23,Package,android.view,Changes,Classes and Interfaces,View.OnContextClickListener,Added
-23,Package,android.view,Changes,Classes and Interfaces,View.OnScrollChangeListener,Added
-23,Package,android.view,Changes,Classes and Interfaces,ViewStructure,Added
-23,Package,android.view,Changes,Classes and Interfaces,ActionMode,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ContextThemeWrapper,Changed
-23,Package,android.view,Changes,Classes and Interfaces,Display,Changed
-23,Package,android.view,Changes,Classes and Interfaces,GestureDetector,Changed
-23,Package,android.view,Changes,Classes and Interfaces,GestureDetector.SimpleOnGestureListener,Changed
-23,Package,android.view,Changes,Classes and Interfaces,HapticFeedbackConstants,Changed
-23,Package,android.view,Changes,Classes and Interfaces,InputDevice,Changed
-23,Package,android.view,Changes,Classes and Interfaces,KeyEvent,Changed
-23,Package,android.view,Changes,Classes and Interfaces,MotionEvent,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ScaleGestureDetector,Changed
-23,Package,android.view,Changes,Classes and Interfaces,Surface,Changed
-23,Package,android.view,Changes,Classes and Interfaces,View,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ViewConfiguration,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ViewGroup,Changed
-23,Package,android.view,Changes,Classes and Interfaces,ViewParent,Changed
-23,Package,android.view,Changes,Classes and Interfaces,Window.Callback,Changed
-23,Package,android.view,Changes,Classes and Interfaces,WindowManager.LayoutParams,Changed
+23,Package,android.view,Changes,Classes,ActionMode.Callback2,Added
+23,Package,android.view,Changes,Classes,Display.Mode,Added
+23,Package,android.view,Changes,Interfaces,GestureDetector.OnContextClickListener,Added
+23,Package,android.view,Changes,Classes,SearchEvent,Added
+23,Package,android.view,Changes,Interfaces,View.OnContextClickListener,Added
+23,Package,android.view,Changes,Interfaces,View.OnScrollChangeListener,Added
+23,Package,android.view,Changes,Classes,ViewStructure,Added
+23,Package,android.view,Changes,Classes,ActionMode,Changed
+23,Package,android.view,Changes,Classes,ContextThemeWrapper,Changed
+23,Package,android.view,Changes,Classes,Display,Changed
+23,Package,android.view,Changes,Classes,GestureDetector,Changed
+23,Package,android.view,Changes,Classes,GestureDetector.SimpleOnGestureListener,Changed
+23,Package,android.view,Changes,Classes,HapticFeedbackConstants,Changed
+23,Package,android.view,Changes,Classes,InputDevice,Changed
+23,Package,android.view,Changes,Classes,KeyEvent,Changed
+23,Package,android.view,Changes,Classes,MotionEvent,Changed
+23,Package,android.view,Changes,Classes,ScaleGestureDetector,Changed
+23,Package,android.view,Changes,Classes,Surface,Changed
+23,Package,android.view,Changes,Classes,View,Changed
+23,Package,android.view,Changes,Classes,ViewConfiguration,Changed
+23,Package,android.view,Changes,Classes,ViewGroup,Changed
+23,Package,android.view,Changes,Interfaces,ViewParent,Changed
+23,Package,android.view,Changes,Interfaces,Window.Callback,Changed
+23,Package,android.view,Changes,Classes,WindowManager.LayoutParams,Changed
 23,Package,android.view.accessibility,Changes,Classes,AccessibilityEvent,Changed
 23,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo,Changed
 23,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. AccessibilityAction,Changed
@@ -1073,11 +1116,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Package,android.os,Changes,Classes,Bundle,Changed
 22,Package,android.os,Changes,Classes,Message,Changed
 22,Package,android.os,Changes,Classes,UserManager,Changed
-22,Package,android.provider,Changes,Classes and Interfaces,Settings,Changed
-22,Package,android.provider,Changes,Classes and Interfaces,Telephony.BaseMmsColumns,Changed
-22,Package,android.provider,Changes,Classes and Interfaces,Telephony.Carriers,Changed
-22,Package,android.provider,Changes,Classes and Interfaces,Telephony.MmsSms.PendingMessages,Changed
-22,Package,android.provider,Changes,Classes and Interfaces,Telephony.TextBasedSmsColumns,Changed
+22,Package,android.provider,Changes,Classes,Settings,Changed
+22,Package,android.provider,Changes,Interfaces,Telephony.BaseMmsColumns,Changed
+22,Package,android.provider,Changes,Classes,Telephony.Carriers,Changed
+22,Package,android.provider,Changes,Classes,Telephony.MmsSms.PendingMessages,Changed
+22,Package,android.provider,Changes,Interfaces,Telephony.TextBasedSmsColumns,Changed
 22,Package,android.telephony,Changes,Classes,SubscriptionInfo,Added
 22,Package,android.telephony,Changes,Classes,SubscriptionManager,Added
 22,Package,android.telephony,Changes,Classes,SubscriptionManager.OnSubscriptionsChangedListener,Added
@@ -1089,11 +1132,11 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Package,android.util,Changes,Classes,DisplayMetrics,Changed
 22,Package,android.util,Changes,Classes,FloatMath,Changed
 22,Package,android.util,Changes,Classes,TypedValue,Changed
-22,Package,android.view,Changes,Classes and Interfaces,View,Changed
-22,Package,android.view,Changes,Classes and Interfaces,ViewGroup,Changed
-22,Package,android.view,Changes,Classes and Interfaces,ViewParent,Changed
-22,Package,android.view,Changes,Classes and Interfaces,Window,Changed
-22,Package,android.view,Changes,Classes and Interfaces,WindowManager.LayoutParams,Changed
+22,Package,android.view,Changes,Classes,View,Changed
+22,Package,android.view,Changes,Classes,ViewGroup,Changed
+22,Package,android.view,Changes,Interfaces,ViewParent,Changed
+22,Package,android.view,Changes,Classes,Window,Changed
+22,Package,android.view,Changes,Classes,WindowManager.LayoutParams,Changed
 22,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo,Changed
 22,Package,android.view.accessibility,Changes,Classes,AccessibilityWindowInfo,Changed
 22,Package,android.view.animation,Changes,Classes,BaseInterpolator,Added
@@ -1219,7 +1262,7 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ClientConnectionManagerFactory,Changed
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ClientConnectionOperator,Changed
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ClientConnectionRequest,Changed
-22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ConnectTimeoutException,Changed
+22,Package,org.apache.http.conn,Changes,Classes,ConnectTimeoutException,Changed
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ConnectionKeepAliveStrategy,Changed
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ConnectionPoolTimeoutException,Changed
 22,Package,org.apache.http.conn,Changes,Classes and Interfaces,ConnectionReleaseTrigger,Changed
@@ -1245,18 +1288,18 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Package,org.apache.http.conn.routing,Changes,Classes and Interfaces,HttpRoutePlanner,Changed
 22,Package,org.apache.http.conn.routing,Changes,Classes and Interfaces,RouteInfo,Changed
 22,Package,org.apache.http.conn.routing,Changes,Classes and Interfaces,RouteTracker,Changed
-22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,HostNameResolver,Changed
-22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,LayeredSocketFactory,Changed
+22,Package,org.apache.http.conn.scheme,Changes,Interfaces,HostNameResolver,Changed
+22,Package,org.apache.http.conn.scheme,Changes,Interfaces,LayeredSocketFactory,Changed
 22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,PlainSocketFactory,Changed
 22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,Scheme,Changed
 22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,SchemeRegistry,Changed
-22,Package,org.apache.http.conn.scheme,Changes,Classes and Interfaces,SocketFactory,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,AbstractVerifier,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,AllowAllHostnameVerifier,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,BrowserCompatHostnameVerifier,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,SSLSocketFactory,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,StrictHostnameVerifier,Changed
-22,Package,org.apache.http.conn.ssl,Changes,Classes and Interfaces,X509HostnameVerifier,Changed
+22,Package,org.apache.http.conn.scheme,Changes,Interfaces,SocketFactory,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Classes,AbstractVerifier,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Classes,AllowAllHostnameVerifier,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Classes,BrowserCompatHostnameVerifier,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Classes,SSLSocketFactory,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Classes,StrictHostnameVerifier,Changed
+22,Package,org.apache.http.conn.ssl,Changes,Interfaces,X509HostnameVerifier,Changed
 22,Package,org.apache.http.conn.util,Changes,Classes,InetAddressUtils,Changed
 22,Package,org.apache.http.cookie,Changes,Classes and Interfaces,ClientCookie,Changed
 22,Package,org.apache.http.cookie,Changes,Classes and Interfaces,Cookie,Changed
@@ -1435,13 +1478,13 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 22,Package,org.apache.http.message,Changes,Classes and Interfaces,ParserCursor,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,AbstractHttpParams,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,BasicHttpParams,Changed
-22,Package,org.apache.http.params,Changes,Classes and Interfaces,CoreConnectionPNames,Changed
+22,Package,org.apache.http.params,Changes,Interfaces,CoreConnectionPNames,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,CoreProtocolPNames,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,DefaultedHttpParams,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpAbstractParamBean,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpConnectionParamBean,Changed
-22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpConnectionParams,Changed
-22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpParams,Changed
+22,Package,org.apache.http.params,Changes,Classes,HttpConnectionParams,Changed
+22,Package,org.apache.http.params,Changes,Interfaces,HttpParams,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpProtocolParamBean,Changed
 22,Package,org.apache.http.params,Changes,Classes and Interfaces,HttpProtocolParams,Changed
 22,Package,org.apache.http.protocol,Changes,Classes and Interfaces,BasicHttpContext,Changed
@@ -1505,30 +1548,30 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.app,Changes,Classes,AlarmManager.AlarmClockInfo,Added
 21,Package,android.app,Changes,Classes,Notification.MediaStyle,Added
 21,Package,android.app,Changes,Classes,SharedElementCallback,Added
-21,Package,android.app,Changes,Classes and Interfaces,ActionBar,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActionBar.OnNavigationListener,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActionBar.Tab,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActionBar.TabListener,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Activity,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActivityManager,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActivityManager.RecentTaskInfo,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActivityManager.RunningAppProcessInfo,Changed
-21,Package,android.app,Changes,Classes and Interfaces,ActivityOptions,Changed
-21,Package,android.app,Changes,Classes and Interfaces,AlarmManager,Changed
-21,Package,android.app,Changes,Classes and Interfaces,AlertDialog.Builder,Changed
-21,Package,android.app,Changes,Classes and Interfaces,AppOpsManager,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Dialog,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Fragment,Changed
-21,Package,android.app,Changes,Classes and Interfaces,FragmentBreadCrumbs,Changed
-21,Package,android.app,Changes,Classes and Interfaces,FragmentTransaction,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Instrumentation,Changed
-21,Package,android.app,Changes,Classes and Interfaces,KeyguardManager,Changed
-21,Package,android.app,Changes,Classes and Interfaces,MediaRouteButton,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Notification,Changed
-21,Package,android.app,Changes,Classes and Interfaces,Notification.Builder,Changed
-21,Package,android.app,Changes,Classes and Interfaces,SearchManager,Changed
-21,Package,android.app,Changes,Classes and Interfaces,UiAutomation,Changed
-21,Package,android.app,Changes,Classes and Interfaces,UiModeManager,Changed
+21,Package,android.app,Changes,Classes,ActionBar,Changed
+21,Package,android.app,Changes,Interfaces,ActionBar.OnNavigationListener,Changed
+21,Package,android.app,Changes,Classes,ActionBar.Tab,Changed
+21,Package,android.app,Changes,Interfaces,ActionBar.TabListener,Changed
+21,Package,android.app,Changes,Classes,Activity,Changed
+21,Package,android.app,Changes,Classes,ActivityManager,Changed
+21,Package,android.app,Changes,Classes,ActivityManager.RecentTaskInfo,Changed
+21,Package,android.app,Changes,Classes,ActivityManager.RunningAppProcessInfo,Changed
+21,Package,android.app,Changes,Classes,ActivityOptions,Changed
+21,Package,android.app,Changes,Classes,AlarmManager,Changed
+21,Package,android.app,Changes,Classes,AlertDialog.Builder,Changed
+21,Package,android.app,Changes,Classes,AppOpsManager,Changed
+21,Package,android.app,Changes,Classes,Dialog,Changed
+21,Package,android.app,Changes,Classes,Fragment,Changed
+21,Package,android.app,Changes,Classes,FragmentBreadCrumbs,Changed
+21,Package,android.app,Changes,Classes,FragmentTransaction,Changed
+21,Package,android.app,Changes,Classes,Instrumentation,Changed
+21,Package,android.app,Changes,Classes,KeyguardManager,Changed
+21,Package,android.app,Changes,Classes,MediaRouteButton,Changed
+21,Package,android.app,Changes,Classes,Notification,Changed
+21,Package,android.app,Changes,Classes,Notification.Builder,Changed
+21,Package,android.app,Changes,Classes,SearchManager,Changed
+21,Package,android.app,Changes,Classes,UiAutomation,Changed
+21,Package,android.app,Changes,Classes,UiModeManager,Changed
 21,Package,android.app.admin,Changes,Classes,DeviceAdminReceiver,Changed
 21,Package,android.app.admin,Changes,Classes,DevicePolicyManager,Changed
 21,Package,android.app.backup,Changes,Classes,BackupAgent,Changed
@@ -1590,22 +1633,22 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.graphics.drawable.shapes,Changes,Classes,Shape,Changed
 21,Package,android.graphics.pdf,Changes,Classes,PdfRenderer,Added
 21,Package,android.graphics.pdf,Changes,Classes,PdfRenderer.Page,Added
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.Area,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.AutoFocusCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.AutoFocusMoveCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.CameraInfo,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.ErrorCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.Face,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.FaceDetectionListener,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.OnZoomChangeListener,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.Parameters,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.PictureCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.PreviewCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.ShutterCallback,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Camera.Size,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,Sensor,Changed
-21,Package,android.hardware,Changes,Classes and Interfaces,SensorManager,Changed
+21,Package,android.hardware,Changes,Classes,Camera,Changed
+21,Package,android.hardware,Changes,Classes,Camera.Area,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.AutoFocusCallback,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.AutoFocusMoveCallback,Changed
+21,Package,android.hardware,Changes,Classes,Camera.CameraInfo,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.ErrorCallback,Changed
+21,Package,android.hardware,Changes,Classes,Camera.Face,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.FaceDetectionListener,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.OnZoomChangeListener,Changed
+21,Package,android.hardware,Changes,Classes,Camera.Parameters,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.PictureCallback,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.PreviewCallback,Changed
+21,Package,android.hardware,Changes,Interfaces,Camera.ShutterCallback,Changed
+21,Package,android.hardware,Changes,Classes,Camera.Size,Changed
+21,Package,android.hardware,Changes,Classes,Sensor,Changed
+21,Package,android.hardware,Changes,Classes,SensorManager,Changed
 21,Package,android.hardware.display,Changes,Classes,VirtualDisplay.Callback,Added
 21,Package,android.hardware.display,Changes,Classes,DisplayManager,Changed
 21,Package,android.hardware.display,Changes,Classes,VirtualDisplay,Changed
@@ -1661,18 +1704,18 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.media,Changes,Classes,Ringtone,Changed
 21,Package,android.media,Changes,Classes,SoundPool,Changed
 21,Package,android.media.audiofx,Changes,Classes,Virtualizer,Changed
-21,Package,android.net,Changes,Classes and Interfaces,ConnectivityManager.NetworkCallback,Added
-21,Package,android.net,Changes,Classes and Interfaces,ConnectivityManager.OnNetworkActiveListener,Added
-21,Package,android.net,Changes,Classes and Interfaces,IpPrefix,Added
-21,Package,android.net,Changes,Classes and Interfaces,LinkAddress,Added
-21,Package,android.net,Changes,Classes and Interfaces,LinkProperties,Added
-21,Package,android.net,Changes,Classes and Interfaces,Network,Added
-21,Package,android.net,Changes,Classes and Interfaces,NetworkCapabilities,Added
-21,Package,android.net,Changes,Classes and Interfaces,NetworkRequest,Added
-21,Package,android.net,Changes,Classes and Interfaces,NetworkRequest.Builder,Added
-21,Package,android.net,Changes,Classes and Interfaces,ProxyInfo,Added
-21,Package,android.net,Changes,Classes and Interfaces,PskKeyManager,Added
-21,Package,android.net,Changes,Classes and Interfaces,RouteInfo,Added
+21,Package,android.net,Changes,Classes,ConnectivityManager.NetworkCallback,Added
+21,Package,android.net,Changes,Interfaces,ConnectivityManager.OnNetworkActiveListener,Added
+21,Package,android.net,Changes,Classes,IpPrefix,Added
+21,Package,android.net,Changes,Classes,LinkAddress,Added
+21,Package,android.net,Changes,Classes,LinkProperties,Added
+21,Package,android.net,Changes,Classes,Network,Added
+21,Package,android.net,Changes,Classes,NetworkCapabilities,Added
+21,Package,android.net,Changes,Classes,NetworkRequest,Added
+21,Package,android.net,Changes,Classes,NetworkRequest.Builder,Added
+21,Package,android.net,Changes,Classes,ProxyInfo,Added
+21,Package,android.net,Changes,Classes,PskKeyManager,Added
+21,Package,android.net,Changes,Classes,RouteInfo,Added
 21,Package,android.net,Changes,Classes,ConnectivityManager,Changed
 21,Package,android.net,Changes,Classes,Proxy,Changed
 21,Package,android.net,Changes,Classes,VpnService.Builder,Changed
@@ -1687,9 +1730,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.nfc,Changes,Classes,NdefRecord,Changed
 21,Package,android.nfc,Changes,Classes,NfcAdapter,Changed
 21,Package,android.nfc.cardemulation,Changes,Classes,CardEmulation,Changed
-21,Package,android.opengl,Changes,Classes and Interfaces,GLES31,Added
-21,Package,android.opengl,Changes,Classes and Interfaces,GLES31Ext,Added
-21,Package,android.opengl,Changes,Classes and Interfaces,GLES31Ext.DebugProcKHR,Added
+21,Package,android.opengl,Changes,Classes,GLES31,Added
+21,Package,android.opengl,Changes,Classes,GLES31Ext,Added
+21,Package,android.opengl,Changes,Interfaces,GLES31Ext.DebugProcKHR,Added
 21,Package,android.opengl,Changes,Classes,EGLObjectHandle,Changed
 21,Package,android.opengl,Changes,Classes,GLES20,Changed
 21,Package,android.os,Changes,Classes,BaseBundle,Added
@@ -1722,55 +1765,55 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.provider,Changes,Classes,ContactsContract.PinnedPositions,Added
 21,Package,android.provider,Changes,Classes,ContactsContract.SearchSnippets,Added
 21,Package,android.provider,Changes,Classes,MediaStore.Audio.Radio,Added
-21,Package,android.provider,Changes,Classes and Interfaces,CallLog.Calls,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Contactables,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Email,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Event,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. GroupMembership,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Identity,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Im,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Nickname,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Note,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Organization,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Phone,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Photo,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Relation,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. SipAddress,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. StructuredName,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. StructuredPostal,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.CommonDataKinds. Website,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.ContactOptionsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Contacts,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Contacts. Entity,Changed
+21,Package,android.provider,Changes,Classes,CallLog.Calls,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Contactables,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Email,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Event,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. GroupMembership,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Identity,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Im,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Nickname,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Note,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Organization,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Phone,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Photo,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Relation,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. SipAddress,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. StructuredName,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. StructuredPostal,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.CommonDataKinds. Website,Changed
+21,Package,android.provider,Changes,Interfaces,ContactsContract.ContactOptionsColumns,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.Contacts,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.Contacts. Entity,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Contacts. StreamItems,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.ContactsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.Data,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.DataColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.GroupsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.PhoneLookup,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.QuickContact,Changed
+21,Package,android.provider,Changes,Interfaces,ContactsContract.ContactsColumns,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.Data,Changed
+21,Package,android.provider,Changes,Interfaces,ContactsContract.DataColumns,Changed
+21,Package,android.provider,Changes,Interfaces,ContactsContract.GroupsColumns,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.PhoneLookup,Changed
+21,Package,android.provider,Changes,Classes,ContactsContract.QuickContact,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.RawContacts. StreamItems,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.RawContactsColumns,Changed
+21,Package,android.provider,Changes,Interfaces,ContactsContract.RawContactsColumns,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItemPhotos,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItemPhotosColumns,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItems,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItems. StreamItemPhotos,Changed
 21,Package,android.provider,Changes,Classes and Interfaces,ContactsContract.StreamItemsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Document,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Root,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,DocumentsProvider,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,MediaStore,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,MediaStore.Audio.Media,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Settings,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Settings.Global,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Settings.Secure,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Settings.System,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Telephony.BaseMmsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Telephony.TextBasedSmsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,Telephony.ThreadsColumns,Changed
-21,Package,android.provider,Changes,Classes and Interfaces,VoicemailContract.Voicemails,Changed
+21,Package,android.provider,Changes,Classes,DocumentsContract,Changed
+21,Package,android.provider,Changes,Classes,DocumentsContract.Document,Changed
+21,Package,android.provider,Changes,Classes,DocumentsContract.Root,Changed
+21,Package,android.provider,Changes,Classes,DocumentsProvider,Changed
+21,Package,android.provider,Changes,Classes,MediaStore,Changed
+21,Package,android.provider,Changes,Classes,MediaStore.Audio.Media,Changed
+21,Package,android.provider,Changes,Classes,Settings,Changed
+21,Package,android.provider,Changes,Classes,Settings.Global,Changed
+21,Package,android.provider,Changes,Classes,Settings.Secure,Changed
+21,Package,android.provider,Changes,Classes,Settings.System,Changed
+21,Package,android.provider,Changes,Interfaces,Telephony.BaseMmsColumns,Changed
+21,Package,android.provider,Changes,Interfaces,Telephony.TextBasedSmsColumns,Changed
+21,Package,android.provider,Changes,Interfaces,Telephony.ThreadsColumns,Changed
+21,Package,android.provider,Changes,Classes,VoicemailContract.Voicemails,Changed
 21,Package,android.renderscript,Changes,Classes,Allocation,Changed
 21,Package,android.renderscript,Changes,Classes,RenderScript,Changed
 21,Package,android.renderscript,Changes,Classes,ScriptC,Changed
@@ -1790,12 +1833,12 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.service.notification,Changes,Classes,StatusBarNotification,Changed
 21,Package,android.service.wallpaper,Changes,Classes,WallpaperService.Engine,Changed
 21,Package,android.speech.tts,Changes,Classes,Voice,Added
-21,Package,android.speech.tts,Changes,Classes and Interfaces,SynthesisCallback,Changed
-21,Package,android.speech.tts,Changes,Classes and Interfaces,SynthesisRequest,Changed
-21,Package,android.speech.tts,Changes,Classes and Interfaces,TextToSpeech,Changed
-21,Package,android.speech.tts,Changes,Classes and Interfaces,TextToSpeech.Engine,Changed
-21,Package,android.speech.tts,Changes,Classes and Interfaces,TextToSpeechService,Changed
-21,Package,android.speech.tts,Changes,Classes and Interfaces,UtteranceProgressListener,Changed
+21,Package,android.speech.tts,Changes,Interfaces,SynthesisCallback,Changed
+21,Package,android.speech.tts,Changes,Classes,SynthesisRequest,Changed
+21,Package,android.speech.tts,Changes,Classes,TextToSpeech,Changed
+21,Package,android.speech.tts,Changes,Classes,TextToSpeech.Engine,Changed
+21,Package,android.speech.tts,Changes,Classes,TextToSpeechService,Changed
+21,Package,android.speech.tts,Changes,Classes,UtteranceProgressListener,Changed
 21,Package,android.telephony,Changes,Classes,IccOpenLogicalChannelResponse,Added
 21,Package,android.telephony,Changes,Classes,PhoneNumberFormattingTextWatcher,Changed
 21,Package,android.telephony,Changes,Classes,PhoneNumberUtils,Changed
@@ -1862,21 +1905,21 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.view,Changes,Classes,ViewOutlineProvider,Added
 21,Package,android.view,Changes,Classes,WindowAnimationFrameStats,Added
 21,Package,android.view,Changes,Classes,WindowContentFrameStats,Added
-21,Package,android.view,Changes,Classes and Interfaces,Display,Changed
-21,Package,android.view,Changes,Classes and Interfaces,HapticFeedbackConstants,Changed
-21,Package,android.view,Changes,Classes and Interfaces,InputDevice,Changed
-21,Package,android.view,Changes,Classes and Interfaces,KeyEvent,Changed
-21,Package,android.view,Changes,Classes and Interfaces,MotionEvent,Changed
-21,Package,android.view,Changes,Classes and Interfaces,SurfaceView,Changed
-21,Package,android.view,Changes,Classes and Interfaces,TextureView,Changed
-21,Package,android.view,Changes,Classes and Interfaces,View,Changed
-21,Package,android.view,Changes,Classes and Interfaces,ViewGroup,Changed
-21,Package,android.view,Changes,Classes and Interfaces,ViewParent,Changed
-21,Package,android.view,Changes,Classes and Interfaces,ViewPropertyAnimator,Changed
-21,Package,android.view,Changes,Classes and Interfaces,ViewStub,Changed
-21,Package,android.view,Changes,Classes and Interfaces,Window,Changed
-21,Package,android.view,Changes,Classes and Interfaces,WindowInsets,Changed
-21,Package,android.view,Changes,Classes and Interfaces,WindowManager.LayoutParams,Changed
+21,Package,android.view,Changes,Classes,Display,Changed
+21,Package,android.view,Changes,Classes,HapticFeedbackConstants,Changed
+21,Package,android.view,Changes,Classes,InputDevice,Changed
+21,Package,android.view,Changes,Classes,KeyEvent,Changed
+21,Package,android.view,Changes,Classes,MotionEvent,Changed
+21,Package,android.view,Changes,Classes,SurfaceView,Changed
+21,Package,android.view,Changes,Classes,TextureView,Changed
+21,Package,android.view,Changes,Classes,View,Changed
+21,Package,android.view,Changes,Classes,ViewGroup,Changed
+21,Package,android.view,Changes,Interfaces,ViewParent,Changed
+21,Package,android.view,Changes,Classes,ViewPropertyAnimator,Changed
+21,Package,android.view,Changes,Classes,ViewStub,Changed
+21,Package,android.view,Changes,Classes,Window,Changed
+21,Package,android.view,Changes,Classes,WindowInsets,Changed
+21,Package,android.view,Changes,Classes,WindowManager.LayoutParams,Changed
 21,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. AccessibilityAction,Added
 21,Package,android.view.accessibility,Changes,Classes,AccessibilityWindowInfo,Added
 21,Package,android.view.accessibility,Changes,Classes,AccessibilityEvent,Changed
@@ -1888,16 +1931,16 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.view.animation,Changes,Classes,PathInterpolator,Added
 21,Package,android.view.inputmethod,Changes,Classes,CursorAnchorInfo,Added
 21,Package,android.view.inputmethod,Changes,Classes,CursorAnchorInfo.Builder,Added
-21,Package,android.view.inputmethod,Changes,Classes and Interfaces,BaseInputConnection,Changed
-21,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputConnection,Changed
-21,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputConnectionWrapper,Changed
-21,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputMethodManager,Changed
-21,Package,android.view.inputmethod,Changes,Classes and Interfaces,InputMethodSession,Changed
+21,Package,android.view.inputmethod,Changes,Classes,BaseInputConnection,Changed
+21,Package,android.view.inputmethod,Changes,Interfaces,InputConnection,Changed
+21,Package,android.view.inputmethod,Changes,Classes,InputConnectionWrapper,Changed
+21,Package,android.view.inputmethod,Changes,Classes,InputMethodManager,Changed
+21,Package,android.view.inputmethod,Changes,Interfaces,InputMethodSession,Changed
 21,Package,android.view.textservice,Changes,Classes,TextInfo,Changed
-21,Package,android.webkit,Changes,Classes and Interfaces,ClientCertRequest,Added
-21,Package,android.webkit,Changes,Classes and Interfaces,PermissionRequest,Added
-21,Package,android.webkit,Changes,Classes and Interfaces,WebChromeClient.FileChooserParams,Added
-21,Package,android.webkit,Changes,Classes and Interfaces,WebResourceRequest,Added
+21,Package,android.webkit,Changes,Classes,ClientCertRequest,Added
+21,Package,android.webkit,Changes,Classes,PermissionRequest,Added
+21,Package,android.webkit,Changes,Classes,WebChromeClient.FileChooserParams,Added
+21,Package,android.webkit,Changes,Interfaces,WebResourceRequest,Added
 21,Package,android.webkit,Changes,Classes,CookieManager,Changed
 21,Package,android.webkit,Changes,Classes,CookieSyncManager,Changed
 21,Package,android.webkit,Changes,Classes,WebChromeClient,Changed
@@ -1906,12 +1949,12 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.webkit,Changes,Classes,WebSyncManager,Changed
 21,Package,android.webkit,Changes,Classes,WebView,Changed
 21,Package,android.webkit,Changes,Classes,WebViewClient,Changed
-21,Package,android.widget,Changes,Classes and Interfaces,ActionMenuView,Added
-21,Package,android.widget,Changes,Classes and Interfaces,ActionMenuView.LayoutParams,Added
-21,Package,android.widget,Changes,Classes and Interfaces,ActionMenuView.OnMenuItemClickListener,Added
-21,Package,android.widget,Changes,Classes and Interfaces,Toolbar,Added
-21,Package,android.widget,Changes,Classes and Interfaces,Toolbar.LayoutParams,Added
-21,Package,android.widget,Changes,Classes and Interfaces,Toolbar.OnMenuItemClickListener,Added
+21,Package,android.widget,Changes,Classes,ActionMenuView,Added
+21,Package,android.widget,Changes,Classes,ActionMenuView.LayoutParams,Added
+21,Package,android.widget,Changes,Interfaces,ActionMenuView.OnMenuItemClickListener,Added
+21,Package,android.widget,Changes,Classes,Toolbar,Added
+21,Package,android.widget,Changes,Classes,Toolbar.LayoutParams,Added
+21,Package,android.widget,Changes,Interfaces,Toolbar.OnMenuItemClickListener,Added
 21,Package,android.widget,Changes,Classes,AbsListView,Changed
 21,Package,android.widget,Changes,Classes,AbsSeekBar,Changed
 21,Package,android.widget,Changes,Classes,AbsSpinner,Changed
@@ -1968,18 +2011,18 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,java.util,Changes,Classes,IllformedLocaleException,Added
 21,Package,java.util,Changes,Classes,Locale.Builder,Added
 21,Package,java.util,Changes,Classes,Locale,Changed
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ConcurrentLinkedDeque,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ForkJoinPool,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ForkJoinPool.ForkJoinWorkerThreadFactory,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ForkJoinPool.ManagedBlocker,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ForkJoinTask,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ForkJoinWorkerThread,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,LinkedTransferQueue,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,Phaser,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,RecursiveAction,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,RecursiveTask,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,ThreadLocalRandom,Added
-21,Package,java.util.concurrent,Changes,Classes and Interfaces,TransferQueue,Added
+21,Package,java.util.concurrent,Changes,Classes,ConcurrentLinkedDeque,Added
+21,Package,java.util.concurrent,Changes,Classes,ForkJoinPool,Added
+21,Package,java.util.concurrent,Changes,Interfaces,ForkJoinPool.ForkJoinWorkerThreadFactory,Added
+21,Package,java.util.concurrent,Changes,Interfaces,ForkJoinPool.ManagedBlocker,Added
+21,Package,java.util.concurrent,Changes,Classes,ForkJoinTask,Added
+21,Package,java.util.concurrent,Changes,Classes,ForkJoinWorkerThread,Added
+21,Package,java.util.concurrent,Changes,Classes,LinkedTransferQueue,Added
+21,Package,java.util.concurrent,Changes,Classes,Phaser,Added
+21,Package,java.util.concurrent,Changes,Classes,RecursiveAction,Added
+21,Package,java.util.concurrent,Changes,Classes,RecursiveTask,Added
+21,Package,java.util.concurrent,Changes,Classes,ThreadLocalRandom,Added
+21,Package,java.util.concurrent,Changes,Interfaces,TransferQueue,Added
 21,Package,java.util.concurrent,Changes,Classes,ScheduledThreadPoolExecutor,Changed
 21,Package,java.util.concurrent.locks,Changes,Classes,AbstractQueuedLongSynchronizer,Changed
 21,Package,java.util.concurrent.locks,Changes,Classes,AbstractQueuedSynchronizer,Changed
@@ -2004,13 +2047,13 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 21,Package,android.hardware.location,Removals
 20,Package,android,Changes,Classes,Manifest.permission,Changed
 20,Package,android,Changes,Classes,R.attr,Changed
-20,Package,android.app,Changes,Classes and Interfaces,Notification.Action.Builder,Added
-20,Package,android.app,Changes,Classes and Interfaces,Notification.Action.Extender,Added
-20,Package,android.app,Changes,Classes and Interfaces,Notification.Action.WearableExtender,Added
-20,Package,android.app,Changes,Classes and Interfaces,Notification.Extender,Added
-20,Package,android.app,Changes,Classes and Interfaces,Notification.WearableExtender,Added
-20,Package,android.app,Changes,Classes and Interfaces,RemoteInput,Added
-20,Package,android.app,Changes,Classes and Interfaces,RemoteInput.Builder,Added
+20,Package,android.app,Changes,Classes,Notification.Action.Builder,Added
+20,Package,android.app,Changes,Interfaces,Notification.Action.Extender,Added
+20,Package,android.app,Changes,Classes,Notification.Action.WearableExtender,Added
+20,Package,android.app,Changes,Interfaces,Notification.Extender,Added
+20,Package,android.app,Changes,Classes,Notification.WearableExtender,Added
+20,Package,android.app,Changes,Classes,RemoteInput,Added
+20,Package,android.app,Changes,Classes,RemoteInput.Builder,Added
 20,Package,android.app,Changes,Classes,Notification,Changed
 20,Package,android.app,Changes,Classes,Notification.Action,Changed
 20,Package,android.app,Changes,Classes,Notification.Builder,Changed
@@ -2028,8 +2071,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 20,Package,android.service.notification,Changes,Classes,StatusBarNotification,Changed
 20,Package,android.test.mock,Changes,Classes,MockPackageManager,Changed
 20,Package,android.util,Changes,Classes,TypedValue,Changed
-20,Package,android.view,Changes,Classes and Interfaces,View.OnApplyWindowInsetsListener,Added
-20,Package,android.view,Changes,Classes and Interfaces,WindowInsets,Added
+20,Package,android.view,Changes,Interfaces,View.OnApplyWindowInsetsListener,Added
+20,Package,android.view,Changes,Classes,WindowInsets,Added
 20,Package,android.view,Changes,Classes,Display,Changed
 20,Package,android.view,Changes,Classes,KeyEvent,Changed
 20,Package,android.view,Changes,Classes,View,Changed
@@ -2043,9 +2086,9 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.animation,Changes,Interfaces,Animator.AnimatorPauseListener,Added
 19,Package,android.animation,Changes,Classes,Animator,Changed
 19,Package,android.animation,Changes,Classes,AnimatorListenerAdapter,Changed
-19,Package,android.app,Changes,Classes and Interfaces,AppOpsManager,Added
-19,Package,android.app,Changes,Classes and Interfaces,AppOpsManager.OnOpChangedListener,Added
-19,Package,android.app,Changes,Classes and Interfaces,Notification.Action,Added
+19,Package,android.app,Changes,Classes,AppOpsManager,Added
+19,Package,android.app,Changes,Interfaces,AppOpsManager.OnOpChangedListener,Added
+19,Package,android.app,Changes,Classes,Notification.Action,Added
 19,Package,android.app,Changes,Classes,Activity,Changed
 19,Package,android.app,Changes,Classes,ActivityManager,Changed
 19,Package,android.app,Changes,Classes,AlarmManager,Changed
@@ -2074,12 +2117,12 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.content.pm,Changes,Classes,PackageManager,Changed
 19,Package,android.content.pm,Changes,Classes,ProviderInfo,Changed
 19,Package,android.content.pm,Changes,Classes,ResolveInfo,Changed
-19,Package,android.content.res,Changes,Classes and Interfaces,AssetFileDescriptor,Changed
-19,Package,android.content.res,Changes,Classes and Interfaces,Configuration,Changed
-19,Package,android.content.res,Changes,Classes and Interfaces,XmlResourceParser,Changed
-19,Package,android.database,Changes,Classes and Interfaces,Cursor,Changed
-19,Package,android.database,Changes,Classes and Interfaces,CursorWrapper,Changed
-19,Package,android.database,Changes,Classes and Interfaces,MatrixCursor.RowBuilder,Changed
+19,Package,android.content.res,Changes,Classes,AssetFileDescriptor,Changed
+19,Package,android.content.res,Changes,Classes,Configuration,Changed
+19,Package,android.content.res,Changes,Interfaces,XmlResourceParser,Changed
+19,Package,android.database,Changes,Interfaces,Cursor,Changed
+19,Package,android.database,Changes,Classes,CursorWrapper,Changed
+19,Package,android.database,Changes,Classes,MatrixCursor.RowBuilder,Changed
 19,Package,android.graphics,Changes,Classes,Path.Op,Added
 19,Package,android.graphics,Changes,Classes,Bitmap,Changed
 19,Package,android.graphics,Changes,Classes,BitmapFactory.Options,Changed
@@ -2095,27 +2138,27 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.graphics.drawable,Changes,Classes,Drawable,Changed
 19,Package,android.graphics.drawable,Changes,Classes,DrawableContainer.DrawableContainerState,Changed
 19,Package,android.graphics.drawable,Changes,Classes,InsetDrawable,Changed
-19,Package,android.hardware,Changes,Classes and Interfaces,ConsumerIrManager,Added
-19,Package,android.hardware,Changes,Classes and Interfaces,ConsumerIrManager.CarrierFrequencyRange,Added
-19,Package,android.hardware,Changes,Classes and Interfaces,SensorEventListener2,Added
+19,Package,android.hardware,Changes,Classes,ConsumerIrManager,Added
+19,Package,android.hardware,Changes,Classes,ConsumerIrManager.CarrierFrequencyRange,Added
+19,Package,android.hardware,Changes,Interfaces,SensorEventListener2,Added
 19,Package,android.hardware,Changes,Classes,Sensor,Changed
 19,Package,android.hardware,Changes,Classes,SensorManager,Changed
 19,Package,android.hardware.display,Changes,Classes,VirtualDisplay,Added
 19,Package,android.hardware.display,Changes,Classes,DisplayManager,Changed
 19,Package,android.location,Changes,Classes,SettingInjectorService,Added
 19,Package,android.location,Changes,Classes,LocationManager,Changed
-19,Package,android.media,Changes,Classes and Interfaces,AudioTimestamp,Added
-19,Package,android.media,Changes,Classes and Interfaces,Image,Added
-19,Package,android.media,Changes,Classes and Interfaces,Image.Plane,Added
-19,Package,android.media,Changes,Classes and Interfaces,ImageReader,Added
-19,Package,android.media,Changes,Classes and Interfaces,ImageReader.OnImageAvailableListener,Added
-19,Package,android.media,Changes,Classes and Interfaces,MediaMetadataEditor,Added
-19,Package,android.media,Changes,Classes and Interfaces,Rating,Added
-19,Package,android.media,Changes,Classes and Interfaces,RemoteControlClient.OnMetadataUpdateListener,Added
-19,Package,android.media,Changes,Classes and Interfaces,RemoteController,Added
-19,Package,android.media,Changes,Classes and Interfaces,RemoteController.MetadataEditor,Added
-19,Package,android.media,Changes,Classes and Interfaces,RemoteController.OnClientUpdateListener,Added
-19,Package,android.media,Changes,Classes and Interfaces,ResourceBusyException,Added
+19,Package,android.media,Changes,Classes,AudioTimestamp,Added
+19,Package,android.media,Changes,Classes,Image,Added
+19,Package,android.media,Changes,Classes,Image.Plane,Added
+19,Package,android.media,Changes,Classes,ImageReader,Added
+19,Package,android.media,Changes,Interfaces,ImageReader.OnImageAvailableListener,Added
+19,Package,android.media,Changes,Classes,MediaMetadataEditor,Added
+19,Package,android.media,Changes,Classes,Rating,Added
+19,Package,android.media,Changes,Interfaces,RemoteControlClient.OnMetadataUpdateListener,Added
+19,Package,android.media,Changes,Classes,RemoteController,Added
+19,Package,android.media,Changes,Classes,RemoteController.MetadataEditor,Added
+19,Package,android.media,Changes,Interfaces,RemoteController.OnClientUpdateListener,Added
+19,Package,android.media,Changes,Classes,ResourceBusyException,Added
 19,Package,android.media,Changes,Classes,AudioManager,Changed
 19,Package,android.media,Changes,Classes,AudioTrack,Changed
 19,Package,android.media,Changes,Classes,MediaCodec,Changed
@@ -2140,8 +2183,8 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.nfc,Changes,Interfaces,NfcAdapter.ReaderCallback,Added
 19,Package,android.nfc,Changes,Classes,NfcAdapter,Changed
 19,Package,android.opengl,Changes,Classes,Matrix,Changed
-19,Package,android.os,Changes,Classes and Interfaces,ParcelFileDescriptor. FileDescriptorDetachedException,Added
-19,Package,android.os,Changes,Classes and Interfaces,ParcelFileDescriptor. OnCloseListener,Added
+19,Package,android.os,Changes,Classes,ParcelFileDescriptor. FileDescriptorDetachedException,Added
+19,Package,android.os,Changes,Interfaces,ParcelFileDescriptor. OnCloseListener,Added
 19,Package,android.os,Changes,Classes,Build.VERSION_CODES,Changed
 19,Package,android.os,Changes,Classes,Debug.MemoryInfo,Changed
 19,Package,android.os,Changes,Classes,Environment,Changed
@@ -2149,41 +2192,41 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.os,Changes,Classes,UserManager,Changed
 19,Package,android.preference,Changes,Classes,Preference,Changed
 19,Package,android.preference,Changes,Classes,PreferenceActivity,Changed
-19,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract,Added
-19,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Document,Added
-19,Package,android.provider,Changes,Classes and Interfaces,DocumentsContract.Root,Added
-19,Package,android.provider,Changes,Classes and Interfaces,DocumentsProvider,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.BaseMmsColumns,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.CanonicalAddressesColumns,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Carriers,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Addr,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Draft,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Inbox,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Intents,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Outbox,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Part,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Rate,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Mms.Sent,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.MmsSms,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.MmsSms.PendingMessages,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Conversations,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Draft,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Inbox,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Intents,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Outbox,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Sms.Sent,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.TextBasedSmsColumns,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.Threads,Added
-19,Package,android.provider,Changes,Classes and Interfaces,Telephony.ThreadsColumns,Added
+19,Package,android.provider,Changes,Classes,DocumentsContract,Added
+19,Package,android.provider,Changes,Classes,DocumentsContract.Document,Added
+19,Package,android.provider,Changes,Classes,DocumentsContract.Root,Added
+19,Package,android.provider,Changes,Classes,DocumentsProvider,Added
+19,Package,android.provider,Changes,Classes,Telephony,Added
+19,Package,android.provider,Changes,Interfaces,Telephony.BaseMmsColumns,Added
+19,Package,android.provider,Changes,Interfaces,Telephony.CanonicalAddressesColumns,Added
+19,Package,android.provider,Changes,Classes,Telephony.Carriers,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Addr,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Draft,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Inbox,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Intents,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Outbox,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Part,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Rate,Added
+19,Package,android.provider,Changes,Classes,Telephony.Mms.Sent,Added
+19,Package,android.provider,Changes,Classes,Telephony.MmsSms,Added
+19,Package,android.provider,Changes,Classes,Telephony.MmsSms.PendingMessages,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Conversations,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Draft,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Inbox,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Intents,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Outbox,Added
+19,Package,android.provider,Changes,Classes,Telephony.Sms.Sent,Added
+19,Package,android.provider,Changes,Interfaces,Telephony.TextBasedSmsColumns,Added
+19,Package,android.provider,Changes,Classes,Telephony.Threads,Added
+19,Package,android.provider,Changes,Interfaces,Telephony.ThreadsColumns,Added
 19,Package,android.provider,Changes,Classes,AlarmClock,Changed
 19,Package,android.provider,Changes,Classes,CallLog.Calls,Changed
 19,Package,android.provider,Changes,Classes,Settings,Changed
 19,Package,android.provider,Changes,Classes,Settings.Secure,Changed
-19,Package,android.renderscript,Changes,Classes and Interfaces,Allocation.OnBufferAvailableListener,Added
-19,Package,android.renderscript,Changes,Classes and Interfaces,ScriptIntrinsicHistogram,Added
+19,Package,android.renderscript,Changes,Interfaces,Allocation.OnBufferAvailableListener,Added
+19,Package,android.renderscript,Changes,Classes,ScriptIntrinsicHistogram,Added
 19,Package,android.renderscript,Changes,Classes,Allocation,Changed
 19,Package,android.renderscript,Changes,Classes,Element,Changed
 19,Package,android.renderscript,Changes,Classes,ScriptIntrinsicColorMatrix,Changed
@@ -2199,25 +2242,25 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.util,Changes,Classes,LayoutDirection,Added
 19,Package,android.util,Changes,Classes,DisplayMetrics,Changed
 19,Package,android.util,Changes,Classes,SparseArray,Changed
-19,Package,android.view,Changes,Classes and Interfaces,Display,Changed
-19,Package,android.view,Changes,Classes and Interfaces,InputDevice,Changed
-19,Package,android.view,Changes,Classes and Interfaces,KeyEvent,Changed
-19,Package,android.view,Changes,Classes and Interfaces,MotionEvent,Changed
-19,Package,android.view,Changes,Classes and Interfaces,ScaleGestureDetector,Changed
-19,Package,android.view,Changes,Classes and Interfaces,Surface.OutOfResourcesException,Changed
-19,Package,android.view,Changes,Classes and Interfaces,View,Changed
-19,Package,android.view,Changes,Classes and Interfaces,ViewGroup,Changed
-19,Package,android.view,Changes,Classes and Interfaces,ViewParent,Changed
-19,Package,android.view,Changes,Classes and Interfaces,ViewPropertyAnimator,Changed
-19,Package,android.view,Changes,Classes and Interfaces,Window,Changed
-19,Package,android.view,Changes,Classes and Interfaces,WindowManager.LayoutParams,Changed
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,AccessibilityManager. TouchExplorationStateChangeListener,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,AccessibilityNodeInfo. CollectionInfo,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,AccessibilityNodeInfo. CollectionItemInfo,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,AccessibilityNodeInfo. RangeInfo,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,CaptioningManager,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,CaptioningManager.CaptionStyle,Added
-19,Package,android.view.accessibility,Changes,Classes and Interfaces,CaptioningManager.CaptioningChangeListener,Added
+19,Package,android.view,Changes,Classes,Display,Changed
+19,Package,android.view,Changes,Classes,InputDevice,Changed
+19,Package,android.view,Changes,Classes,KeyEvent,Changed
+19,Package,android.view,Changes,Classes,MotionEvent,Changed
+19,Package,android.view,Changes,Classes,ScaleGestureDetector,Changed
+19,Package,android.view,Changes,Classes,Surface.OutOfResourcesException,Changed
+19,Package,android.view,Changes,Classes,View,Changed
+19,Package,android.view,Changes,Classes,ViewGroup,Changed
+19,Package,android.view,Changes,Interfaces,ViewParent,Changed
+19,Package,android.view,Changes,Classes,ViewPropertyAnimator,Changed
+19,Package,android.view,Changes,Classes,Window,Changed
+19,Package,android.view,Changes,Classes,WindowManager.LayoutParams,Changed
+19,Package,android.view.accessibility,Changes,Interfaces,AccessibilityManager. TouchExplorationStateChangeListener,Added
+19,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. CollectionInfo,Added
+19,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. CollectionItemInfo,Added
+19,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo. RangeInfo,Added
+19,Package,android.view.accessibility,Changes,Classes,CaptioningManager,Added
+19,Package,android.view.accessibility,Changes,Classes,CaptioningManager.CaptionStyle,Added
+19,Package,android.view.accessibility,Changes,Classes,CaptioningManager.CaptioningChangeListener,Added
 19,Package,android.view.accessibility,Changes,Classes,AccessibilityEvent,Changed
 19,Package,android.view.accessibility,Changes,Classes,AccessibilityManager,Changed
 19,Package,android.view.accessibility,Changes,Classes,AccessibilityNodeInfo,Changed
@@ -2225,10 +2268,10 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.view.inputmethod,Changes,Classes,InputMethodSubtype.InputMethodSubtypeBuilder,Added
 19,Package,android.view.inputmethod,Changes,Classes,InputMethodManager,Changed
 19,Package,android.view.inputmethod,Changes,Classes,InputMethodSubtype,Changed
-19,Package,android.webkit,Changes,Classes and Interfaces,WebChromeClient,Changed
-19,Package,android.webkit,Changes,Classes and Interfaces,WebSettings,Changed
-19,Package,android.webkit,Changes,Classes and Interfaces,WebStorage.QuotaUpdater,Changed
-19,Package,android.webkit,Changes,Classes and Interfaces,WebView,Changed
+19,Package,android.webkit,Changes,Classes,WebChromeClient,Changed
+19,Package,android.webkit,Changes,Classes,WebSettings,Changed
+19,Package,android.webkit,Changes,Interfaces,WebStorage.QuotaUpdater,Changed
+19,Package,android.webkit,Changes,Classes,WebView,Changed
 19,Package,android.widget,Changes,Classes,AbsListView,Changed
 19,Package,android.widget,Changes,Classes,FrameLayout.LayoutParams,Changed
 19,Package,android.widget,Changes,Classes,LinearLayout.LayoutParams,Changed
@@ -2238,14 +2281,14 @@ API_version,element_type,element_name,element_type_change_type,changed_element_t
 19,Package,android.widget,Changes,Classes,PopupWindow,Changed
 19,Package,android.widget,Changes,Classes,RelativeLayout.LayoutParams,Changed
 19,Package,android.widget,Changes,Classes,VideoView,Changed
-19,Package,java.io,Changes,Classes and Interfaces,Closeable,Changed
-19,Package,java.io,Changes,Classes and Interfaces,FileInputStream,Changed
-19,Package,java.io,Changes,Classes and Interfaces,FileOutputStream,Changed
-19,Package,java.io,Changes,Classes and Interfaces,ObjectInput,Changed
-19,Package,java.io,Changes,Classes and Interfaces,ObjectOutput,Changed
-19,Package,java.lang,Changes,Classes and Interfaces,AutoCloseable,Added
-19,Package,java.lang,Changes,Classes and Interfaces,ReflectiveOperationException,Added
-19,Package,java.lang,Changes,Classes and Interfaces,SafeVarargs,Added
+19,Package,java.io,Changes,Interfaces,Closeable,Changed
+19,Package,java.io,Changes,Classes,FileInputStream,Changed
+19,Package,java.io,Changes,Classes,FileOutputStream,Changed
+19,Package,java.io,Changes,Interfaces,ObjectInput,Changed
+19,Package,java.io,Changes,Interfaces,ObjectOutput,Changed
+19,Package,java.lang,Changes,Interfaces,AutoCloseable,Added
+19,Package,java.lang,Changes,Classes,ReflectiveOperationException,Added
+19,Package,java.lang,Changes,Interfaces,SafeVarargs,Added
 19,Package,java.lang,Changes,Classes,AssertionError,Changed
 19,Package,java.lang,Changes,Classes,Boolean,Changed
 19,Package,java.lang,Changes,Classes,Byte,Changed

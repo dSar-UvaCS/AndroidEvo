@@ -1,0 +1,216 @@
+API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type
+18,Constructor,"BitmapDrawable (Resources)",Deprecated
+18,Constructor,"EasyEditSpan (PendingIntent)",Additions
+18,Constructor,"EasyEditSpan (Parcel)",Additions
+18,Constructor,"FieldPacker (byte[])",Additions
+18,Constructor,"MockContentResolver (Context)",Additions
+17,Constructor,"WebView (Context, AttributeSet, int, boolean)",Deprecated
+17,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean, int)",Additions
+17,Constructor,"ResolveInfo (ResolveInfo)",Additions
+16,Constructor,"DrmStore ()",Deprecated
+16,Constructor,"DrmStore.Action ()",Deprecated
+16,Constructor,"DrmStore.DrmObjectType ()",Deprecated
+16,Constructor,"DrmStore.Playback ()",Deprecated
+16,Constructor,"DrmStore.RightsStatus ()",Deprecated
+16,Constructor,"Mesh.AllocationBuilder (RenderScript)",Deprecated
+16,Constructor,"Mesh.Builder (RenderScript, int)",Deprecated
+16,Constructor,"Mesh.TriangleMeshBuilder (RenderScript, int, int)",Deprecated
+16,Constructor,"NdefRecord (byte[])",Deprecated
+16,Constructor,"ProgramFragment.Builder (RenderScript)",Deprecated
+16,Constructor,"ProgramFragmentFixedFunction.Builder (RenderScript)",Deprecated
+16,Constructor,"ProgramRaster.Builder (RenderScript)",Deprecated
+16,Constructor,"ProgramVertex.Builder (RenderScript)",Deprecated
+16,Constructor,"ProgramVertexFixedFunction.Builder (RenderScript)",Deprecated
+16,Constructor,"ProgramVertexFixedFunction.Constants (RenderScript)",Deprecated
+16,Constructor,"RenderScriptGL (Context, SurfaceConfig)",Deprecated
+16,Constructor,"RenderScriptGL.SurfaceConfig ()",Deprecated
+16,Constructor,"RenderScriptGL.SurfaceConfig (SurfaceConfig)",Deprecated
+16,Constructor,"RSSurfaceView (Context)",Deprecated
+16,Constructor,"RSSurfaceView (Context, AttributeSet)",Deprecated
+16,Constructor,"RSTextureView (Context)",Deprecated
+16,Constructor,"RSTextureView (Context, AttributeSet)",Deprecated
+16,Constructor,"ClipData (ClipData)",Additions
+16,Constructor,"ClipData.Item (CharSequence, String)",Additions
+16,Constructor,"ClipData.Item (CharSequence, String, Intent, Uri)",Additions
+16,Constructor,"FormatException (String, Throwable)",Additions
+16,Constructor,"NdefMessage (NdefRecord, )",Additions
+16,Constructor,"RemoteViews (RemoteViews, RemoteViews)",Additions
+16,Constructor,"SQLException (String, Throwable)",Additions
+16,Constructor,"SQLiteException (String, Throwable)",Additions
+16,Constructor,"TestSuite (Class<TestCase>, String)",Additions
+16,Constructor,"TestSuite (Class<TestCase>, String)",Additions
+16,Constructor,"TestSuite (Class<?>)",Additions
+16,Constructor,"TestSuite (Class<?>)",Additions
+16,Constructor,"GeolocationPermissions ()",Removals
+16,Constructor,"TestSuite (Class)",Removals
+16,Constructor,"TestSuite (Class, String)",Removals
+16,Constructor,"WebStorage ()",Removals
+15,Constructor,"CursorWindow (boolean)",Deprecated
+15,Constructor,"CursorWindow (String)",Additions
+15,Constructor,"RemoteException (String)",Additions
+14,Constructor,"SslError (int, SslCertificate)",Deprecated
+14,Constructor,"SslError (int, X509Certificate)",Deprecated
+14,Constructor,"AdapterViewAnimator (Context, AttributeSet, int)",Additions
+14,Constructor,"Byte2 (byte, byte)",Additions
+14,Constructor,"Byte3 (byte, byte, byte)",Additions
+14,Constructor,"Byte4 (byte, byte, byte, byte)",Additions
+14,Constructor,"InputMethodSubtype (int, int, String, String, String, boolean, boolean)",Additions
+14,Constructor,"Int2 (int, int)",Additions
+14,Constructor,"Int3 (int, int, int)",Additions
+14,Constructor,"Int4 (int, int, int, int)",Additions
+14,Constructor,"Long2 (long, long)",Additions
+14,Constructor,"Long3 (long, long, long)",Additions
+14,Constructor,"Long4 (long, long, long, long)",Additions
+14,Constructor,"Short2 (short, short)",Additions
+14,Constructor,"Short3 (short, short, short)",Additions
+14,Constructor,"Short4 (short, short, short, short)",Additions
+14,Constructor,"SslError (int, SslCertificate, String)",Additions
+14,Constructor,"SslError (int, X509Certificate, String)",Additions
+14,Constructor,"StackView (Context, AttributeSet, int)",Additions
+14,Constructor,"Surface (SurfaceTexture)",Additions
+14,Constructor,"TextToSpeech (Context, OnInitListener, String)",Additions
+12,Constructor,"SslCertificate (String, String, Date, Date)",Deprecated
+12,Constructor,"DrmErrorEvent (int, int, String, HashMap<String, Object>)",Additions
+12,Constructor,"DrmEvent (int, int, String, HashMap<String, Object>)",Additions
+12,Constructor,"DrmInfoEvent (int, int, String, HashMap<String, Object>)",Additions
+12,Constructor,"MotionEvent.PointerCoords (PointerCoords)",Additions
+12,Constructor,"Config ()",Removals
+12,Constructor,"DebugUtils ()",Removals
+12,Constructor,"EventLog ()",Removals
+12,Constructor,"StateSet ()",Removals
+12,Constructor,"TimeUtils ()",Removals
+12,Constructor,"Xml ()",Removals
+11,Constructor,"CursorAdapter (Context, Cursor)",Deprecated
+11,Constructor,"Notification (int, CharSequence, long)",Deprecated
+11,Constructor,"ResourceCursorAdapter (Context, int, Cursor)",Deprecated
+11,Constructor,"SimpleCursorAdapter (Context, int, Cursor, String[], int[])",Deprecated
+11,Constructor,"SQLiteCursor (SQLiteDatabase, SQLiteCursorDriver, String, SQLiteQuery)",Deprecated
+11,Constructor,"AbstractThreadedSyncAdapter (Context, boolean, boolean)",Additions
+11,Constructor,"AlertDialog.Builder (Context, int)",Additions
+11,Constructor,"AndroidException (String, Throwable)",Additions
+11,Constructor,"AndroidRuntimeException (String, Throwable)",Additions
+11,Constructor,"AuthenticatorDescription (String, String, int, int, int, int, boolean)",Additions
+11,Constructor,"ClipboardManager ()",Additions
+11,Constructor,"CursorAdapter (Context, Cursor, int)",Additions
+11,Constructor,"Keyboard (Context, int, int, int, int)",Additions
+11,Constructor,"LinearLayout (Context, AttributeSet, int)",Additions
+11,Constructor,"OverScroller (Context, Interpolator, float, float, boolean)",Additions
+11,Constructor,"PopupWindow (Context, AttributeSet, int, int)",Additions
+11,Constructor,"ResourceCursorAdapter (Context, int, Cursor, int)",Additions
+11,Constructor,"Scroller (Context, Interpolator, boolean)",Additions
+11,Constructor,"SimpleCursorAdapter (Context, int, Cursor, String[], int[], int)",Additions
+11,Constructor,"Spinner (Context, AttributeSet, int, int)",Additions
+11,Constructor,"Spinner (Context, int)",Additions
+11,Constructor,"SQLiteCursor (SQLiteCursorDriver, String, SQLiteQuery)",Additions
+11,Constructor,"SQLiteOpenHelper (Context, String, CursorFactory, int, DatabaseErrorHandler)",Additions
+11,Constructor,"StrictMode.VmPolicy.Builder (VmPolicy)",Additions
+11,Constructor,"WebView (Context, AttributeSet, int, boolean)",Additions
+11,Constructor,"Canvas (GL)",Removals
+9,Constructor,"Format ()",Changes,Visibility,"From public to protected.",Change
+9,Constructor,"NumberFormat ()",Changes,Visibility,"From public to protected.",Change
+9,Constructor,"AudioTrack (int, int, int, int, int, int, int)",Additions
+9,Constructor,"BatchUpdateException (int[], Throwable)",Additions
+9,Constructor,"BatchUpdateException (String, int[], Throwable)",Additions
+9,Constructor,"BatchUpdateException (String, String, int, int[], Throwable)",Additions
+9,Constructor,"BatchUpdateException (String, String, int[], Throwable)",Additions
+9,Constructor,"BatchUpdateException (Throwable)",Additions
+9,Constructor,"CollationKey (String)",Additions
+9,Constructor,"ConcurrentHashMap (int, float)",Additions
+9,Constructor,"DataTruncation (int, boolean, boolean, int, int, Throwable)",Additions
+9,Constructor,"IOException (String, Throwable)",Additions
+9,Constructor,"IOException (Throwable)",Additions
+9,Constructor,"KeyEvent (long, long, int, int, int, int, int, int, int, int)",Additions
+9,Constructor,"KeyStoreBuilderParameters (List<Builder>)",Additions
+9,Constructor,"PipedInputStream (int)",Additions
+9,Constructor,"PipedInputStream (PipedOutputStream, int)",Additions
+9,Constructor,"PipedReader (int)",Additions
+9,Constructor,"PipedReader (PipedWriter, int)",Additions
+9,Constructor,"PropertyResourceBundle (Reader)",Additions
+9,Constructor,"SQLException (String, String, int, Throwable)",Additions
+9,Constructor,"SQLException (String, String, Throwable)",Additions
+9,Constructor,"SQLException (String, Throwable)",Additions
+9,Constructor,"SQLException (Throwable)",Additions
+9,Constructor,"SQLWarning (String, String, int, Throwable)",Additions
+9,Constructor,"SQLWarning (String, String, Throwable)",Additions
+9,Constructor,"SQLWarning (String, Throwable)",Additions
+9,Constructor,"SQLWarning (Throwable)",Additions
+9,Constructor,"String (byte[], int, int, Charset)",Additions
+9,Constructor,"String (byte[], Charset)",Additions
+9,Constructor,"X500Principal (String, Map<String, String>)",Additions
+9,Constructor,"KeyStoreBuilderParameters (List)",Removals
+8,Constructor,"ActivityInstrumentationTestCase2 (String, Class<T>)",Deprecated
+8,Constructor,"SslCertificate (String, String, String, String)",Deprecated
+8,Constructor,"SSLCertificateSocketFactory (int)",Deprecated
+8,Constructor,"ActivityInstrumentationTestCase2 (Class<T>)",Additions
+8,Constructor,"GestureDetector (Context, OnGestureListener, Handler, boolean)",Additions
+8,Constructor,"SslCertificate (String, String, Date, Date)",Additions
+8,Constructor,"XMLConstants ()",Removals
+7,Constructor,"NeighboringCellInfo (int, String, int)",Additions
+5,Constructor,"BitmapDrawable (InputStream)",Deprecated
+5,Constructor,"BitmapDrawable (String)",Deprecated
+5,Constructor,"Contacts.Intents ()",Deprecated
+5,Constructor,"Contacts.Intents.Insert ()",Deprecated
+5,Constructor,"Contacts.Intents.UI ()",Deprecated
+5,Constructor,"KeyEvent (KeyEvent, long, int)",Deprecated
+5,Constructor,"NeighboringCellInfo ()",Deprecated
+5,Constructor,"NeighboringCellInfo (int, int)",Deprecated
+5,Constructor,"Plugin (String, String, String, String)",Deprecated
+5,Constructor,"PluginData (InputStream, long, Map<String, String[]>, int)",Deprecated
+5,Constructor,"PluginList ()",Deprecated
+5,Constructor,"AbsoluteSizeSpan (int, boolean)",Additions
+5,Constructor,"BitmapDrawable (Resources, String)",Additions
+5,Constructor,"BitmapDrawable (Resources, InputStream)",Additions
+4,Constructor,"BitmapDrawable ()",Deprecated
+4,Constructor,"BitmapDrawable (Bitmap)",Deprecated
+4,Constructor,"ImageSpan (Bitmap)",Deprecated
+4,Constructor,"ImageSpan (Bitmap, int)",Deprecated
+4,Constructor,"NinePatchDrawable (Bitmap, byte[], Rect, String)",Deprecated
+4,Constructor,"NinePatchDrawable (NinePatch)",Deprecated
+4,Constructor,"SmsMessage ()",Deprecated
+4,Constructor,"SmsMessage.SubmitPdu ()",Deprecated
+4,Constructor,"BitmapDrawable (Resources)",Additions
+4,Constructor,"BitmapDrawable (Resources, Bitmap)",Additions
+4,Constructor,"ImageSpan (Context, Bitmap)",Additions
+4,Constructor,"ImageSpan (Context, Bitmap, int)",Additions
+4,Constructor,"NinePatchDrawable (Resources, Bitmap, byte[], Rect, String)",Additions
+4,Constructor,"NinePatchDrawable (Resources, NinePatch)",Additions
+3,Constructor,"GestureDetector (OnGestureListener)",Deprecated
+3,Constructor,"GestureDetector (OnGestureListener, Handler)",Deprecated
+3,Constructor,"ViewConfiguration ()",Deprecated
+3,Constructor,"AbsoluteSizeSpan (Parcel)",Additions
+3,Constructor,"AlignmentSpan.Standard (Parcel)",Additions
+3,Constructor,"Annotation (Parcel)",Additions
+3,Constructor,"BackgroundColorSpan (Parcel)",Additions
+3,Constructor,"BulletSpan (Parcel)",Additions
+3,Constructor,"DynamicDrawableSpan (int)",Additions
+3,Constructor,"ForegroundColorSpan (Parcel)",Additions
+3,Constructor,"GestureDetector (Context, OnGestureListener)",Additions
+3,Constructor,"GestureDetector (Context, OnGestureListener, Handler)",Additions
+3,Constructor,"Handler (Callback)",Additions
+3,Constructor,"Handler (Looper, Callback)",Additions
+3,Constructor,"ImageSpan (Context, Uri, int)",Additions
+3,Constructor,"ImageSpan (Context, int, int)",Additions
+3,Constructor,"ImageSpan (Bitmap, int)",Additions
+3,Constructor,"ImageSpan (Drawable, int)",Additions
+3,Constructor,"ImageSpan (Drawable, String, int)",Additions
+3,Constructor,"KeyEvent (KeyEvent)",Additions
+3,Constructor,"KeyEvent (long, String, int, int)",Additions
+3,Constructor,"LeadingMarginSpan.Standard (Parcel)",Additions
+3,Constructor,"OrientationListener (Context, int)",Additions
+3,Constructor,"QuoteSpan (Parcel)",Additions
+3,Constructor,"RelativeSizeSpan (Parcel)",Additions
+3,Constructor,"RemoteViews.ActionException (Exception)",Additions
+3,Constructor,"ResourceCursorAdapter (Context, int, Cursor, boolean)",Additions
+3,Constructor,"ScaleXSpan (Parcel)",Additions
+3,Constructor,"StrikethroughSpan (Parcel)",Additions
+3,Constructor,"StyleSpan (Parcel)",Additions
+3,Constructor,"SubscriptSpan (Parcel)",Additions
+3,Constructor,"SuperscriptSpan (Parcel)",Additions
+3,Constructor,"TestMethod (String, Class<TestCase>)",Additions
+3,Constructor,"TestMethod (TestCase)",Additions
+3,Constructor,"TextAppearanceSpan (Parcel)",Additions
+3,Constructor,"TransitionDrawable (Drawable[])",Additions
+3,Constructor,"TypefaceSpan (Parcel)",Additions
+3,Constructor,"UnderlineSpan (Parcel)",Additions
+3,Constructor,"URLSpan (Parcel)",Additions
+3,Constructor,"NetworkInfo (int)",Removals

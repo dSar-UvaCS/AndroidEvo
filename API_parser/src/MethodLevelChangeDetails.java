@@ -32,7 +32,7 @@ public class MethodLevelChangeDetails {
 		bw.write(header);
 
 		/* Iterate through all available version data online */
-		for (int version = 24; version >= 19; version--) {
+		for (int version = 25; version >= 19; version--) {
 			int versionNum = version;
 
 			int totalChangedMethods = 0;
@@ -95,7 +95,7 @@ public class MethodLevelChangeDetails {
 									if (changedElementName.charAt(changedElementName.length()-1) != '.')
 										changedElementName = changedElementName + ".";
 										
-									primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + ",\"" + changedElementName + "\"," + "Change" + "\n";
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + ",\"" + changedElementName + "\"," + "Change" + "\n";
 									bw.write(primaryToWrite);
 								}
 								// Case 2: Keyword related change (Final, Abstract, Visibility)
@@ -108,7 +108,7 @@ public class MethodLevelChangeDetails {
 									if (changedElementName.charAt(changedElementName.length()-1) != '.')
 										changedElementName = changedElementName + ".";
 									
-									primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
 									bw.write(primaryToWrite);
 								}
 								// Case 3: Exceptions change
@@ -122,7 +122,7 @@ public class MethodLevelChangeDetails {
 										if (changedElementName.charAt(changedElementName.length()-1) != '.')
 											changedElementName = changedElementName + ".";
 										
-										primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+										primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
 										bw.write(primaryToWrite);
 									}
 									else if (change.contains("Change in exceptions:") && change.contains("was removed") && !change.contains(",")) {
@@ -134,7 +134,7 @@ public class MethodLevelChangeDetails {
 										if (changedElementName.charAt(changedElementName.length()-1) != '.')
 											changedElementName = changedElementName + ".";
 																				
-										primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+										primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
 										bw.write(primaryToWrite);
 									}
 									else
@@ -150,7 +150,7 @@ public class MethodLevelChangeDetails {
 									if (changedElementName.charAt(changedElementName.length()-1) != '.')
 										changedElementName = changedElementName + ".";
 																			
-									primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
 									bw.write(primaryToWrite);
 								}
 								// Case 5: Signature changed
@@ -163,7 +163,7 @@ public class MethodLevelChangeDetails {
 									if (changedElementName.charAt(changedElementName.length()-1) != '.')
 										changedElementName = changedElementName + ".";
 																			
-									primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
 									bw.write(primaryToWrite);
 								}
 								// Case : Unexpected input
@@ -198,7 +198,7 @@ public class MethodLevelChangeDetails {
 				
 				String addedMethodName = addedMethod.text();
 				String addedMethodLink = addedMethod.attr("href");
-				String primaryToWrite = versionNum  + ",Method,\""+ addedMethodName + "\",Additions\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(addedMethodName) + "\",Additions\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -225,7 +225,7 @@ public class MethodLevelChangeDetails {
 				
 				String removedMethodName = removedMethod.text();
 				String removedMethodLink = removedMethod.attr("href");
-				String primaryToWrite = versionNum  + ",Method,\""+ removedMethodName + "\",Removals\n"; // alters the output string
+				String primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(removedMethodName) + "\",Removals\n"; // alters the output string
 				
 				bw.write(primaryToWrite);
 				
@@ -250,4 +250,17 @@ public class MethodLevelChangeDetails {
 		System.out.println("TASK COMPLETED!");
 	}
 
+	// Fixes any inside whitespaces resulting from a character in the extended ASCII table
+	public static String whitespaceReplacer(String input) {
+		String fixed = input.trim();
+		
+		for (int i = 0; i < fixed.length(); i++) {
+			if ((int)fixed.charAt(i) > 127) {
+				String temp = fixed.substring(0, i) + " " + fixed.substring(i + 1);
+				fixed = temp;
+			}
+		}
+		
+		return fixed;
+	}
 }

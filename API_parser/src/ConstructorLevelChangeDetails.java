@@ -91,7 +91,6 @@ public class ConstructorLevelChangeDetails {
 						// Case : Unexpected Input
 						else {
 							System.out.println("Unexpected Input:\t" + changedConstructorName);
-							System.exit(0);
 						}
 						
 					}

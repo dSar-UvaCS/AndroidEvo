@@ -31,7 +31,7 @@ public class FieldLevelChangeDetails {
 		bw.write(header);
 
 		/* Iterate through all available version data online */
-		for (int version = 24; version >= 19; version--) {
+		for (int version = 25; version >= 19; version--) {
 			int versionNum = version;
 
 			int totalChangedFields = 0;

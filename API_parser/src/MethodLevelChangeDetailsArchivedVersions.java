@@ -1,0 +1,265 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.safety.Whitelist;
+import org.jsoup.select.Elements;
+
+public class MethodLevelChangeDetailsArchivedVersions {
+
+	public static void main(String[] args) throws IOException {
+		
+		/**
+		 * Begin: Setup
+		 */
+
+		/* Create string and file to write output to */
+		String toWrite = "";
+		File file = new File("output/MethodsChangesArchivedVersions.csv");
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+
+		// if file doesn't exists, then create it
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+
+		String header = "API_version,element_type,element_name,element_type_change_type,changed_element_type,changed_element_name,changed_element_modification_type\n";
+		bw.write(header);
+
+		/* Iterate through all available version data online */
+		for (int version = 18; version >= 3; version--) {
+			int versionNum = version;
+
+			int totalChangedMethods = 0;
+			int totalAddedMethods = 0;
+			int totalRemovedMethods = 0;
+			
+			/**
+			 * "CHANGES" Methods
+			 */
+			
+			/* Loads HTML and grabs table entries from list */
+			File changedMethodsFile = new File("./input/" + versionNum + "/changes/methods_index_changes.html");
+			Document changedMethodsDoc = Jsoup.parse(changedMethodsFile, "UTF-8", "");
+			
+			Elements changedMethodsList = changedMethodsDoc.getElementsByClass("hiddenlink");
+						
+			for (Element changedMethod : changedMethodsList) {
+				// Find table holding changed constructor change details
+				String changedMethodName = changedMethod.text();
+				String changedMethodLink = changedMethod.attr("href");
+				
+				String primaryToWrite = "";
+
+				changedMethodLink = changedMethodLink.substring(0, changedMethodLink.indexOf("#"));
+				
+				File changedMethodFile = new File("./input/" + versionNum + "/changes/" + changedMethodLink);
+				Document changedMethodContent = Jsoup.parse(changedMethodFile, "UTF-8", "");
+				
+				Element body = changedMethodContent.getElementById("body-content"); // grabs only body, where all tables are
+				Elements tables = body.select("table");
+				
+				
+				// Iterate through all tables to find the "Changed Methods" table
+				for (int i = 0; i < tables.size(); i++) {
+					Element table = tables.get(i);
+					String checkTableName = table.select("tr").first().text();
+					
+					// Process the Changed Constructors table
+					if (checkTableName.equals("Changed Methods")) {
+						String changeDetail = table.select("td").get(1).text();
+						
+						// Case 1: Deprecated
+						if (changeDetail.contains("deprecated")) {
+							primaryToWrite = versionNum  + ",Method,\""+ changedMethodName + "\",Deprecated\n";
+							bw.write(primaryToWrite);
+						}
+						// Case 2: Unexpected Input
+						else if (changeDetail.isEmpty()) {
+							System.out.println("Unexpected Input:\t\t\t" + changedMethodName);
+						}
+						// Case 3: All else
+						else {
+							
+							// Split multiple entries/changes!
+							String[] changes = changeDetail.split("\\.\\s");
+							
+							// Iterate through each change
+							for (String change : changes) {
+								// Case 1: Locally defined -> inherited; inherited -> locally defined
+								if (change.contains("inherited") && (change.contains("defined locally") || change.contains("locally defined"))) {
+									String changedElementName = change.substring(0,1).toUpperCase() + change.substring(1);
+									// Append period, if there isn't one
+									if (changedElementName.charAt(changedElementName.length()-1) != '.')
+										changedElementName = changedElementName + ".";
+										
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + ",\"" + changedElementName + "\"," + "Change" + "\n";
+									bw.write(primaryToWrite);
+								}
+								// Case 2: Keyword related change (Final, Abstract, Visibility)
+								else if (change.contains("final") || change.contains("non-final") || change.contains("abstract") || change.contains("visibility")) {
+									String changedElementModificationType = change.substring(0, 6);
+									String changedElementType = "Keyword";
+									String changedElementName = change.substring(change.indexOf("from")); 
+									changedElementName = changedElementName.substring(0,1).toUpperCase() + changedElementName.substring(1);
+									// Append period, if there isn't one
+									if (changedElementName.charAt(changedElementName.length()-1) != '.')
+										changedElementName = changedElementName + ".";
+									
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									bw.write(primaryToWrite);
+								}
+								// Case 3: Exceptions change
+								else if (change.contains("Change in exceptions")) {
+									if (change.contains("exceptions thrown from")) {
+										String changedElementModificationType = change.substring(0, 6);
+										String changedElementType = "Exceptions";
+										String changedElementName = change.substring(change.indexOf("from")); 
+										changedElementName = changedElementName.substring(0,1).toUpperCase() + changedElementName.substring(1);
+										// Append period, if there isn't one
+										if (changedElementName.charAt(changedElementName.length()-1) != '.')
+											changedElementName = changedElementName + ".";
+										
+										primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+										bw.write(primaryToWrite);
+									}
+									else if (change.contains("Change in exceptions:") && change.contains("was removed") && !change.contains(",")) {
+										String changedElementModificationType = "Removed";
+										String changedElementType = "Exceptions";
+										String changedElementName = change.split(":")[1].trim();
+										changedElementName = changedElementName.substring(0,1).toUpperCase() + changedElementName.substring(1);
+										// Append period, if there isn't one
+										if (changedElementName.charAt(changedElementName.length()-1) != '.')
+											changedElementName = changedElementName + ".";
+																				
+										primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+										bw.write(primaryToWrite);
+									}
+									else
+										System.out.println("Unexpected Input/ Unhandled Exceptions change:\t\t\t" + change + "\t\t\t" + changedMethodName);
+								}
+								// Case 4: Return type changed
+								else if (change.contains("return type")) {
+									String changedElementModificationType = "Change";
+									String changedElementType = "Return Type";
+									String changedElementName = change.substring(change.indexOf("from"));
+									changedElementName = changedElementName.substring(0,1).toUpperCase() + changedElementName.substring(1);
+									// Append period, if there isn't one
+									if (changedElementName.charAt(changedElementName.length()-1) != '.')
+										changedElementName = changedElementName + ".";
+																			
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									bw.write(primaryToWrite);
+								}
+								// Case 5: Signature changed
+								else if (change.contains("signature")) {
+									String changedElementModificationType = "Change";
+									String changedElementType = "signature";
+									String changedElementName = change.substring(change.indexOf("from"));
+									changedElementName = changedElementName.substring(0,1).toUpperCase() + changedElementName.substring(1);
+									// Append period, if there isn't one
+									if (changedElementName.charAt(changedElementName.length()-1) != '.')
+										changedElementName = changedElementName + ".";
+																			
+									primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(changedMethodName) + "\",Changes," + changedElementType + ",\"" + changedElementName + "\"," + changedElementModificationType + "\n";
+									bw.write(primaryToWrite);
+								}
+								// Case : Unexpected input
+								else {
+									System.out.println("Unexpected Input/ Didn't catch at all:\t\t\t" + change + "\t\t\t" + changedMethodName);
+								}	
+							}
+						}
+					}
+				}
+				
+				if (!primaryToWrite.isEmpty())
+					totalChangedMethods += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+
+			/**
+			 * "ADDITIONS" Methods
+			 */
+			/* Loads HTML and grabs table entries from list */
+			File addedMethodsFile = new File("./input/" + versionNum + "/changes/methods_index_additions.html");
+			Document addedMethodsDoc = Jsoup.parse(addedMethodsFile, "UTF-8", "");
+						
+			Elements addedMethodsList = addedMethodsDoc.getElementsByClass("hiddenlink");
+			
+			for (Element addedMethod : addedMethodsList) {
+				
+				String addedMethodName = addedMethod.text();
+				String addedMethodLink = addedMethod.attr("href");
+				String primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(addedMethodName) + "\",Additions\n"; // alters the output string
+				
+				bw.write(primaryToWrite);
+				
+				if (!primaryToWrite.isEmpty())
+					totalAddedMethods += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+			
+			/**
+			 * "REMOVALS" Methods
+			 */
+			/* Loads HTML and grabs table entries from list */
+			File removedMethodsFile = new File("./input/" + versionNum + "/changes/methods_index_removals.html");
+			Document removedMethodsDoc = Jsoup.parse(removedMethodsFile, "UTF-8", "");
+			
+			
+			Elements removedMethodsList = removedMethodsDoc.getElementsByClass("hiddenlink");
+			
+			for (Element removedMethod : removedMethodsList) {
+				
+				String removedMethodName = removedMethod.text();
+				String removedMethodLink = removedMethod.attr("href");
+				String primaryToWrite = versionNum  + ",Method,\""+ whitespaceReplacer(removedMethodName) + "\",Removals\n"; // alters the output string
+				
+				bw.write(primaryToWrite);
+				
+				if (!primaryToWrite.isEmpty())
+					totalRemovedMethods += 1;
+			}
+			
+			// routinely clear writer
+			bw.flush();
+			
+			/**
+			 * Summary Statistic
+			 */
+			System.out.println("v" + versionNum + ":");
+			System.out.println("# Added Methods: " + totalAddedMethods);
+			System.out.println("# Changed Methods: " + totalChangedMethods);
+			System.out.println("# Removed Methods: " + totalRemovedMethods);
+		}
+
+		bw.flush();
+		bw.close();
+		System.out.println("TASK COMPLETED!");
+	}
+	
+	// Fixes any inside whitespaces resulting from a character in the extended ASCII table
+	public static String whitespaceReplacer(String input) {
+		String fixed = input.trim();
+		
+		for (int i = 0; i < fixed.length(); i++) {
+			if ((int)fixed.charAt(i) > 127) {
+				String temp = fixed.substring(0, i) + " " + fixed.substring(i + 1);
+				fixed = temp;
+			}
+		}
+		
+		return fixed;
+	}
+
+}

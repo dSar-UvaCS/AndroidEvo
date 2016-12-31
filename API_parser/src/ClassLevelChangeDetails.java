@@ -87,7 +87,7 @@ public class ClassLevelChangeDetails {
 						String[] changedElements = text.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 					}
@@ -100,7 +100,7 @@ public class ClassLevelChangeDetails {
 						String[] changedElements = text.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 					}
@@ -121,7 +121,7 @@ public class ClassLevelChangeDetails {
 						String[] changedElements = removedInterfaceString.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 						
@@ -131,7 +131,7 @@ public class ClassLevelChangeDetails {
 						changedElements = addedInterfaceString.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 					}
@@ -152,7 +152,7 @@ public class ClassLevelChangeDetails {
 						String[] changedElements = addedInterfaceString.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 						
@@ -162,7 +162,7 @@ public class ClassLevelChangeDetails {
 						changedElements = removedInterfaceString.split(",");
 						
 						for (int i = 0; i < changedElements.length; i++) {
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 					}
@@ -179,7 +179,7 @@ public class ClassLevelChangeDetails {
 							
 							String changedElement = text.substring(0,1).toUpperCase() + text.substring(1);
 							
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElement.trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElement.trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 						}
 						// Superclass changed and Removed Interfaces
@@ -198,7 +198,7 @@ public class ClassLevelChangeDetails {
 							superclassString = superclassString.substring(superclassString.indexOf(" ")).trim();
 							String changedElement = superclassString.substring(0,1).toUpperCase() + superclassString.substring(1);
 
-							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElement.trim() + "," + changedElementModificationType + "\n";
+							toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElement.trim()) + "," + changedElementModificationType + "\n";
 							bw.write(toWrite);
 							
 							changedElementType = "Interface";
@@ -208,7 +208,7 @@ public class ClassLevelChangeDetails {
 							String[] changedElements = removedInterfaceString.split(",");
 							
 							for (int i = 0; i < changedElements.length; i++) {
-								toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + changedElements[i].trim() + "," + changedElementModificationType + "\n";
+								toWrite = versionNum  + ",Class,"+ changedClassName + ",Changes," + changedElementType + "," + whitespaceReplacer(changedElements[i].trim()) + "," + changedElementModificationType + "\n";
 								bw.write(toWrite);
 							}
 						}
@@ -239,7 +239,7 @@ public class ClassLevelChangeDetails {
 				
 						entry = whitespaceFixer(entry);
 				
-						toWrite = primaryToWrite + "," + changedElementType + ",\"" + entry + "\"," + changedElementModificationType + "\n";
+						toWrite = primaryToWrite + "," + changedElementType + ",\"" + whitespaceReplacer(entry) + "\"," + changedElementModificationType + "\n";
 						bw.write(toWrite);
 					}
 						
@@ -328,4 +328,17 @@ public class ClassLevelChangeDetails {
 		return fixed;
 	}
 
+	// Fixes any inside whitespaces resulting from a character in the extended ASCII table
+		public static String whitespaceReplacer(String input) {
+			String fixed = input.trim();
+			
+			for (int i = 0; i < fixed.length(); i++) {
+				if ((int)fixed.charAt(i) > 127) {
+					String temp = fixed.substring(0, i) + " " + fixed.substring(i + 1);
+					fixed = temp;
+				}
+			}
+			
+			return fixed;
+		}
 }
